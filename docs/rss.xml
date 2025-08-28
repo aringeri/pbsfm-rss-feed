@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+    xmlns:podcast="https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md">
+
+    <channel>
+        <!-- <atom:link href="TODO" rel="self"
+            type="application/rss+xml" /> -->
+
+        <title>PBS FM RSS audio feed</title>
+        <!-- <link>NA</link> -->
+        <description>An RSS feed for PBS programs to your favourite podcast app</description>
+        <author>aring</author>
+        <language>en</language>
+        <copyright>Copyright rests with original podcasts</copyright>
+
+        <!-- <image>
+            <url>TODO</url>
+            <title>TODO</title>
+            <link>TODO</link>
+        </image> -->
+
+
+        <item>
+            <title>Black Wax</title>
+            <link>https://airnet.org.au/rest/stations/3pbs/programs/black-wax/episodes/2025-08-25+11%3A00%3A00</link>
+            <pubDate>Mon 25 August 2025 11:00:00 GMT</pubDate>
+            <description>Black Wax - Monday 25 August 2025</description>
+            <!-- <itunes:episodeType>TODO</itunes:episodeType>
+            <itunes:image
+                href="TODO" /> -->
+            <enclosure
+                url="https://airnet.org.au/omnystudio/3pbs/black-wax/202508251100/aac_mid.m4a"
+                type="audio/mp4" />
+            <guid>aft-20250729-03</guid>
+        </item>
+    </channel>
+</rss>
