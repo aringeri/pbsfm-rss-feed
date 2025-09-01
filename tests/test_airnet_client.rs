@@ -2,19 +2,7 @@ use httpmock::prelude::*;
 use pbsfm_rss_feed::airnet::types::*;
 use pbsfm_rss_feed::airnet;
 use std::fs;
-use chrono::{NaiveDate, NaiveDateTime};
-// use serde::__private::de::Content::String;
-// use crate pbsfm_rss_feed;
-
-/*
-  - all programs
-    https://airnet.org.au/rest/stations/3pbs/programs
-  - program page
-    https://airnet.org.au/rest/stations/3pbs/programs/black-wax
-  - episodes
-    https://airnet.org.au/rest/stations/3pbs/programs/black-wax/episodes
-
- */
+use chrono::{NaiveDate};
 
 #[test]
 fn test_get_all_programs() -> Result<(), Box<dyn std::error::Error>> {

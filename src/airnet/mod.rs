@@ -25,10 +25,7 @@ impl AirnetClient {
             station = station,
         );
 
-        let response = self.client.get(req_url).send()?;
-
-        let result: Vec<ProgramDescription> = response.json()?;
-        Ok(result)
+        self.client.get(req_url).send()?.json()
     }
 
     pub fn program(&self, station: &str, program: &str) -> Result<ProgramDetails, Error> {
