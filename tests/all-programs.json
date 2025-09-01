@@ -1,0 +1,18 @@
+[
+  {
+    "slug": null,
+    "name": "Tomorrow Land",
+    "broadcasters": "",
+    "gridDescription": null,
+    "archived": true,
+    "programRestUrl": "https:\/\/airnet.org.au\/rest\/stations\/3pbs\/programs\/"
+  },
+  {
+    "slug": "black-wax",
+    "name": "Black Wax",
+    "broadcasters": "Adam Rudegeair",
+    "gridDescription": "Groovin' jazz",
+    "archived": false,
+    "programRestUrl": "https:\/\/airnet.org.au\/rest\/stations\/3pbs\/programs\/black-wax"
+  }
+]
