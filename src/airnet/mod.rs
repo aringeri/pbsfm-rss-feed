@@ -2,7 +2,7 @@ pub mod types;
 
 use reqwest::blocking::Client;
 use reqwest::Error;
-use crate::airnet::types::{ProgramDescription, ProgramDetails};
+use crate::airnet::types::{Episode, ProgramDescription, ProgramDetails};
 
 pub struct AirnetClient {
     client: Client,
@@ -34,6 +34,17 @@ impl AirnetClient {
     pub fn program(&self, station: &str, program: &str) -> Result<ProgramDetails, Error> {
         let req_url = format!(
             "{base_url}/rest/stations/{station}/programs/{program}",
+            base_url = self.base_url,
+            station = station,
+            program = program,
+        );
+
+        self.client.get(req_url).send()?.json()
+    }
+
+    pub fn episodes(&self, station: &str, program: &str) -> Result<Vec<Episode>, Error> {
+        let req_url = format!(
+            "{base_url}/rest/stations/{station}/programs/{program}/episodes",
             base_url = self.base_url,
             station = station,
             program = program,
