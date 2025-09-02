@@ -3,6 +3,14 @@ use rss_gen::{RssData, RssItem, RssVersion};
 
 pub mod airnet;
 
+pub fn generate_rss_feed(airnet_url: String, station_name: &str, program_name: &str) -> Result<RssData, Box<dyn std::error::Error>> {
+    let client = airnet::AirnetClient::new(airnet_url);
+    let program = client.program(station_name, program_name)?;
+    let episodes = client.episodes(station_name, program_name)?;
+
+    convert_to_rss(program, episodes)
+}
+
 pub fn convert_to_rss(
     program: ProgramDetails,
     episodes: Vec<Episode>,

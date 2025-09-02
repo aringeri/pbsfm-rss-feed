@@ -43,3 +43,14 @@ fn test_get_episode_list() -> Result<(), Box<dyn std::error::Error>> {
     );
     Ok(())
 }
+
+#[test]
+fn test_fails_when_not_found() -> Result<(), Box<dyn std::error::Error>> {
+    let server = mock_airnet::start_mock_airnet_server()?;
+
+    let client = airnet::AirnetClient::new(server.base_url());
+    let result = client.program("not-exists", "not-exists");
+    // TODO check correct message
+    assert!(result.is_err());
+    Ok(())
+}

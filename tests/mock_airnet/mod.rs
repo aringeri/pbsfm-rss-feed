@@ -22,6 +22,11 @@ pub fn start_mock_airnet_server() -> Result<MockServer, std::io::Error> {
         then.status(200).body(episodes);
     });
 
+    server.mock(|when, then| {
+        when.method("GET").any_request();
+        then.status(404).body("Not Found");
+    });
+
     Ok(server)
 }
 
