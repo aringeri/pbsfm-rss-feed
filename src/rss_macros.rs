@@ -82,6 +82,9 @@ macro_rules! macro_generate_rss_custom {
             macro_write_element!(writer, "author", item.author.as_str())?;
             macro_write_element!(writer, "guid", item.guid.as_str())?;
             macro_write_element!(writer, "pubDate", item.pub_date.as_str())?;
+            if !item.enclosure.is_some() {
+                macro_write_element!(writer, "enclosure", item.enclosure.clone().unwrap().as_str())?;
+            }
             writer.write_event(Event::End(BytesEnd::new("item")))?;
         }
 

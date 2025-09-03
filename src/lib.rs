@@ -50,16 +50,26 @@ pub fn convert_to_rss(
     episodes: Vec<Episode>,
 ) -> Result<RssData, Box<dyn std::error::Error>> {
     let mut rss_data = RssData::new(Some(RssVersion::RSS2_0))
+        .link(format!("https://www.pbsfm.org.au/program/{}", program.slug))
         .title(program.name)
-        .description(program.grid_description.unwrap_or(String::from("")));
+        .description(program.description)
+        .author(program.broadcasters.clone())
+        .image_link(program.profile_image_url)
+        .language("en");
 
     for episode in episodes {
         println!("Writing episode: {:?}, {}", episode.title, episode.start);
-        let name = format!("{:?}-{}", episode.title, episode.start);
+        // let name = format!("{:?}-{}", episode.title.unwrap_or_default(), episode.start);
         rss_data.add_item(
             RssItem::new()
-                .title(name)
+                .title(episode.title.unwrap_or_default())
+                .author(program.broadcasters.clone())
                 .description(episode.description.unwrap_or(String::from("")))
+                .enclosure(format!(
+                    "https://airnet.org.au/omnystudio/3pbs/{}/{}/aac_mid.m4a",
+                    program.slug,
+                    episode.start.format("%Y-%m-%d+%H:%M:%S")
+                ))
                 .pub_date(episode.start.to_string()),
         );
     }

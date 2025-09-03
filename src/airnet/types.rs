@@ -1,7 +1,7 @@
 use serde::{de, Deserialize, Deserializer};
 use chrono::{NaiveDateTime};
 
-#[derive(Deserialize, Debug, PartialEq)]
+#[derive(Deserialize, Debug, PartialEq, Clone)]
 pub struct ProgramDescription {
     pub slug: Option<String>,
     pub name: String,
@@ -13,7 +13,7 @@ pub struct ProgramDescription {
     pub program_rest_url: String
 }
 
-#[derive(Deserialize, Debug, PartialEq)]
+#[derive(Deserialize, Debug, PartialEq, Clone)]
 pub struct ProgramDetails {
     pub url: Option<String>,
     pub name: String,
@@ -42,7 +42,7 @@ where
     NaiveDateTime::parse_from_str(&s, "%Y-%m-%d %H:%M:%S").map_err(de::Error::custom)
 }
 
-#[derive(Deserialize, Debug, PartialEq)]
+#[derive(Deserialize, Debug, PartialEq, Clone)]
 pub struct Episode {
     pub url: Option<String>,
     #[serde(deserialize_with = "naive_date_time_from_str")]
