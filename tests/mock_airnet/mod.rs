@@ -34,6 +34,7 @@ pub mod expected {
     use pbsfm_rss_feed::airnet::types::{Episode, ProgramDescription, ProgramDetails};
     use chrono::{NaiveDate};
 
+    #[allow(dead_code)]
     pub fn all_programs() -> Vec<ProgramDescription> {
         vec!(ProgramDescription{
                 slug: None,
@@ -79,7 +80,7 @@ pub mod expected {
                 end: NaiveDate::from_ymd_opt(2025, 6, 16).unwrap()
                     .and_hms_opt(13, 0, 0).unwrap(),
                 duration: 7200,
-                title: String::from("Interview with Vince Jones and Jacob Collier!"),
+                title: Some(String::from("Interview with Vince Jones and Jacob Collier!")),
                 description: None,
                 image_url: None,
                 episode_rest_url: String::from("https://airnet.org.au/rest/stations/3pbs/programs/black-wax/episodes/2025-06-16+11%3A00%3A00"),
@@ -91,7 +92,7 @@ pub mod expected {
                 end: NaiveDate::from_ymd_opt(2025, 8, 25).unwrap()
                     .and_hms_opt(13, 0, 0).unwrap(),
                 duration: 7200,
-                title: String::from("Paul Grabowsky Feature"),
+                title: Some(String::from("Paul Grabowsky Feature")),
                 description: Some(String::from("some description")),
                 image_url: Some(String::from("http://img-url")),
                 episode_rest_url: String::from("https://airnet.org.au/rest/stations/3pbs/programs/black-wax/episodes/2025-08-25+11%3A00%3A00"),

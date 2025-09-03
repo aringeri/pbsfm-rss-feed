@@ -50,7 +50,7 @@ pub struct Episode {
     #[serde(deserialize_with = "naive_date_time_from_str")]
     pub end: NaiveDateTime,
     pub duration: u32,
-    pub title: String,
+    pub title: Option<String>,
     pub description: Option<String>,
     #[serde(rename="imageUrl")]
     pub image_url: Option<String>,

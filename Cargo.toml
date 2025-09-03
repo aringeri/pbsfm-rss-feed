@@ -5,6 +5,7 @@ edition = "2024"
 
 [dependencies]
 chrono = { version = "0.4.41" , features = ["serde"]}
+clap = { version = "4.5.47", features = ["derive"] }
 quick-xml = "0.38.3"
 reqwest = { version = "0.12.23", features = ["blocking", "json"] }
 rss-gen = "0.0.3"
@@ -12,3 +13,4 @@ serde = "1.0.219"
 
 [dev-dependencies]
 httpmock = "0.7.0-rc.1"
+tempdir = "0.3.7"
