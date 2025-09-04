@@ -109,7 +109,7 @@ pub mod expected {
             .title(&program.name)
             .description(&program.description)
             .author(&program.broadcasters)
-            .image_link(&program.profile_image_url)
+            .image_url(&program.profile_image_url)
             .language("en");
 
         for item in rss_items(&program) {

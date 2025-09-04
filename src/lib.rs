@@ -54,7 +54,7 @@ pub fn convert_to_rss(
         .title(program.name)
         .description(program.description)
         .author(&program.broadcasters)
-        .image_link(program.profile_image_url)
+        .image_url(program.profile_image_url)
         .language("en");
 
     for episode in episodes {
