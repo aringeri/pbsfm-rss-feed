@@ -33,6 +33,7 @@ pub fn start_mock_airnet_server() -> Result<MockServer, std::io::Error> {
 pub mod expected {
     use pbsfm_rss_feed::airnet::types::{Episode, ProgramDescription, ProgramDetails};
     use chrono::{NaiveDate};
+    use rss_gen::{RssData, RssItem, RssVersion};
 
     #[allow(dead_code)]
     pub fn all_programs() -> Vec<ProgramDescription> {
@@ -92,11 +93,50 @@ pub mod expected {
                 end: NaiveDate::from_ymd_opt(2025, 8, 25).unwrap()
                     .and_hms_opt(13, 0, 0).unwrap(),
                 duration: 7200,
-                title: Some(String::from("Paul Grabowsky Feature")),
+                title: None,
                 description: Some(String::from("some description")),
                 image_url: Some(String::from("http://img-url")),
                 episode_rest_url: String::from("https://airnet.org.au/rest/stations/3pbs/programs/black-wax/episodes/2025-08-25+11%3A00%3A00"),
             },
+        )
+    }
+
+    pub fn rss_feed() -> RssData {
+        let program = single_program();
+
+        let mut rss_feed = RssData::new(Some(RssVersion::RSS2_0))
+            .link("https://www.pbsfm.org.au/program/black-wax")
+            .title(&program.name)
+            .description(&program.description)
+            .author(&program.broadcasters)
+            .image_link(&program.profile_image_url)
+            .language("en");
+
+        for item in rss_items(&program) {
+            rss_feed.add_item(item);
+        }
+        rss_feed
+
+    }
+
+    pub fn rss_items(program: &ProgramDetails) -> Vec<RssItem> {
+        vec!(
+            RssItem::new()
+                .title(String::from("Interview with Vince Jones and Jacob Collier!"))
+                .link("https://www.pbsfm.org.au/program/black-wax/2025-06-16/11-00-00")
+                .guid("https://www.pbsfm.org.au/program/black-wax/2025-06-16/11-00-00")
+                .author(&program.broadcasters)
+                .description("")
+                .enclosure("https://airnet.org.au/omnystudio/3pbs/black-wax/2025-06-16+11:00:00/aac_mid.m4a")
+                .pub_date("2025-06-16"),
+            RssItem::new()
+                .title(String::from("Untitled - 2025-08-25"))
+                .link("https://www.pbsfm.org.au/program/black-wax/2025-08-25/11-00-00")
+                .guid("https://www.pbsfm.org.au/program/black-wax/2025-08-25/11-00-00")
+                .author(&program.broadcasters)
+                .description("some description")
+                .enclosure("https://airnet.org.au/omnystudio/3pbs/black-wax/2025-08-25+11:00:00/aac_mid.m4a")
+                .pub_date("2025-08-25"),
         )
     }
 }

@@ -53,24 +53,35 @@ pub fn convert_to_rss(
         .link(format!("https://www.pbsfm.org.au/program/{}", program.slug))
         .title(program.name)
         .description(program.description)
-        .author(program.broadcasters.clone())
+        .author(&program.broadcasters)
         .image_link(program.profile_image_url)
         .language("en");
 
     for episode in episodes {
         println!("Writing episode: {:?}, {}", episode.title, episode.start);
-        // let name = format!("{:?}-{}", episode.title.unwrap_or_default(), episode.start);
+        let title = &episode
+            .title
+            .unwrap_or(format!("Untitled - {}", episode.start.format("%Y-%m-%d")));
+        let episode_link = format!(
+            "https://www.pbsfm.org.au/program/{}/{}/{}",
+            program.slug,
+            episode.start.format("%Y-%m-%d"),
+            episode.start.format("%H-%M-%S")
+        );
+
         rss_data.add_item(
             RssItem::new()
-                .title(episode.title.unwrap_or_default())
-                .author(program.broadcasters.clone())
-                .description(episode.description.unwrap_or(String::from("")))
+                .title(title)
+                .link(&episode_link)
+                .guid(&episode_link)
+                .author(&program.broadcasters)
+                .description(episode.description.unwrap_or_default())
                 .enclosure(format!(
                     "https://airnet.org.au/omnystudio/3pbs/{}/{}/aac_mid.m4a",
                     program.slug,
                     episode.start.format("%Y-%m-%d+%H:%M:%S")
                 ))
-                .pub_date(episode.start.to_string()),
+                .pub_date(episode.start.date().to_string()),
         );
     }
 
