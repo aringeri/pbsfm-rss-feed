@@ -8,6 +8,6 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         argfile::parse_fromfile,
         argfile::PREFIX
     )?;
-    let args = Args::try_parse_from(args_str)?;
+    let args = Args::parse_from(args_str);
     pbsfm_rss_feed::run_app(args)
 }
