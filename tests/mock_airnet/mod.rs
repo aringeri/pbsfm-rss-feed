@@ -101,6 +101,7 @@ pub mod expected {
         )
     }
 
+    #[allow(dead_code)]
     pub fn rss_feed() -> RssData {
         let program = single_program();
 
@@ -119,6 +120,7 @@ pub mod expected {
 
     }
 
+    #[allow(dead_code)]
     pub fn rss_items(program: &ProgramDetails) -> Vec<RssItem> {
         vec!(
             RssItem::new()

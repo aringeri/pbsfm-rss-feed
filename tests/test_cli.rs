@@ -9,15 +9,14 @@ mod mock_airnet;
 fn test_cli_e2e() -> Result<(), Box<dyn std::error::Error>> {
     let server = mock_airnet::start_mock_airnet_server()?;
     let tmp_dir = TempDir::new("output")?;
-    let output_file = tmp_dir.path().join("feed.xml");
     let args = Args {
         airnet_url: server.base_url(),
-        station: "3pbs".to_string(),
-        program: "black-wax".to_string(),
-        output_feed: output_file.to_str().unwrap().to_string(),
+        programs: vec!("black-wax".to_string()),
+        output_dir: tmp_dir.path().to_path_buf(),
     };
     pbsfm_rss_feed::run_app(args)?;
 
+    let output_file = tmp_dir.path().join("pbsfm/black-wax/rss.xml");
     let contents = fs::read_to_string(output_file)?;
     let actual_rss = parse_rss(contents.as_str(), None)?;
 

@@ -5,6 +5,7 @@ use rss_gen::macro_write_element;
 use rss_gen::{RssData, RssItem, RssVersion};
 use std::fs::File;
 use std::io::BufWriter;
+use std::path::PathBuf;
 
 pub mod airnet;
 pub mod rss_macros;
@@ -15,31 +16,38 @@ pub struct Args {
     #[arg(short, long, default_value = "https://airnet.org.au")]
     pub airnet_url: String,
 
-    #[arg(short, long, default_value = "3pbs")]
-    pub station: String,
+    #[arg(short, long, value_parser, num_args = 1.., value_delimiter = ',')]
+    pub programs: Vec<String>,
 
-    #[arg(short, long)]
-    pub program: String,
-
-    #[arg(short, long, default_value = "feed.xml")]
-    pub output_feed: String,
+    #[arg(short, long, default_value = "docs/feeds/")]
+    pub output_dir: PathBuf,
 }
-pub fn run_app(args: Args) -> Result<(), Box<dyn std::error::Error>> {
-    let rss_feed = generate_rss_feed(args.airnet_url, &*args.station, &*args.program)?;
 
-    let writer = Writer::new(BufWriter::new(File::create(args.output_feed)?));
-    macro_generate_rss_custom!(writer, rss_feed).map(|_writer| ())
+const PBSFM_STATION: &str = "3pbs";
+
+pub fn run_app(args: Args) -> Result<(), Box<dyn std::error::Error>> {
+    for program in args.programs {
+        let rss_feed = generate_rss_feed(&args.airnet_url, &*program)?;
+        let station_dir = args.output_dir.join("pbsfm/").join(program);
+        std::fs::create_dir_all(&station_dir)?;
+
+        let out_file = File::create(station_dir.join("rss.xml"))?;
+        let writer = Writer::new(BufWriter::new(out_file));
+        let r: Result<_, std::io::Error> =
+            macro_generate_rss_custom!(writer, rss_feed).map(|_writer| ());
+        r?;
+    }
+    Ok(())
 }
 
 pub fn generate_rss_feed(
-    airnet_url: String,
-    station_name: &str,
+    airnet_url: &String,
     program_name: &str,
 ) -> Result<RssData, Box<dyn std::error::Error>> {
-    let client = airnet::AirnetClient::new(airnet_url);
-    let program = client.program(station_name, program_name)?;
+    let client = airnet::AirnetClient::new(airnet_url.clone());
+    let program = client.program(PBSFM_STATION, program_name)?;
     println!("Fetched program: {}", program.name);
-    let episodes = client.episodes(station_name, program_name)?;
+    let episodes = client.episodes(PBSFM_STATION, program_name)?;
     println!("Fetched episodes: {}", episodes.len());
 
     convert_to_rss(program, episodes)
@@ -85,6 +93,5 @@ pub fn convert_to_rss(
         );
     }
 
-    println!("RSS feed has items: {}", rss_data.items.len());
     Ok(rss_data)
 }
