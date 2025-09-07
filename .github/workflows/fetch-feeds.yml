@@ -22,3 +22,6 @@ jobs:
         run: tar -xvf ./target/release/pbsfm-rss-feed.tar
       - name: Run CLI
         run: ./target/release/pbsfm-rss-feed @config/programs.arg --output-dir docs/feeds/
+      - uses: stefanzweifel/git-auto-commit-action@v6
+        with:
+          file_pattern: docs/feeds/
