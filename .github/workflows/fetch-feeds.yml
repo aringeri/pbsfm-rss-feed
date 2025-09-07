@@ -14,6 +14,9 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           name: pbsfm-rss-feed
+          path: ./target/release
           run-id: 17527007883
+      - name: list contents
+        run: ls -R ./target/release
       - name: Run CLI
         run: ./pbsfm-rss-feed --help
