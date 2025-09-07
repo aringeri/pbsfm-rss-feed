@@ -1,0 +1,16 @@
+name: Fetch and create RSS feeds
+
+on: workflow_dispatch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download cli
+        uses: actions/download-artifact@v5
+        with:
+          name: pbsfm-rss-feed
+          path: ./pbsfm-rss-feed
+      - name: Run CLI
+        run: ./pbsfm-rss-feed --help
