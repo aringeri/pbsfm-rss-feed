@@ -13,9 +13,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Build
-        run: cargo build --verbose --release
+        run: cargo build --release
       - name: Run tests
-        run: cargo test --verbose --release
+        run: cargo test --release
       - name: Upload release artifact
         uses: actions/upload-artifact@v4
         with:
