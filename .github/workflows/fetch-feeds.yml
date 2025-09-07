@@ -15,8 +15,10 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           name: pbsfm-rss-feed
           path: ./target/release
-          run-id: 17527007883
+          run-id: 17527354047
       - name: list contents
         run: ls -R ./target/release
+      - name: untar executable
+        run: tar -xvf ./target/release/pbsfm-rss-feed.tar
       - name: Run CLI
-        run: ./pbsfm-rss-feed --help
+        run: ./target/release/pbsfm-rss-feed --help
