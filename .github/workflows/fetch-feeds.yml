@@ -1,7 +1,8 @@
 name: Fetch and create RSS feeds
 
 on: workflow_dispatch
-
+permissions:
+  actions: read
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,6 +11,7 @@ jobs:
       - name: Download cli
         uses: actions/download-artifact@v5
         with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           name: pbsfm-rss-feed
           path: ./pbsfm-rss-feed
       - name: Run CLI
