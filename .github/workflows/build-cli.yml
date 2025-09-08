@@ -3,6 +3,10 @@ name: Build a new CLI release
 on:
   push:
     branches: [ "main" ]
+    paths-ignore:
+      - 'docs/**'
+      - 'config/**'
+      - '.github/fetch-feeds.yml'
 
 env:
   CARGO_TERM_COLOR: always

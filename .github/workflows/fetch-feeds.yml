@@ -1,12 +1,16 @@
 name: Fetch and create RSS feeds
 
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: 0 22 * * 2
 
 jobs:
   fetch:
     runs-on: ubuntu-latest
     permissions:
       actions: read
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - name: Download cli
