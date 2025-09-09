@@ -57,3 +57,11 @@ pub struct Episode {
     #[serde(rename="episodeRestUrl")]
     pub episode_rest_url: String,
 }
+
+#[derive(Deserialize, Debug, PartialEq, Clone)]
+pub struct PlaylistItem {
+    pub artist: String,
+    pub title: Option<String>,
+    pub track: Option<String>,
+    pub release: Option<String>,
+}

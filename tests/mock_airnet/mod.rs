@@ -22,6 +22,17 @@ pub fn start_mock_airnet_server() -> Result<MockServer, std::io::Error> {
         then.status(200).body(episodes);
     });
 
+    let episode_playlist = fs::read_to_string("tests/mock_airnet/responses/episode-playlist.json")?;
+    server.mock(|when, then| {
+        when.method("GET").path("/rest/stations/3pbs/programs/black-wax/episodes/2025-06-16+11:00:00/playlists");
+        then.status(200).body(&episode_playlist);
+    });
+    server.mock(|when, then| {
+        when.method("GET").path("/rest/stations/3pbs/programs/black-wax/episodes/2025-08-25+11:00:00/playlists");
+        then.status(200).body(&episode_playlist);
+    });
+
+
     server.mock(|when, then| {
         when.method("GET").any_request();
         then.status(404).body("Not Found");
@@ -31,7 +42,7 @@ pub fn start_mock_airnet_server() -> Result<MockServer, std::io::Error> {
 }
 
 pub mod expected {
-    use pbsfm_rss_feed::airnet::types::{Episode, ProgramDescription, ProgramDetails};
+    use pbsfm_rss_feed::airnet::types::{Episode, PlaylistItem, ProgramDescription, ProgramDetails};
     use chrono::{NaiveDate};
     use rss_gen::{RssData, RssItem, RssVersion};
 
@@ -101,7 +112,23 @@ pub mod expected {
         )
     }
 
-    #[allow(dead_code)]
+    pub fn episode_playlist() -> Vec<PlaylistItem> {
+        vec!(
+            PlaylistItem{
+                artist: "Various Artists".to_string(),
+                title: Some("Black Wax Intro".to_string()),
+                track: Some("Black Wax Intro".to_string()),
+                release: None
+            },
+            PlaylistItem{
+                artist: "Robert Glasper".to_string(),
+                title: Some("Say Less".to_string()),
+                track: Some("Say Less".to_string()),
+                release: Some("Code Derivations".to_string())
+            },
+        )
+    }
+
     pub fn rss_feed() -> RssData {
         let program = single_program();
 
@@ -120,15 +147,14 @@ pub mod expected {
 
     }
 
-    #[allow(dead_code)]
-    pub fn rss_items(program: &ProgramDetails) -> Vec<RssItem> {
+    fn rss_items(program: &ProgramDetails) -> Vec<RssItem> {
         vec!(
             RssItem::new()
                 .title(String::from("Interview with Vince Jones and Jacob Collier!"))
                 .link("https://www.pbsfm.org.au/program/black-wax/2025-06-16/11-00-00")
                 .guid("https://www.pbsfm.org.au/program/black-wax/2025-06-16/11-00-00")
                 .author(&program.broadcasters)
-                .description("")
+                .description("<h3>Tracklist</h3><br><b>Various Artists</b> Black Wax Intro<br><b>Robert Glasper</b> Say Less (Album: Code Derivations)")
                 .enclosure("https://airnet.org.au/omnystudio/3pbs/black-wax/2025-06-16+11:00:00/aac_mid.m4a")
                 .pub_date("2025-06-16"),
             RssItem::new()
@@ -136,7 +162,7 @@ pub mod expected {
                 .link("https://www.pbsfm.org.au/program/black-wax/2025-08-25/11-00-00")
                 .guid("https://www.pbsfm.org.au/program/black-wax/2025-08-25/11-00-00")
                 .author(&program.broadcasters)
-                .description("some description")
+                .description("<h3>Tracklist</h3><br><b>Various Artists</b> Black Wax Intro<br><b>Robert Glasper</b> Say Less (Album: Code Derivations)")
                 .enclosure("https://airnet.org.au/omnystudio/3pbs/black-wax/2025-08-25+11:00:00/aac_mid.m4a")
                 .pub_date("2025-08-25"),
         )

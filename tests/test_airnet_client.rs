@@ -45,6 +45,17 @@ fn test_get_episode_list() -> Result<(), Box<dyn std::error::Error>> {
 }
 
 #[test]
+fn test_get_playlist() -> Result<(), Box<dyn std::error::Error>> {
+    let server = mock_airnet::start_mock_airnet_server()?;
+
+    let client = airnet::AirnetClient::new(server.base_url());
+    let playlist = client.episode_playlist("3pbs", "black-wax", "2025-06-16+11:00:00")?;
+
+    assert_eq!(playlist, mock_airnet::expected::episode_playlist());
+    Ok(())
+}
+
+#[test]
 fn test_fails_when_not_found() -> Result<(), Box<dyn std::error::Error>> {
     let server = mock_airnet::start_mock_airnet_server()?;
 

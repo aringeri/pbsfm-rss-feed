@@ -1,4 +1,4 @@
-use crate::airnet::types::{Episode, ProgramDetails};
+use crate::airnet::types::{Episode, PlaylistItem, ProgramDetails};
 use clap::Parser;
 use quick_xml::writer::Writer;
 use rss_gen::macro_write_element;
@@ -50,12 +50,23 @@ pub fn generate_rss_feed(
     let episodes = client.episodes(PBSFM_STATION, program_name)?;
     println!("Fetched episodes: {}", episodes.len());
 
-    convert_to_rss(program, episodes)
+    let mut episodes_and_playlists: Vec<(Episode, Vec<PlaylistItem>)> = Vec::new();
+    for episode in episodes{
+        println!("Fetching episode playlist {}", episode.start);
+        let playlist: Vec<PlaylistItem> = client.episode_playlist(
+            PBSFM_STATION, 
+            program_name, 
+            format!("{}", episode.start.format("%Y-%m-%d+%H:%M:%S")).as_str()
+        )?;
+        episodes_and_playlists.push((episode, playlist));
+    }
+
+    convert_to_rss(program, episodes_and_playlists)
 }
 
-pub fn convert_to_rss(
+fn convert_to_rss(
     program: ProgramDetails,
-    episodes: Vec<Episode>,
+    episodes: Vec<(Episode, Vec<PlaylistItem>)>,
 ) -> Result<RssData, Box<dyn std::error::Error>> {
     let mut rss_data = RssData::new(Some(RssVersion::RSS2_0))
         .link(format!("https://www.pbsfm.org.au/program/{}", program.slug))
@@ -65,7 +76,7 @@ pub fn convert_to_rss(
         .image_url(program.profile_image_url)
         .language("en");
 
-    for episode in episodes {
+    for (episode, playlist) in episodes {
         println!("Writing episode: {:?}, {}", episode.title, episode.start);
         let title = &episode
             .title
@@ -83,7 +94,7 @@ pub fn convert_to_rss(
                 .link(&episode_link)
                 .guid(&episode_link)
                 .author(&program.broadcasters)
-                .description(episode.description.unwrap_or_default())
+                .description(make_description(playlist))
                 .enclosure(format!(
                     "https://airnet.org.au/omnystudio/3pbs/{}/{}/aac_mid.m4a",
                     program.slug,
@@ -92,6 +103,20 @@ pub fn convert_to_rss(
                 .pub_date(episode.start.date().to_string()),
         );
     }
-
     Ok(rss_data)
+}
+
+fn make_description(playlist: Vec<PlaylistItem>) -> String {
+    let mut description = String::from("<h3>Tracklist</h3>");
+    for track in playlist {
+        description.push_str(format!("<br><b>{}</b>", track.artist).as_str());
+        if track.title.is_some() {
+            description.push_str(" ");
+            description.push_str(track.title.unwrap().as_str());
+        }
+        if track.release.is_some() {
+            description.push_str(format!(" (Album: {})", track.release.unwrap()).as_str());
+        }
+    }
+    description
 }
