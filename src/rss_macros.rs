@@ -19,6 +19,10 @@ macro_rules! macro_generate_rss_custom {
             "xmlns:atom",
             "http://www.w3.org/2005/Atom",
         ));
+        rss_start.push_attribute((
+            "xmlns:content",
+            "http://purl.org/rss/1.0/modules/content/"
+        ));
         writer.write_event(Event::Start(rss_start))?;
 
         writer.write_event(Event::Start(BytesStart::new("channel")))?;
@@ -76,7 +80,7 @@ macro_rules! macro_generate_rss_custom {
             macro_write_element!(writer, "link", item.link.as_str())?;
             macro_write_element!(
                 writer,
-                "description",
+                "content:encoded",
                 &item.description
             )?;
             macro_write_element!(writer, "author", item.author.as_str())?;
