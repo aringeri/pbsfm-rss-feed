@@ -14,12 +14,12 @@
             <link>https://www.pbsfm.org.au/program/black-wax</link>
         </image>
         <item>
-            <title>Black Wax presented by Justin Ashworth</title>
+            <title>TESTING CDATA</title>
             <link>https://www.pbsfm.org.au/program/black-wax/2025-07-28/11-00-00</link>
             <content:encoded>
                 <![CDATA[<h3>Tracklist</h3><br><b>Black Wax presented by Justin Ashworth</b> Audio<br><b>Herbie Hancock</b> Palm Grease (Album: Thrust)]]></content:encoded>
             <author>Adam Rudegeair</author>
-            <guid>https://www.pbsfm.org.au/program/black-wax/2025-07-28/11-00-00</guid>
+            <guid>https://www.pbsfm.org.au/program/black-wax/2025-07-28/11-00-01</guid>
             <pubDate>2025-07-28</pubDate>
             <enclosure url="https://airnet.org.au/omnystudio/3pbs/black-wax/2025-07-28+11:00:00/aac_mid.m4a"
                        type="audio/mp4"/>
