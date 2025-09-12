@@ -5,9 +5,10 @@ title: "PBS radio RSS feeds"
 # PBS feeds by station
 
 <ul>
-{% for station_hash in site.data.feeds.pbsfm %}
-{% assign station = station_hash[1] %}
-{% assign channel = station.rss.rss.channel %}
+{% assign feeds = site.data.feeds.pbsfm | sort %}
+{% for station_hash in feeds %}
+  {% assign station = station_hash[1] %}
+  {% assign channel = station.rss.rss.channel %}
   <li>
     <b>{{ channel.title }}</b>
     -

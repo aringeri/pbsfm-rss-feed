@@ -6,8 +6,8 @@ on:
     paths-ignore:
       - 'docs/**'
       - 'config/**'
-      - '.github/fetch-feeds.yml'
-      - '.github/jekyll.yml'
+      - '.github/workflows/fetch-feeds.yml'
+      - '.github/workflows/jekyll.yml'
       - '.gitignore'
 env:
   CARGO_TERM_COLOR: always
