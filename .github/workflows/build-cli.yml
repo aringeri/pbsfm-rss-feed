@@ -7,7 +7,8 @@ on:
       - 'docs/**'
       - 'config/**'
       - '.github/fetch-feeds.yml'
-
+      - '.github/jekyll.yml'
+      - '.gitignore'
 env:
   CARGO_TERM_COLOR: always
 
