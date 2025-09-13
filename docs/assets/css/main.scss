@@ -2,3 +2,56 @@
 ---
 @import "{{ site.theme }}";
 @import "base";
+
+#main_content {
+  max-width: 970px;
+}
+
+#forkme_banner {
+  width: 30px;
+  height: 30px;
+  padding: 3px 3px 3px 3px;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  //width: 970px;
+}
+
+.row-outer {
+  border-bottom: 1px solid;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.image-cell {
+  width: 10%;
+  overflow: hidden;
+}
+
+.image-cell img {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border: none;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+
+.station {
+  width: 85%;
+}

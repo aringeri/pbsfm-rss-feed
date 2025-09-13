@@ -1,7 +1,11 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-title: "" # the name of your site, e.g. ACME Corp.
+title: "PBS radio RSS feeds"
 remote_theme: pages-themes/slate@v0.2.0
+github:
+  is_project_page: true
+  repository_url: https://github.com/aringeri/pbsfm-rss-feed
+  repository_name: pbsfm-rss-feed
+  owner_url: https://github.com/aringeri
+  owner_name: github.com/aringeri
 plugins:
   - jekyll-remote-theme
 plugins_dir: ./_plugins
