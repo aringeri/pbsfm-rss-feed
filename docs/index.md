@@ -19,6 +19,7 @@ layout: default
             <a href="./feeds/pbsfm/{{ station_hash[0] }}/rss.xml">
               (rss feed)
             </a>
+            <br>Presented by: {{ channel.item | map: "author" | first }}
         </div>
     </div>
   </div>
