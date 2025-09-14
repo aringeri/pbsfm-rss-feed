@@ -6,6 +6,7 @@ use rss_gen::{RssData, RssItem, RssVersion};
 use std::fs::File;
 use std::io::BufWriter;
 use std::path::PathBuf;
+use regex::Regex;
 
 pub mod airnet;
 pub mod rss_macros;
@@ -63,7 +64,7 @@ pub fn convert_to_rss(
         .description(program.description)
         .category(program.grid_description.unwrap_or_default())
         .author(&program.broadcasters)
-        .image_url(program.profile_image_url)
+        .image_url(rm_query_params(&program.profile_image_url)?)
         .language("en");
 
     for episode in episodes {
@@ -95,4 +96,9 @@ pub fn convert_to_rss(
     }
 
     Ok(rss_data)
+}
+
+fn rm_query_params(url: &str) -> Result<String,Box<dyn std::error::Error>> {
+    let reg = Regex::new(r"\?.*$")?;
+    Ok(reg.replace(url, "").to_string())
 }

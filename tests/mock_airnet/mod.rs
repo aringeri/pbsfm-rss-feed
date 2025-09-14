@@ -64,10 +64,10 @@ pub mod expected {
             description: String::from("Jazz and funk with jazz influence"),
             grid_description: Some(String::from("Groovin' jazz")),
             slug: String::from("black-wax"),
-            banner_image_url: String::from("https://banner.jpg"),
-            banner_image_small: String::from("https://banner-small.jpg"),
-            profile_image_url: String::from("https://profile-img.jpg"),
-            profile_image_small: String::from("https://profile-img-small.jpg"),
+            banner_image_url: String::from("https://banner.jpg?cacbeb=80406601"),
+            banner_image_small: String::from("https://banner-small.jpg?cacbeb=80406601"),
+            profile_image_url: String::from("https://profile-img.jpg?cacbeb=80406601"),
+            profile_image_small: String::from("https://profile-img-small.jpg?cacbeb=80406601"),
             episodes_rest_url: String::from("https://airnet.org.au/rest/stations/3pbs/programs/black-wax/episodes"),
         }
     }
@@ -111,7 +111,7 @@ pub mod expected {
             .description(&program.description)
             .category(program.grid_description.as_ref().map(|s| { s.as_str() }).unwrap_or(""))
             .author(&program.broadcasters)
-            .image_url(&program.profile_image_url)
+            .image_url("https://profile-img.jpg")
             .language("en");
 
         for item in rss_items(&program) {

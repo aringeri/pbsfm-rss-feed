@@ -10,10 +10,10 @@
   "podcastUrl2": null,
   "defaultFirstAiredGuide": "fm",
   "slug": "black-wax",
-  "bannerImageUrl": "https:\/\/banner.jpg",
-  "bannerImageSmall": "https:\/\/banner-small.jpg",
-  "profileImageUrl": "https:\/\/profile-img.jpg",
-  "profileImageSmall": "https:\/\/profile-img-small.jpg",
+  "bannerImageUrl": "https:\/\/banner.jpg?cacbeb=80406601",
+  "bannerImageSmall": "https:\/\/banner-small.jpg?cacbeb=80406601",
+  "profileImageUrl": "https:\/\/profile-img.jpg?cacbeb=80406601",
+  "profileImageSmall": "https:\/\/profile-img-small.jpg?cacbeb=80406601",
   "facebookPage": "Black-Wax-on-PBS-FM-115780531226",
   "episodesRestUrl": "https:\/\/airnet.org.au\/rest\/stations\/3pbs\/programs\/black-wax\/episodes"
 }

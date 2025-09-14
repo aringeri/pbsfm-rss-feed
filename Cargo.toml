@@ -8,6 +8,7 @@ argfile = "0.2.1"
 chrono = { version = "0.4.41" , features = ["serde"]}
 clap = { version = "4.5.47", features = ["derive"] }
 quick-xml = "0.38.3"
+regex = "1.11.2"
 reqwest = { version = "0.12.23", features = ["blocking", "json"] }
 rss-gen = "0.0.3"
 serde = "1.0.219"
