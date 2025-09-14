@@ -4,7 +4,7 @@
 @import "base";
 
 #main_content {
-  max-width: 970px;
+  max-width: 800px;
 }
 
 #forkme_banner {
@@ -33,13 +33,14 @@
 .row {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   width: 100%;
 }
 
 .image-cell {
   width: 10%;
   overflow: hidden;
+  margin-left: 20px;
 }
 
 .image-cell img {
@@ -53,5 +54,22 @@
 }
 
 .station {
-  width: 85%;
+  width: 80%;
+  margin-left: 10px;
+}
+
+.rss-cell {
+  width: 10%;
+  object-fit: cover;
+  justify-content: right;
+}
+
+.rss-cell img {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  border: none;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
 }
