@@ -17,7 +17,7 @@ jobs:
         run: |
           gh release download $CLI_RELEASE_TAG --dir ./target/release
         env:
-          CLI_RELEASE_TAG: 560b883
+          CLI_RELEASE_TAG: 411bbfe
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: list contents
         run: ls -R ./target/release
