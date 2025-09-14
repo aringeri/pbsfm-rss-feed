@@ -109,6 +109,7 @@ pub mod expected {
             .link("https://www.pbsfm.org.au/program/black-wax")
             .title(&program.name)
             .description(&program.description)
+            .category(program.grid_description.as_ref().map(|s| { s.as_str() }).unwrap_or(""))
             .author(&program.broadcasters)
             .image_url(&program.profile_image_url)
             .language("en");

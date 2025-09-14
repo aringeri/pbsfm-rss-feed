@@ -32,7 +32,7 @@ pub fn run_app(args: Args) -> Result<(), Box<dyn std::error::Error>> {
         std::fs::create_dir_all(&station_dir)?;
 
         let out_file = File::create(station_dir.join("rss.xml"))?;
-        let writer = Writer::new(BufWriter::new(out_file));
+        let writer = Writer::new_with_indent(BufWriter::new(out_file), b' ', 2);
         let r: Result<_, std::io::Error> =
             macro_generate_rss_custom!(writer, rss_feed).map(|_writer| ());
         r?;
@@ -61,6 +61,7 @@ pub fn convert_to_rss(
         .link(format!("https://www.pbsfm.org.au/program/{}", program.slug))
         .title(program.name)
         .description(program.description)
+        .category(program.grid_description.unwrap_or_default())
         .author(&program.broadcasters)
         .image_url(program.profile_image_url)
         .language("en");
