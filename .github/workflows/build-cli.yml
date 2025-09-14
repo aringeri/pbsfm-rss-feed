@@ -19,6 +19,9 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+      - name: Get short-SHA for tagging
+        id: vars
+        run: echo "SHORT_SHA=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
       - name: Build
         run: cargo build --release
       - name: Run tests
@@ -33,5 +36,5 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
-          files: target/release/pbsfm-rss-feed
-          tag_name: v0.0.1
+          files: pbsfm-rss-feed.tar
+          tag_name: ${{ steps.vars.SHORT_SHA }}
