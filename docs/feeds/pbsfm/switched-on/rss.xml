@@ -1,9 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Switched On</title><link>https://www.pbsfm.org.au/program/switched-on</link><description>&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;color:#222222; font-family:calibri,sans-serif; font-size:11.0pt&amp;quot;&amp;gt;Join your host, Emma Peel, for two hours of dusty, obscure, kaleidoscopic gems from the vinyl vaults of time. Spanning the 1960s until now, and digging deep around the globe, Switched On dusts off forgotten records and weaves them together to create soundscapes that range from mellow and sublime to raucous and fever-pitched.&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Switched On</title>
+    <link>https://www.pbsfm.org.au/program/switched-on</link>
+    <description>&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;color:#222222; font-family:calibri,sans-serif; font-size:11.0pt&amp;quot;&amp;gt;Join your host, Emma Peel, for two hours of dusty, obscure, kaleidoscopic gems from the vinyl vaults of time. Spanning the 1960s until now, and digging deep around the globe, Switched On dusts off forgotten records and weaves them together to create soundscapes that range from mellow and sublime to raucous and fever-pitched.&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
 
 &amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;color:#222222; font-family:calibri,sans-serif; font-size:11.0pt&amp;quot;&amp;gt;EMAIL: &amp;lt;a href=&amp;quot;mailto:thegirlbomb1@gmail.com&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;thegirlbomb1@gmail.com&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
 
 &amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;color:#222222; font-family:calibri,sans-serif; font-size:11.0pt&amp;quot;&amp;gt;INSTAGRAM: @djemmapeel&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
-</description><language>en</language><image><url>https://amrap-pages-image.s3.amazonaws.com/profile/7016.jpg?cacbeb=30046610</url><title>Switched On</title><link>https://www.pbsfm.org.au/program/switched-on</link></image><item><title>Soon there&amp;#x27;ll be thunder</title><link>https://www.pbsfm.org.au/program/switched-on/2025-07-05/13-00-00</link><author>Emma Peel</author><guid>https://www.pbsfm.org.au/program/switched-on/2025-07-05/13-00-00</guid><pubDate>2025-07-05</pubDate><enclosure url="https://airnet.org.au/omnystudio/3pbs/switched-on/2025-07-05+13:00:00/aac_mid.m4a" type="audio/mp4"/></item><item><title>My goodness</title><link>https://www.pbsfm.org.au/program/switched-on/2025-07-12/13-00-00</link><author>Emma Peel</author><guid>https://www.pbsfm.org.au/program/switched-on/2025-07-12/13-00-00</guid><pubDate>2025-07-12</pubDate><enclosure url="https://airnet.org.au/omnystudio/3pbs/switched-on/2025-07-12+13:00:00/aac_mid.m4a" type="audio/mp4"/></item><item><title>The world needs changin&amp;#x27;</title><link>https://www.pbsfm.org.au/program/switched-on/2025-07-19/13-00-00</link><author>Emma Peel</author><guid>https://www.pbsfm.org.au/program/switched-on/2025-07-19/13-00-00</guid><pubDate>2025-07-19</pubDate><enclosure url="https://airnet.org.au/omnystudio/3pbs/switched-on/2025-07-19+13:00:00/aac_mid.m4a" type="audio/mp4"/></item><item><title>Athens in the 80s</title><link>https://www.pbsfm.org.au/program/switched-on/2025-07-26/13-00-00</link><author>Emma Peel</author><guid>https://www.pbsfm.org.au/program/switched-on/2025-07-26/13-00-00</guid><pubDate>2025-07-26</pubDate><enclosure url="https://airnet.org.au/omnystudio/3pbs/switched-on/2025-07-26+13:00:00/aac_mid.m4a" type="audio/mp4"/></item><item><title>Crazy feelin&amp;#x27;</title><link>https://www.pbsfm.org.au/program/switched-on/2025-08-02/13-00-00</link><author>Emma Peel</author><guid>https://www.pbsfm.org.au/program/switched-on/2025-08-02/13-00-00</guid><pubDate>2025-08-02</pubDate><enclosure url="https://airnet.org.au/omnystudio/3pbs/switched-on/2025-08-02+13:00:00/aac_mid.m4a" type="audio/mp4"/></item><item><title>Switched On presented by Celia Bow</title><link>https://www.pbsfm.org.au/program/switched-on/2025-08-09/13-00-00</link><description>&amp;lt;p&amp;gt;LOUIE RAMIREZ | ALI BABA&amp;lt;/p&amp;gt;
+</description>
+    <language>en</language>
+    <category>Kaleidoscopic &amp;amp; obscure</category>
+    <image>
+      <url>https://amrap-pages-image.s3.amazonaws.com/profile/7016.jpg</url>
+      <title>Switched On</title>
+      <link>https://www.pbsfm.org.au/program/switched-on</link>
+    </image>
+    <item>
+      <title>Soon there&amp;#x27;ll be thunder</title>
+      <link>https://www.pbsfm.org.au/program/switched-on/2025-07-05/13-00-00</link>
+      <author>Emma Peel</author>
+      <guid>https://www.pbsfm.org.au/program/switched-on/2025-07-05/13-00-00</guid>
+      <pubDate>2025-07-05</pubDate>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/switched-on/2025-07-05+13:00:00/aac_mid.m4a" type="audio/mp4"/>
+    </item>
+    <item>
+      <title>My goodness</title>
+      <link>https://www.pbsfm.org.au/program/switched-on/2025-07-12/13-00-00</link>
+      <author>Emma Peel</author>
+      <guid>https://www.pbsfm.org.au/program/switched-on/2025-07-12/13-00-00</guid>
+      <pubDate>2025-07-12</pubDate>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/switched-on/2025-07-12+13:00:00/aac_mid.m4a" type="audio/mp4"/>
+    </item>
+    <item>
+      <title>The world needs changin&amp;#x27;</title>
+      <link>https://www.pbsfm.org.au/program/switched-on/2025-07-19/13-00-00</link>
+      <author>Emma Peel</author>
+      <guid>https://www.pbsfm.org.au/program/switched-on/2025-07-19/13-00-00</guid>
+      <pubDate>2025-07-19</pubDate>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/switched-on/2025-07-19+13:00:00/aac_mid.m4a" type="audio/mp4"/>
+    </item>
+    <item>
+      <title>Athens in the 80s</title>
+      <link>https://www.pbsfm.org.au/program/switched-on/2025-07-26/13-00-00</link>
+      <author>Emma Peel</author>
+      <guid>https://www.pbsfm.org.au/program/switched-on/2025-07-26/13-00-00</guid>
+      <pubDate>2025-07-26</pubDate>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/switched-on/2025-07-26+13:00:00/aac_mid.m4a" type="audio/mp4"/>
+    </item>
+    <item>
+      <title>Crazy feelin&amp;#x27;</title>
+      <link>https://www.pbsfm.org.au/program/switched-on/2025-08-02/13-00-00</link>
+      <author>Emma Peel</author>
+      <guid>https://www.pbsfm.org.au/program/switched-on/2025-08-02/13-00-00</guid>
+      <pubDate>2025-08-02</pubDate>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/switched-on/2025-08-02+13:00:00/aac_mid.m4a" type="audio/mp4"/>
+    </item>
+    <item>
+      <title>Switched On presented by Celia Bow</title>
+      <link>https://www.pbsfm.org.au/program/switched-on/2025-08-09/13-00-00</link>
+      <description>&amp;lt;p&amp;gt;LOUIE RAMIREZ | ALI BABA&amp;lt;/p&amp;gt;
 
 &amp;lt;p&amp;gt;CLARK TERRY &amp;amp;amp; CHICO O’FARRILL| SPANISH RICE &amp;lt;/p&amp;gt;
 
@@ -66,4 +122,51 @@
 &amp;lt;p&amp;gt;BACKING MUSIC | STAN GETZ &amp;amp;amp; CHARLIE BYRD | JAZZ SAMBA&amp;lt;/p&amp;gt;
 
 &amp;lt;p&amp;gt; &amp;lt;/p&amp;gt;
-</description><author>Emma Peel</author><guid>https://www.pbsfm.org.au/program/switched-on/2025-08-09/13-00-00</guid><pubDate>2025-08-09</pubDate><enclosure url="https://airnet.org.au/omnystudio/3pbs/switched-on/2025-08-09+13:00:00/aac_mid.m4a" type="audio/mp4"/></item><item><title>Straight Ahead</title><link>https://www.pbsfm.org.au/program/switched-on/2025-08-16/13-00-00</link><author>Emma Peel</author><guid>https://www.pbsfm.org.au/program/switched-on/2025-08-16/13-00-00</guid><pubDate>2025-08-16</pubDate><enclosure url="https://airnet.org.au/omnystudio/3pbs/switched-on/2025-08-16+13:00:00/aac_mid.m4a" type="audio/mp4"/></item><item><title>Take a hint</title><link>https://www.pbsfm.org.au/program/switched-on/2025-08-23/13-00-00</link><author>Emma Peel</author><guid>https://www.pbsfm.org.au/program/switched-on/2025-08-23/13-00-00</guid><pubDate>2025-08-23</pubDate><enclosure url="https://airnet.org.au/omnystudio/3pbs/switched-on/2025-08-23+13:00:00/aac_mid.m4a" type="audio/mp4"/></item><item><title>I Dont Forget</title><link>https://www.pbsfm.org.au/program/switched-on/2025-08-30/13-00-00</link><author>Emma Peel</author><guid>https://www.pbsfm.org.au/program/switched-on/2025-08-30/13-00-00</guid><pubDate>2025-08-30</pubDate><enclosure url="https://airnet.org.au/omnystudio/3pbs/switched-on/2025-08-30+13:00:00/aac_mid.m4a" type="audio/mp4"/></item><item><title>I Shall Wear a Crown</title><link>https://www.pbsfm.org.au/program/switched-on/2025-09-06/13-00-00</link><author>Emma Peel</author><guid>https://www.pbsfm.org.au/program/switched-on/2025-09-06/13-00-00</guid><pubDate>2025-09-06</pubDate><enclosure url="https://airnet.org.au/omnystudio/3pbs/switched-on/2025-09-06+13:00:00/aac_mid.m4a" type="audio/mp4"/></item><item><title>Peace of Mind</title><link>https://www.pbsfm.org.au/program/switched-on/2025-09-13/13-00-00</link><author>Emma Peel</author><guid>https://www.pbsfm.org.au/program/switched-on/2025-09-13/13-00-00</guid><pubDate>2025-09-13</pubDate><enclosure url="https://airnet.org.au/omnystudio/3pbs/switched-on/2025-09-13+13:00:00/aac_mid.m4a" type="audio/mp4"/></item></channel></rss>
+</description>
+      <author>Emma Peel</author>
+      <guid>https://www.pbsfm.org.au/program/switched-on/2025-08-09/13-00-00</guid>
+      <pubDate>2025-08-09</pubDate>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/switched-on/2025-08-09+13:00:00/aac_mid.m4a" type="audio/mp4"/>
+    </item>
+    <item>
+      <title>Straight Ahead</title>
+      <link>https://www.pbsfm.org.au/program/switched-on/2025-08-16/13-00-00</link>
+      <author>Emma Peel</author>
+      <guid>https://www.pbsfm.org.au/program/switched-on/2025-08-16/13-00-00</guid>
+      <pubDate>2025-08-16</pubDate>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/switched-on/2025-08-16+13:00:00/aac_mid.m4a" type="audio/mp4"/>
+    </item>
+    <item>
+      <title>Take a hint</title>
+      <link>https://www.pbsfm.org.au/program/switched-on/2025-08-23/13-00-00</link>
+      <author>Emma Peel</author>
+      <guid>https://www.pbsfm.org.au/program/switched-on/2025-08-23/13-00-00</guid>
+      <pubDate>2025-08-23</pubDate>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/switched-on/2025-08-23+13:00:00/aac_mid.m4a" type="audio/mp4"/>
+    </item>
+    <item>
+      <title>I Dont Forget</title>
+      <link>https://www.pbsfm.org.au/program/switched-on/2025-08-30/13-00-00</link>
+      <author>Emma Peel</author>
+      <guid>https://www.pbsfm.org.au/program/switched-on/2025-08-30/13-00-00</guid>
+      <pubDate>2025-08-30</pubDate>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/switched-on/2025-08-30+13:00:00/aac_mid.m4a" type="audio/mp4"/>
+    </item>
+    <item>
+      <title>I Shall Wear a Crown</title>
+      <link>https://www.pbsfm.org.au/program/switched-on/2025-09-06/13-00-00</link>
+      <author>Emma Peel</author>
+      <guid>https://www.pbsfm.org.au/program/switched-on/2025-09-06/13-00-00</guid>
+      <pubDate>2025-09-06</pubDate>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/switched-on/2025-09-06+13:00:00/aac_mid.m4a" type="audio/mp4"/>
+    </item>
+    <item>
+      <title>Peace of Mind</title>
+      <link>https://www.pbsfm.org.au/program/switched-on/2025-09-13/13-00-00</link>
+      <author>Emma Peel</author>
+      <guid>https://www.pbsfm.org.au/program/switched-on/2025-09-13/13-00-00</guid>
+      <pubDate>2025-09-13</pubDate>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/switched-on/2025-09-13+13:00:00/aac_mid.m4a" type="audio/mp4"/>
+    </item>
+  </channel>
+</rss>

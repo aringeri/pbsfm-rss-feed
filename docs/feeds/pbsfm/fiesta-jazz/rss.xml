@@ -1,9 +1,114 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fiesta Jazz </title><link>https://www.pbsfm.org.au/program/fiesta-jazz</link><description>&amp;lt;p&amp;gt;Since October 2000, Fiesta Jazz has been playing Latin jazz from traditional, instrumental and vocal Afro-Caribbean, Spanish and Brazilian jazz, as well as Latin-influenced fusion played by non-Latin musicians, along with fusions of jazz and Latin American folk rhythms.&amp;lt;/p&amp;gt;
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fiesta Jazz </title>
+    <link>https://www.pbsfm.org.au/program/fiesta-jazz</link>
+    <description>&amp;lt;p&amp;gt;Since October 2000, Fiesta Jazz has been playing Latin jazz from traditional, instrumental and vocal Afro-Caribbean, Spanish and Brazilian jazz, as well as Latin-influenced fusion played by non-Latin musicians, along with fusions of jazz and Latin American folk rhythms.&amp;lt;/p&amp;gt;
 
 &amp;lt;p&amp;gt;As a Venezuelan myself, the music expresses my Latin American and Spanish culture.&amp;lt;/p&amp;gt;
-</description><language>en</language><image><url>https://amrap-pages-image.s3.amazonaws.com/profile/6902.jpg?cacbeb=80410461</url><title>Fiesta Jazz </title><link>https://www.pbsfm.org.au/program/fiesta-jazz</link></image><item><title>Episode No. 1282 presented &amp;amp; produced by Saúl Zavarce  </title><link>https://www.pbsfm.org.au/program/fiesta-jazz/2025-06-28/11-00-00</link><author>Saúl Zavarce</author><guid>https://www.pbsfm.org.au/program/fiesta-jazz/2025-06-28/11-00-00</guid><pubDate>2025-06-28</pubDate><enclosure url="https://airnet.org.au/omnystudio/3pbs/fiesta-jazz/2025-06-28+11:00:00/aac_mid.m4a" type="audio/mp4"/></item><item><title>Episode No. 1283 presented &amp;amp; produced by Saúl Zavarce  </title><link>https://www.pbsfm.org.au/program/fiesta-jazz/2025-07-05/11-00-00</link><author>Saúl Zavarce</author><guid>https://www.pbsfm.org.au/program/fiesta-jazz/2025-07-05/11-00-00</guid><pubDate>2025-07-05</pubDate><enclosure url="https://airnet.org.au/omnystudio/3pbs/fiesta-jazz/2025-07-05+11:00:00/aac_mid.m4a" type="audio/mp4"/></item><item><title>Episode No. 1284 presented &amp;amp; produced by Juan Maria Colombo</title><link>https://www.pbsfm.org.au/program/fiesta-jazz/2025-07-12/11-00-00</link><author>Saúl Zavarce</author><guid>https://www.pbsfm.org.au/program/fiesta-jazz/2025-07-12/11-00-00</guid><pubDate>2025-07-12</pubDate><enclosure url="https://airnet.org.au/omnystudio/3pbs/fiesta-jazz/2025-07-12+11:00:00/aac_mid.m4a" type="audio/mp4"/></item><item><title>Episode No. 1285 presented &amp;amp; produced by Saúl Zavarce</title><link>https://www.pbsfm.org.au/program/fiesta-jazz/2025-07-19/11-00-00</link><description>&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:24px&amp;quot;&amp;gt;&amp;lt;strong&amp;gt;Tribute to some of the greats of Latin jazz&amp;lt;/strong&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+</description>
+    <language>en</language>
+    <category>Latin, jazz &amp;amp; fusion</category>
+    <image>
+      <url>https://amrap-pages-image.s3.amazonaws.com/profile/6902.jpg</url>
+      <title>Fiesta Jazz </title>
+      <link>https://www.pbsfm.org.au/program/fiesta-jazz</link>
+    </image>
+    <item>
+      <title>Episode No. 1282 presented &amp;amp; produced by Saúl Zavarce  </title>
+      <link>https://www.pbsfm.org.au/program/fiesta-jazz/2025-06-28/11-00-00</link>
+      <author>Saúl Zavarce</author>
+      <guid>https://www.pbsfm.org.au/program/fiesta-jazz/2025-06-28/11-00-00</guid>
+      <pubDate>2025-06-28</pubDate>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/fiesta-jazz/2025-06-28+11:00:00/aac_mid.m4a" type="audio/mp4"/>
+    </item>
+    <item>
+      <title>Episode No. 1283 presented &amp;amp; produced by Saúl Zavarce  </title>
+      <link>https://www.pbsfm.org.au/program/fiesta-jazz/2025-07-05/11-00-00</link>
+      <author>Saúl Zavarce</author>
+      <guid>https://www.pbsfm.org.au/program/fiesta-jazz/2025-07-05/11-00-00</guid>
+      <pubDate>2025-07-05</pubDate>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/fiesta-jazz/2025-07-05+11:00:00/aac_mid.m4a" type="audio/mp4"/>
+    </item>
+    <item>
+      <title>Episode No. 1284 presented &amp;amp; produced by Juan Maria Colombo</title>
+      <link>https://www.pbsfm.org.au/program/fiesta-jazz/2025-07-12/11-00-00</link>
+      <author>Saúl Zavarce</author>
+      <guid>https://www.pbsfm.org.au/program/fiesta-jazz/2025-07-12/11-00-00</guid>
+      <pubDate>2025-07-12</pubDate>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/fiesta-jazz/2025-07-12+11:00:00/aac_mid.m4a" type="audio/mp4"/>
+    </item>
+    <item>
+      <title>Episode No. 1285 presented &amp;amp; produced by Saúl Zavarce</title>
+      <link>https://www.pbsfm.org.au/program/fiesta-jazz/2025-07-19/11-00-00</link>
+      <description>&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:24px&amp;quot;&amp;gt;&amp;lt;strong&amp;gt;Tribute to some of the greats of Latin jazz&amp;lt;/strong&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
 
 &amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:20px&amp;quot;&amp;gt;Forever greateful to those that broke the ground helping to develop what we know as Afro-Cuban, Brazilian, Venezuelan, Spanish and Dominican Jazz.&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
-</description><author>Saúl Zavarce</author><guid>https://www.pbsfm.org.au/program/fiesta-jazz/2025-07-19/11-00-00</guid><pubDate>2025-07-19</pubDate><enclosure url="https://airnet.org.au/omnystudio/3pbs/fiesta-jazz/2025-07-19+11:00:00/aac_mid.m4a" type="audio/mp4"/></item><item><title>Episode No. 1286 presented &amp;amp; produced by Juan Maria Colombo</title><link>https://www.pbsfm.org.au/program/fiesta-jazz/2025-07-26/11-00-00</link><author>Saúl Zavarce</author><guid>https://www.pbsfm.org.au/program/fiesta-jazz/2025-07-26/11-00-00</guid><pubDate>2025-07-26</pubDate><enclosure url="https://airnet.org.au/omnystudio/3pbs/fiesta-jazz/2025-07-26+11:00:00/aac_mid.m4a" type="audio/mp4"/></item><item><title>Episode No. 1287 presented &amp;amp; produced by Saúl Zavarce </title><link>https://www.pbsfm.org.au/program/fiesta-jazz/2025-08-02/11-00-00</link><author>Saúl Zavarce</author><guid>https://www.pbsfm.org.au/program/fiesta-jazz/2025-08-02/11-00-00</guid><pubDate>2025-08-02</pubDate><enclosure url="https://airnet.org.au/omnystudio/3pbs/fiesta-jazz/2025-08-02+11:00:00/aac_mid.m4a" type="audio/mp4"/></item><item><title>Episode No. 1288 presented &amp;amp; produced by Saúl Zavarce  </title><link>https://www.pbsfm.org.au/program/fiesta-jazz/2025-08-09/11-00-00</link><description>&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:20px&amp;quot;&amp;gt;Dedicated to the memory and legacy of Eddie Palmieri (1936-2025)&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
-</description><author>Saúl Zavarce</author><guid>https://www.pbsfm.org.au/program/fiesta-jazz/2025-08-09/11-00-00</guid><pubDate>2025-08-09</pubDate><enclosure url="https://airnet.org.au/omnystudio/3pbs/fiesta-jazz/2025-08-09+11:00:00/aac_mid.m4a" type="audio/mp4"/></item><item><title>Episode No. 1289 presented &amp;amp; produced by Saúl Zavarce </title><link>https://www.pbsfm.org.au/program/fiesta-jazz/2025-08-16/11-00-00</link><description>&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:22px&amp;quot;&amp;gt;&amp;lt;strong&amp;gt;New releases plus remembering an interview done with Eddie Palmieri in 2011 before his first visit to Melbourne in 2012.&amp;lt;/strong&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
-</description><author>Saúl Zavarce</author><guid>https://www.pbsfm.org.au/program/fiesta-jazz/2025-08-16/11-00-00</guid><pubDate>2025-08-16</pubDate><enclosure url="https://airnet.org.au/omnystudio/3pbs/fiesta-jazz/2025-08-16+11:00:00/aac_mid.m4a" type="audio/mp4"/></item><item><title>Episode No. 1290 presented &amp;amp; produced by Saúl Zavarce  </title><link>https://www.pbsfm.org.au/program/fiesta-jazz/2025-08-23/11-00-00</link><author>Saúl Zavarce</author><guid>https://www.pbsfm.org.au/program/fiesta-jazz/2025-08-23/11-00-00</guid><pubDate>2025-08-23</pubDate><enclosure url="https://airnet.org.au/omnystudio/3pbs/fiesta-jazz/2025-08-23+11:00:00/aac_mid.m4a" type="audio/mp4"/></item><item><title>Episode No. 1291 presented &amp;amp; produced by Saúl Zavarce</title><link>https://www.pbsfm.org.au/program/fiesta-jazz/2025-08-30/11-00-00</link><author>Saúl Zavarce</author><guid>https://www.pbsfm.org.au/program/fiesta-jazz/2025-08-30/11-00-00</guid><pubDate>2025-08-30</pubDate><enclosure url="https://airnet.org.au/omnystudio/3pbs/fiesta-jazz/2025-08-30+11:00:00/aac_mid.m4a" type="audio/mp4"/></item><item><title>Episode No. 1292 presented by Juan Colombo</title><link>https://www.pbsfm.org.au/program/fiesta-jazz/2025-09-06/11-00-00</link><author>Saúl Zavarce</author><guid>https://www.pbsfm.org.au/program/fiesta-jazz/2025-09-06/11-00-00</guid><pubDate>2025-09-06</pubDate><enclosure url="https://airnet.org.au/omnystudio/3pbs/fiesta-jazz/2025-09-06+11:00:00/aac_mid.m4a" type="audio/mp4"/></item></channel></rss>
+</description>
+      <author>Saúl Zavarce</author>
+      <guid>https://www.pbsfm.org.au/program/fiesta-jazz/2025-07-19/11-00-00</guid>
+      <pubDate>2025-07-19</pubDate>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/fiesta-jazz/2025-07-19+11:00:00/aac_mid.m4a" type="audio/mp4"/>
+    </item>
+    <item>
+      <title>Episode No. 1286 presented &amp;amp; produced by Juan Maria Colombo</title>
+      <link>https://www.pbsfm.org.au/program/fiesta-jazz/2025-07-26/11-00-00</link>
+      <author>Saúl Zavarce</author>
+      <guid>https://www.pbsfm.org.au/program/fiesta-jazz/2025-07-26/11-00-00</guid>
+      <pubDate>2025-07-26</pubDate>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/fiesta-jazz/2025-07-26+11:00:00/aac_mid.m4a" type="audio/mp4"/>
+    </item>
+    <item>
+      <title>Episode No. 1287 presented &amp;amp; produced by Saúl Zavarce </title>
+      <link>https://www.pbsfm.org.au/program/fiesta-jazz/2025-08-02/11-00-00</link>
+      <author>Saúl Zavarce</author>
+      <guid>https://www.pbsfm.org.au/program/fiesta-jazz/2025-08-02/11-00-00</guid>
+      <pubDate>2025-08-02</pubDate>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/fiesta-jazz/2025-08-02+11:00:00/aac_mid.m4a" type="audio/mp4"/>
+    </item>
+    <item>
+      <title>Episode No. 1288 presented &amp;amp; produced by Saúl Zavarce  </title>
+      <link>https://www.pbsfm.org.au/program/fiesta-jazz/2025-08-09/11-00-00</link>
+      <description>&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:20px&amp;quot;&amp;gt;Dedicated to the memory and legacy of Eddie Palmieri (1936-2025)&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+</description>
+      <author>Saúl Zavarce</author>
+      <guid>https://www.pbsfm.org.au/program/fiesta-jazz/2025-08-09/11-00-00</guid>
+      <pubDate>2025-08-09</pubDate>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/fiesta-jazz/2025-08-09+11:00:00/aac_mid.m4a" type="audio/mp4"/>
+    </item>
+    <item>
+      <title>Episode No. 1289 presented &amp;amp; produced by Saúl Zavarce </title>
+      <link>https://www.pbsfm.org.au/program/fiesta-jazz/2025-08-16/11-00-00</link>
+      <description>&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:22px&amp;quot;&amp;gt;&amp;lt;strong&amp;gt;New releases plus remembering an interview done with Eddie Palmieri in 2011 before his first visit to Melbourne in 2012.&amp;lt;/strong&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+</description>
+      <author>Saúl Zavarce</author>
+      <guid>https://www.pbsfm.org.au/program/fiesta-jazz/2025-08-16/11-00-00</guid>
+      <pubDate>2025-08-16</pubDate>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/fiesta-jazz/2025-08-16+11:00:00/aac_mid.m4a" type="audio/mp4"/>
+    </item>
+    <item>
+      <title>Episode No. 1290 presented &amp;amp; produced by Saúl Zavarce  </title>
+      <link>https://www.pbsfm.org.au/program/fiesta-jazz/2025-08-23/11-00-00</link>
+      <author>Saúl Zavarce</author>
+      <guid>https://www.pbsfm.org.au/program/fiesta-jazz/2025-08-23/11-00-00</guid>
+      <pubDate>2025-08-23</pubDate>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/fiesta-jazz/2025-08-23+11:00:00/aac_mid.m4a" type="audio/mp4"/>
+    </item>
+    <item>
+      <title>Episode No. 1291 presented &amp;amp; produced by Saúl Zavarce</title>
+      <link>https://www.pbsfm.org.au/program/fiesta-jazz/2025-08-30/11-00-00</link>
+      <author>Saúl Zavarce</author>
+      <guid>https://www.pbsfm.org.au/program/fiesta-jazz/2025-08-30/11-00-00</guid>
+      <pubDate>2025-08-30</pubDate>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/fiesta-jazz/2025-08-30+11:00:00/aac_mid.m4a" type="audio/mp4"/>
+    </item>
+    <item>
+      <title>Episode No. 1292 presented by Juan Colombo</title>
+      <link>https://www.pbsfm.org.au/program/fiesta-jazz/2025-09-06/11-00-00</link>
+      <author>Saúl Zavarce</author>
+      <guid>https://www.pbsfm.org.au/program/fiesta-jazz/2025-09-06/11-00-00</guid>
+      <pubDate>2025-09-06</pubDate>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/fiesta-jazz/2025-09-06+11:00:00/aac_mid.m4a" type="audio/mp4"/>
+    </item>
+  </channel>
+</rss>
