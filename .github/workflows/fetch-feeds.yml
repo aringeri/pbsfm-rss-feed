@@ -3,7 +3,7 @@ name: Fetch and create RSS feeds
 on:
   workflow_dispatch:
   schedule:
-    - cron: 0 22 * * 2
+    - cron: 0 22 * * *
 
 jobs:
   fetch:
