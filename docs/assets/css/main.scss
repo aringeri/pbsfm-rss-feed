@@ -3,8 +3,17 @@
 @import "{{ site.theme }}";
 @import "base";
 
+#header_wrap .inner {
+  padding: 40px 10px 40px 10px;
+}
+
+#project_tagline {
+  display: none;
+}
+
 #main_content {
   max-width: 800px;
+  padding: 5px 5px;
 }
 
 #forkme_banner {
@@ -15,9 +24,6 @@
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  //width: 970px;
 }
 
 .row-outer {
@@ -38,9 +44,9 @@
 }
 
 .image-cell {
-  width: 10%;
+  display: flex;
   overflow: hidden;
-  margin-left: 20px;
+  margin-left: 5px;
 }
 
 .image-cell img {
@@ -62,6 +68,7 @@
   width: 10%;
   object-fit: cover;
   justify-content: right;
+  margin-right: 5px;
 }
 
 .rss-cell img {
