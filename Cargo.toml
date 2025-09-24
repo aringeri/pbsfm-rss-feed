@@ -7,7 +7,8 @@ edition = "2024"
 argfile = "0.2.1"
 chrono = { version = "0.4.41" , features = ["serde"]}
 clap = { version = "4.5.47", features = ["derive"] }
-quick-xml = "0.38.3"
+derive_builder = "0.20.2"
+quick-xml = { version = "0.38.3", features = ["serialize"] }
 regex = "1.11.2"
 reqwest = { version = "0.12.23", features = ["blocking", "json"] }
 rss-gen = "0.0.3"
