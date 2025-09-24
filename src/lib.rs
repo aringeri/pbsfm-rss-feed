@@ -10,6 +10,7 @@ use regex::Regex;
 
 pub mod airnet;
 pub mod rss_macros;
+pub mod rss;
 
 #[derive(Parser, Debug)]
 #[command(version, about, long_about = None)]
