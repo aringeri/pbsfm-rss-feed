@@ -2,7 +2,6 @@ use httpmock::prelude::*;
 use std::fs;
 
 pub fn start_mock_airnet_server() -> Result<MockServer, std::io::Error> {
-
     let all_programs = fs::read_to_string("tests/mock_airnet/responses/all-programs.json")?;
     let server = MockServer::start();
     server.mock(|when, then| {
@@ -12,13 +11,15 @@ pub fn start_mock_airnet_server() -> Result<MockServer, std::io::Error> {
 
     let single_program = fs::read_to_string("tests/mock_airnet/responses/program.json")?;
     server.mock(|when, then| {
-        when.method("GET").path("/rest/stations/3pbs/programs/black-wax");
+        when.method("GET")
+            .path("/rest/stations/3pbs/programs/black-wax");
         then.status(200).body(single_program);
     });
 
     let episodes = fs::read_to_string("tests/mock_airnet/responses/episodes.json")?;
     server.mock(|when, then| {
-        when.method("GET").path("/rest/stations/3pbs/programs/black-wax/episodes");
+        when.method("GET")
+            .path("/rest/stations/3pbs/programs/black-wax/episodes");
         then.status(200).body(episodes);
     });
 
@@ -31,33 +32,40 @@ pub fn start_mock_airnet_server() -> Result<MockServer, std::io::Error> {
 }
 
 pub mod expected {
+    use chrono::NaiveDate;
     use pbsfm_rss_feed::airnet::types::{Episode, ProgramDescription, ProgramDetails};
-    use chrono::{NaiveDate};
+    use pbsfm_rss_feed::rss;
+    use pbsfm_rss_feed::rss::{Enclosure, ImageBuilder, Item, ItemBuilder, ItemGuidBuilder};
     use rss_gen::{RssData, RssItem, RssVersion};
 
     #[allow(dead_code)]
     pub fn all_programs() -> Vec<ProgramDescription> {
-        vec!(ProgramDescription{
+        vec![
+            ProgramDescription {
                 slug: None,
                 name: String::from("Tomorrow Land"),
                 broadcasters: String::from(""),
                 grid_description: None,
                 archived: true,
-                program_rest_url: String::from("https://airnet.org.au/rest/stations/3pbs/programs/"),
+                program_rest_url: String::from(
+                    "https://airnet.org.au/rest/stations/3pbs/programs/",
+                ),
             },
-            ProgramDescription{
+            ProgramDescription {
                 slug: Some(String::from("black-wax")),
                 name: String::from("Black Wax"),
                 broadcasters: String::from("Adam Rudegeair"),
                 grid_description: Some(String::from("Groovin' jazz")),
                 archived: false,
-                program_rest_url: String::from("https://airnet.org.au/rest/stations/3pbs/programs/black-wax"),
-            }
-        )
+                program_rest_url: String::from(
+                    "https://airnet.org.au/rest/stations/3pbs/programs/black-wax",
+                ),
+            },
+        ]
     }
 
     pub fn single_program() -> ProgramDetails {
-        ProgramDetails{
+        ProgramDetails {
             url: None,
             name: String::from("Black Wax"),
             broadcasters: String::from("Adam Rudegeair"),
@@ -68,37 +76,53 @@ pub mod expected {
             banner_image_small: String::from("https://banner-small.jpg?cacbeb=80406601"),
             profile_image_url: String::from("https://profile-img.jpg?cacbeb=80406601"),
             profile_image_small: String::from("https://profile-img-small.jpg?cacbeb=80406601"),
-            episodes_rest_url: String::from("https://airnet.org.au/rest/stations/3pbs/programs/black-wax/episodes"),
+            episodes_rest_url: String::from(
+                "https://airnet.org.au/rest/stations/3pbs/programs/black-wax/episodes",
+            ),
         }
     }
 
     pub fn episodes() -> Vec<Episode> {
-        vec!(
-            Episode{
+        vec![
+            Episode {
                 url: None,
-                start: NaiveDate::from_ymd_opt(2025, 6, 16).unwrap()
-                    .and_hms_opt(11, 0, 0).unwrap(),
-                end: NaiveDate::from_ymd_opt(2025, 6, 16).unwrap()
-                    .and_hms_opt(13, 0, 0).unwrap(),
+                start: NaiveDate::from_ymd_opt(2025, 6, 16)
+                    .unwrap()
+                    .and_hms_opt(11, 0, 0)
+                    .unwrap(),
+                end: NaiveDate::from_ymd_opt(2025, 6, 16)
+                    .unwrap()
+                    .and_hms_opt(13, 0, 0)
+                    .unwrap(),
                 duration: 7200,
-                title: Some(String::from("Interview with Vince Jones and Jacob Collier!")),
+                title: Some(String::from(
+                    "Interview with Vince Jones and Jacob Collier!",
+                )),
                 description: None,
                 image_url: None,
-                episode_rest_url: String::from("https://airnet.org.au/rest/stations/3pbs/programs/black-wax/episodes/2025-06-16+11%3A00%3A00"),
+                episode_rest_url: String::from(
+                    "https://airnet.org.au/rest/stations/3pbs/programs/black-wax/episodes/2025-06-16+11%3A00%3A00",
+                ),
             },
-            Episode{
+            Episode {
                 url: Some(String::from("http://url")),
-                start: NaiveDate::from_ymd_opt(2025, 8, 25).unwrap()
-                    .and_hms_opt(11, 0, 0).unwrap(),
-                end: NaiveDate::from_ymd_opt(2025, 8, 25).unwrap()
-                    .and_hms_opt(13, 0, 0).unwrap(),
+                start: NaiveDate::from_ymd_opt(2025, 8, 25)
+                    .unwrap()
+                    .and_hms_opt(11, 0, 0)
+                    .unwrap(),
+                end: NaiveDate::from_ymd_opt(2025, 8, 25)
+                    .unwrap()
+                    .and_hms_opt(13, 0, 0)
+                    .unwrap(),
                 duration: 7200,
                 title: None,
                 description: Some(String::from("some description")),
                 image_url: Some(String::from("http://img-url")),
-                episode_rest_url: String::from("https://airnet.org.au/rest/stations/3pbs/programs/black-wax/episodes/2025-08-25+11%3A00%3A00"),
+                episode_rest_url: String::from(
+                    "https://airnet.org.au/rest/stations/3pbs/programs/black-wax/episodes/2025-08-25+11%3A00%3A00",
+                ),
             },
-        )
+        ]
     }
 
     #[allow(dead_code)]
@@ -109,7 +133,13 @@ pub mod expected {
             .link("https://www.pbsfm.org.au/program/black-wax")
             .title(&program.name)
             .description(&program.description)
-            .category(program.grid_description.as_ref().map(|s| { s.as_str() }).unwrap_or(""))
+            .category(
+                program
+                    .grid_description
+                    .as_ref()
+                    .map(|s| s.as_str())
+                    .unwrap_or(""),
+            )
             .author(&program.broadcasters)
             .image_url("https://profile-img.jpg")
             .language("en");
@@ -118,7 +148,30 @@ pub mod expected {
             rss_feed.add_item(item);
         }
         rss_feed
+    }
 
+    pub fn rss_data() -> rss::Rss {
+        let program = single_program();
+        let program_link = "https://www.pbsfm.org.au/program/black-wax";
+
+        let category = program
+            .grid_description
+            .as_ref()
+            .map(String::to_string)
+            .unwrap_or_default();
+
+        let rss_feed = rss::Rss::new(
+            rss::ChannelBuilder::new(&program.name, program_link, &program.description)
+                .category(rss::CategoryBuilder::new(category).build())
+                .image(
+                    ImageBuilder::new("https://profile-img.jpg", &program.name, program_link)
+                        .build(),
+                )
+                .language("en")
+                .item(rss_items_v2(&program))
+                .build(),
+        );
+        rss_feed
     }
 
     #[allow(dead_code)]
@@ -140,6 +193,35 @@ pub mod expected {
                 .description("some description")
                 .enclosure("https://airnet.org.au/omnystudio/3pbs/black-wax/2025-08-25+11:00:00/aac_mid.m4a")
                 .pub_date("2025-08-25"),
+        )
+    }
+
+    pub fn rss_items_v2(program: &ProgramDetails) -> Vec<Item> {
+        vec!(
+            ItemBuilder::with_title("Interview with Vince Jones and Jacob Collier!")
+                .link("https://www.pbsfm.org.au/program/black-wax/2025-06-16/11-00-00")
+                .guid(ItemGuidBuilder::new("https://www.pbsfm.org.au/program/black-wax/2025-06-16/11-00-00").build())
+                .author(&program.broadcasters)
+                .description("")
+                .enclosure(Enclosure::new(
+                    "https://airnet.org.au/omnystudio/3pbs/black-wax/2025-06-16+11:00:00/aac_mid.m4a",
+                    123,
+                    "audio/mp4"
+                ))
+                .pub_date("2025-06-16")
+                .build(),
+            ItemBuilder::with_title("Untitled - 2025-08-25")
+                .link("https://www.pbsfm.org.au/program/black-wax/2025-08-25/11-00-00")
+                .guid(ItemGuidBuilder::new("https://www.pbsfm.org.au/program/black-wax/2025-08-25/11-00-00").build())
+                .author(&program.broadcasters)
+                .description("some description")
+                .enclosure(Enclosure::new(
+                    "https://airnet.org.au/omnystudio/3pbs/black-wax/2025-08-25+11:00:00/aac_mid.m4a",
+                    345,
+                    "audio/mp4"
+                ))
+                .pub_date("2025-08-25")
+                .build()
         )
     }
 }
