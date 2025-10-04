@@ -17,14 +17,6 @@
       <link>https://www.pbsfm.org.au/program/switched-on</link>
     </image>
     <item>
-      <title>The world needs changin&amp;#x27;</title>
-      <link>https://www.pbsfm.org.au/program/switched-on/2025-07-19/13-00-00</link>
-      <author>Emma Peel</author>
-      <guid>https://www.pbsfm.org.au/program/switched-on/2025-07-19/13-00-00</guid>
-      <pubDate>2025-07-19</pubDate>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/switched-on/2025-07-19+13:00:00/aac_mid.m4a" type="audio/mp4"/>
-    </item>
-    <item>
       <title>Athens in the 80s</title>
       <link>https://www.pbsfm.org.au/program/switched-on/2025-07-26/13-00-00</link>
       <author>Emma Peel</author>
@@ -161,12 +153,20 @@
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/switched-on/2025-09-20+13:00:00/aac_mid.m4a" type="audio/mp4"/>
     </item>
     <item>
-      <title>Untitled - 2025-09-27</title>
+      <title>Black magic</title>
       <link>https://www.pbsfm.org.au/program/switched-on/2025-09-27/13-00-00</link>
       <author>Emma Peel</author>
       <guid>https://www.pbsfm.org.au/program/switched-on/2025-09-27/13-00-00</guid>
       <pubDate>2025-09-27</pubDate>
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/switched-on/2025-09-27+13:00:00/aac_mid.m4a" type="audio/mp4"/>
+    </item>
+    <item>
+      <title>Synthetic World</title>
+      <link>https://www.pbsfm.org.au/program/switched-on/2025-10-04/13-00-00</link>
+      <author>Emma Peel</author>
+      <guid>https://www.pbsfm.org.au/program/switched-on/2025-10-04/13-00-00</guid>
+      <pubDate>2025-10-04</pubDate>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/switched-on/2025-10-04+13:00:00/aac_mid.m4a" type="audio/mp4"/>
     </item>
   </channel>
 </rss>
