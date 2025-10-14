@@ -19,16 +19,6 @@
       <link>https://www.pbsfm.org.au/program/mystic-brew</link>
     </image>
     <item>
-      <title>Mystic Brew #528</title>
-      <link>https://www.pbsfm.org.au/program/mystic-brew/2025-07-29/09-00-00</link>
-      <description>&amp;lt;p&amp;gt;Mike plays music in memory of James Isaacs (Donald&amp;#x27;s House), Chuck Mangione, Ziad Rahbani &amp;amp;amp; Adrian Owusu (The Heliocentrics) plus fresh new releases from around the world including two world premiere&amp;#x27;s of new local works by Temporary Blessings &amp;amp;amp; Lance Ferguson.&amp;lt;/p&amp;gt;
-</description>
-      <author>Mike Gurrieri</author>
-      <guid>https://www.pbsfm.org.au/program/mystic-brew/2025-07-29/09-00-00</guid>
-      <pubDate>2025-07-29</pubDate>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/mystic-brew/2025-07-29+09:00:00/aac_mid.m4a" type="audio/mp4"/>
-    </item>
-    <item>
       <title>Mystic Brew #529</title>
       <link>https://www.pbsfm.org.au/program/mystic-brew/2025-08-05/09-00-00</link>
       <author>Mike Gurrieri</author>
@@ -119,6 +109,14 @@
       <guid>https://www.pbsfm.org.au/program/mystic-brew/2025-10-07/09-00-00</guid>
       <pubDate>2025-10-07</pubDate>
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/mystic-brew/2025-10-07+09:00:00/aac_mid.m4a" type="audio/mp4"/>
+    </item>
+    <item>
+      <title>Mystic Brew #539: Melbourne International Jazz Festival Preview Part 1</title>
+      <link>https://www.pbsfm.org.au/program/mystic-brew/2025-10-14/09-00-00</link>
+      <author>Mike Gurrieri</author>
+      <guid>https://www.pbsfm.org.au/program/mystic-brew/2025-10-14/09-00-00</guid>
+      <pubDate>2025-10-14</pubDate>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/mystic-brew/2025-10-14+09:00:00/aac_mid.m4a" type="audio/mp4"/>
     </item>
   </channel>
 </rss>
