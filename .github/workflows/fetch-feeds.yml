@@ -11,6 +11,9 @@ jobs:
     permissions:
       actions: read
       contents: write
+    outputs:
+      rss_changed: ${{ steps.autocommit.outputs.changes_detected }}
+      new_commit_hash: ${{ steps.autocommit.outputs.commit_hash }}
     steps:
       - uses: actions/checkout@v4
       - name: Download CLI from releases
@@ -30,6 +33,8 @@ jobs:
   deploy-jekyll-site:
     needs: [fetch]
     uses: ./.github/workflows/jekyll.yml
+    with:
+      git-ref: ${{ needs.fetch.outputs.new_commit_hash }}
     permissions:
       contents: read
       pages: write
