@@ -27,6 +27,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v6
         with:
           file_pattern: docs/feeds/
-      - name: Trigger static site deployment
-        if: steps.autocommit.outputs.changes_detected == 'true'
-        uses: ./.github/workflows/jekyll.yml
+  deploy-jekyll-site:
+    needs: [fetch]
+    uses: ./.github/workflows/jekyll.yml
+    # if: steps.autocommit.outputs.changes_detected == 'true'
