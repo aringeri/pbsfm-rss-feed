@@ -30,4 +30,8 @@ jobs:
   deploy-jekyll-site:
     needs: [fetch]
     uses: ./.github/workflows/jekyll.yml
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     # if: steps.autocommit.outputs.changes_detected == 'true'
