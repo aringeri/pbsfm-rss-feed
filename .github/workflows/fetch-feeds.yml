@@ -33,10 +33,10 @@ jobs:
   deploy-jekyll-site:
     needs: [fetch]
     uses: ./.github/workflows/jekyll.yml
+    if: needs.fetch.outputs.rss_changed == 'true'
     with:
       git-ref: ${{ needs.fetch.outputs.new_commit_hash }}
     permissions:
       contents: read
       pages: write
       id-token: write
-    # if: steps.autocommit.outputs.changes_detected == 'true'
