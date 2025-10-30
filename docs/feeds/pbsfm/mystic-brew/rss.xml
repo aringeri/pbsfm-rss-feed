@@ -19,14 +19,6 @@
       <link>https://www.pbsfm.org.au/program/mystic-brew</link>
     </image>
     <item>
-      <title>Mystic Brew #531</title>
-      <link>https://www.pbsfm.org.au/program/mystic-brew/2025-08-19/09-00-00</link>
-      <author>Mike Gurrieri</author>
-      <guid>https://www.pbsfm.org.au/program/mystic-brew/2025-08-19/09-00-00</guid>
-      <pubDate>2025-08-19</pubDate>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/mystic-brew/2025-08-19+09:00:00/aac_mid.m4a" type="audio/mp4"/>
-    </item>
-    <item>
       <title>Mystic Brew #532: Marley Del Prete</title>
       <link>https://www.pbsfm.org.au/program/mystic-brew/2025-08-26/09-00-00</link>
       <description>&amp;lt;p&amp;gt;Local trumpeter/composer/label owner Marley Del Prete shares words &amp;amp;amp; music from his new release launching this Sunday afternoon at the Tramway Hotel as well as inspirations &amp;amp;amp; music from his recent collaborator Nat Birchall.&amp;lt;/p&amp;gt;
@@ -115,6 +107,14 @@
       <guid>https://www.pbsfm.org.au/program/mystic-brew/2025-10-28/09-00-00</guid>
       <pubDate>2025-10-28</pubDate>
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/mystic-brew/2025-10-28+09:00:00/aac_mid.m4a" type="audio/mp4"/>
+    </item>
+    <item>
+      <title>Mystic Brew #542: Zepherin Saint</title>
+      <link>https://www.pbsfm.org.au/program/mystic-brew/2025-11-04/09-00-00</link>
+      <author>Mike Gurrieri</author>
+      <guid>https://www.pbsfm.org.au/program/mystic-brew/2025-11-04/09-00-00</guid>
+      <pubDate>2025-11-04</pubDate>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/mystic-brew/2025-11-04+09:00:00/aac_mid.m4a" type="audio/mp4"/>
     </item>
   </channel>
 </rss>

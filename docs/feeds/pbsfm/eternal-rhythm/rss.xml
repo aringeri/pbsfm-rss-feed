@@ -17,14 +17,6 @@
       <link>https://www.pbsfm.org.au/program/eternal-rhythm</link>
     </image>
     <item>
-      <title>ER #325</title>
-      <link>https://www.pbsfm.org.au/program/eternal-rhythm/2025-08-14/11-00-00</link>
-      <author>Shio</author>
-      <guid>https://www.pbsfm.org.au/program/eternal-rhythm/2025-08-14/11-00-00</guid>
-      <pubDate>2025-08-14</pubDate>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/eternal-rhythm/2025-08-14+11:00:00/aac_mid.m4a" type="audio/mp4"/>
-    </item>
-    <item>
       <title>ER #326</title>
       <link>https://www.pbsfm.org.au/program/eternal-rhythm/2025-08-21/11-00-00</link>
       <author>Shio</author>
@@ -103,6 +95,14 @@
       <guid>https://www.pbsfm.org.au/program/eternal-rhythm/2025-10-23/11-00-00</guid>
       <pubDate>2025-10-23</pubDate>
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/eternal-rhythm/2025-10-23+11:00:00/aac_mid.m4a" type="audio/mp4"/>
+    </item>
+    <item>
+      <title>#335</title>
+      <link>https://www.pbsfm.org.au/program/eternal-rhythm/2025-10-30/11-00-00</link>
+      <author>Shio</author>
+      <guid>https://www.pbsfm.org.au/program/eternal-rhythm/2025-10-30/11-00-00</guid>
+      <pubDate>2025-10-30</pubDate>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/eternal-rhythm/2025-10-30+11:00:00/aac_mid.m4a" type="audio/mp4"/>
     </item>
   </channel>
 </rss>
