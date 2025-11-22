@@ -17,14 +17,6 @@
       <link>https://www.pbsfm.org.au/program/switched-on</link>
     </image>
     <item>
-      <title>I Dont Forget</title>
-      <link>https://www.pbsfm.org.au/program/switched-on/2025-08-30/13-00-00</link>
-      <author>Emma Peel</author>
-      <guid>https://www.pbsfm.org.au/program/switched-on/2025-08-30/13-00-00</guid>
-      <pubDate>2025-08-30</pubDate>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/switched-on/2025-08-30+13:00:00/aac_mid.m4a" type="audio/mp4"/>
-    </item>
-    <item>
       <title>I Shall Wear a Crown</title>
       <link>https://www.pbsfm.org.au/program/switched-on/2025-09-06/13-00-00</link>
       <author>Emma Peel</author>
@@ -103,6 +95,14 @@
       <guid>https://www.pbsfm.org.au/program/switched-on/2025-11-15/13-00-00</guid>
       <pubDate>2025-11-15</pubDate>
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/switched-on/2025-11-15+13:00:00/aac_mid.m4a" type="audio/mp4"/>
+    </item>
+    <item>
+      <title>That same old sad song</title>
+      <link>https://www.pbsfm.org.au/program/switched-on/2025-11-22/13-00-00</link>
+      <author>Emma Peel</author>
+      <guid>https://www.pbsfm.org.au/program/switched-on/2025-11-22/13-00-00</guid>
+      <pubDate>2025-11-22</pubDate>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/switched-on/2025-11-22+13:00:00/aac_mid.m4a" type="audio/mp4"/>
     </item>
   </channel>
 </rss>
