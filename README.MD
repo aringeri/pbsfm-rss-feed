@@ -12,3 +12,8 @@ To add a show to your podcast app:
 - find the program you want to add in the webpage above
 - copy the RSS link (ie `https://aringeri.github.io/pbsfm-rss-feed/feeds/pbsfm/black-wax/rss.xml`)
 - paste the link in your app after selecting 'add a podcast by RSS address'.
+
+## Your favourite show not in the list?
+
+If you would like the RSS feed for radio show that is not on the website, I am happy to add it.
+Please [create an issue](https://github.com/aringeri/pbsfm-rss-feed/issues/new) describing which PBS shows you would like and I'll add it to the list of pragrams to fetch.
