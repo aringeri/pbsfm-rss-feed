@@ -1,6 +1,8 @@
 use derive_builder::Builder;
 use serde::{Serialize, Serializer};
 
+mod item_guid;
+
 #[derive(Serialize)]
 #[serde(rename = "rss")]
 pub struct Rss {
