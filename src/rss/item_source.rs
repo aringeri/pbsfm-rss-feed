@@ -35,18 +35,18 @@ mod tests {
 
     #[test]
     fn test_serialize_without_text() {
-        let guid = ItemSourceBuilder::new("url").build();
+        let source = ItemSourceBuilder::new("url").build();
         assert_eq!(
-            to_string(&guid).unwrap(),
+            to_string(&source).unwrap(),
             "<source url=\"url\"/>"
         );
     }
 
     #[test]
     fn test_serialize_with_text() {
-        let guid = ItemSourceBuilder::new("url").text("some text").build();
+        let source = ItemSourceBuilder::new("url").text("some text").build();
         assert_eq!(
-            to_string(&guid).unwrap(),
+            to_string(&source).unwrap(),
             "<source url=\"url\">some text</source>"
         );
     }

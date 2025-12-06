@@ -6,6 +6,7 @@ mod category;
 mod enclosure;
 mod item_source;
 mod item;
+mod image;
 
 #[derive(Serialize)]
 #[serde(rename = "rss")]

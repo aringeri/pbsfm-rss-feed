@@ -35,18 +35,18 @@ mod tests {
 
     #[test]
     fn test_serialize_without_domain() {
-        let guid = CategoryBuilder::new("my category").build();
+        let category = CategoryBuilder::new("my category").build();
         assert_eq!(
-            to_string(&guid).unwrap(),
+            to_string(&category).unwrap(),
             "<category>my category</category>"
         );
     }
 
     #[test]
     fn test_serialize_with_domain() {
-        let guid = CategoryBuilder::new("my category").domain("some domain").build();
+        let category = CategoryBuilder::new("my category").domain("some domain").build();
         assert_eq!(
-            to_string(&guid).unwrap(),
+            to_string(&category).unwrap(),
             "<category domain=\"some domain\">my category</category>"
         );
     }
