@@ -13,6 +13,7 @@ regex = "1.11.2"
 reqwest = { version = "0.12.23", features = ["blocking", "json"] }
 rss-gen = "0.0.3"
 serde = "1.0.219"
+serde_with = "3.16.1"
 
 [dev-dependencies]
 httpmock = "0.7.0-rc.1"
