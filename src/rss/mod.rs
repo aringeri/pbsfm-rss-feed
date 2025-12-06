@@ -2,6 +2,7 @@ use derive_builder::Builder;
 use serde::{Serialize, Serializer};
 
 mod item_guid;
+mod category;
 
 #[derive(Serialize)]
 #[serde(rename = "rss")]
