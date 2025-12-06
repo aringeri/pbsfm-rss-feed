@@ -1,6 +1,6 @@
 use serde::Serialize;
 
-#[derive(Serialize, Clone)]
+#[derive(Serialize, Clone, PartialEq, Debug)]
 #[serde(rename = "enclosure")]
 pub struct Enclosure {
     #[serde(rename = "@url")]

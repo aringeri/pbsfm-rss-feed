@@ -7,6 +7,7 @@ use std::fs::File;
 use std::io::BufWriter;
 use std::path::PathBuf;
 use regex::Regex;
+use crate::rss::{CategoryBuilder, ChannelBuilder, Enclosure, ImageBuilder, Item, ItemBuilder, ItemGuidBuilder, Rss};
 
 pub mod airnet;
 pub mod rss_macros;
@@ -53,6 +54,79 @@ pub fn generate_rss_feed(
     println!("Fetched episodes: {}", episodes.len());
 
     convert_to_rss(program, episodes)
+}
+
+pub fn convert_to_rss_v2(
+    program: ProgramDetails,
+    episodes: Vec<Episode>,
+) -> Result<rss::Rss, Box<dyn std::error::Error>> {
+    let program_link = format!("https://www.pbsfm.org.au/program/{}", program.slug);
+
+    let empty_str = "".to_string();
+    let rss_data = Rss::new(
+        ChannelBuilder::new(
+            &program.name,
+            &program_link,
+            &program.description
+        )
+            .category(CategoryBuilder::new(
+                program.grid_description.as_ref().unwrap_or(&empty_str)
+            ).build())
+            .image(
+                ImageBuilder::new(
+                    rm_query_params(&program.profile_image_url)?,
+                    &program.name,
+                    &program_link,
+                ).build()
+            )
+            .language("en")
+            .item(convert_to_items_v2(&program, episodes))
+            .build()
+    );
+    Ok(rss_data)
+}
+fn convert_to_items_v2(
+    program: &ProgramDetails,
+    episodes: Vec<Episode>
+) -> Vec<Item> {
+    episodes.iter().map( |episode| {
+        println!("Writing episode: {:?}, {}", episode.title, episode.start);
+
+        let default_title = format!("Untitled - {}", episode.start.format("%Y-%m-%d"));
+
+        let title = episode
+            .title
+            .as_ref()
+            .unwrap_or(&default_title);
+        let episode_link = format!(
+            "https://www.pbsfm.org.au/program/{}/{}/{}",
+            program.slug,
+            episode.start.format("%Y-%m-%d"),
+            episode.start.format("%H-%M-%S")
+        );
+
+        let empty_str = "".to_string();
+        let description = episode.description.as_ref().unwrap_or(&empty_str);
+
+        ItemBuilder::with_title(title)
+            .link(&episode_link)
+            .guid(ItemGuidBuilder::new(&episode_link).build())
+            .author(&program.broadcasters)
+            .description(description)
+            .enclosure(
+                Enclosure::new(
+                    format!(
+                        "https://airnet.org.au/omnystudio/3pbs/{}/{}/aac_mid.m4a",
+                        program.slug,
+                        episode.start.format("%Y-%m-%d+%H:%M:%S")
+                    ),
+                    999, //TODO accessible?
+                    "audio/mp4"
+                )
+            )
+            .pub_date(episode.start.date().to_string())
+            .build()
+    }).collect()
 }
 
 pub fn convert_to_rss(

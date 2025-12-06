@@ -3,7 +3,7 @@ use serde::Serialize;
 use serde_with::skip_serializing_none;
 
 #[skip_serializing_none]
-#[derive(Serialize, Builder, Clone)]
+#[derive(Serialize, Builder, Clone, PartialEq, Debug)]
 #[builder(build_fn(private, name = "fallible_build"), setter(into, strip_option))]
 #[serde(rename = "image")]
 pub struct Image {

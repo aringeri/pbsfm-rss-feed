@@ -16,7 +16,7 @@ pub use item::*;
 pub use image::*;
 pub use channel::*;
 
-#[derive(Serialize)]
+#[derive(Serialize, PartialEq, Debug)]
 #[serde(rename = "rss")]
 pub struct Rss {
     #[serde(rename = "@version")]
@@ -33,6 +33,7 @@ impl Rss {
     }
 }
 
+#[derive(PartialEq,Debug)]
 pub enum RssVersion {
     RSS2_0,
 }
