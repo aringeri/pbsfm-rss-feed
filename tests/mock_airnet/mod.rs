@@ -150,6 +150,7 @@ pub mod expected {
         rss_feed
     }
 
+    #[allow(dead_code)]
     pub fn rss_data() -> rss::Rss {
         let program = single_program();
         let program_link = "https://www.pbsfm.org.au/program/black-wax";
@@ -196,6 +197,7 @@ pub mod expected {
         )
     }
 
+    #[allow(dead_code)]
     pub fn rss_items_v2(program: &ProgramDetails) -> Vec<Item> {
         vec!(
             ItemBuilder::with_title("Interview with Vince Jones and Jacob Collier!")
@@ -205,7 +207,7 @@ pub mod expected {
                 .description("")
                 .enclosure(Enclosure::new(
                     "https://airnet.org.au/omnystudio/3pbs/black-wax/2025-06-16+11:00:00/aac_mid.m4a",
-                    123,
+                    999,
                     "audio/mp4"
                 ))
                 .pub_date("2025-06-16")
@@ -217,7 +219,7 @@ pub mod expected {
                 .description("some description")
                 .enclosure(Enclosure::new(
                     "https://airnet.org.au/omnystudio/3pbs/black-wax/2025-08-25+11:00:00/aac_mid.m4a",
-                    345,
+                    999,
                     "audio/mp4"
                 ))
                 .pub_date("2025-08-25")

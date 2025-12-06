@@ -7,7 +7,7 @@ use crate::rss::item_guid::ItemGuid;
 use crate::rss::item_source::ItemSource;
 
 #[skip_serializing_none]
-#[derive(Serialize, Builder, Clone, Default)]
+#[derive(Serialize, Builder, Clone, Default, PartialEq, Debug)]
 #[builder(build_fn(private, name = "fallible_build"), setter(into, strip_option), default)]
 #[serde(rename = "item", rename_all = "camelCase")]
 pub struct Item {

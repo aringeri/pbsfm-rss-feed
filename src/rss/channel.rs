@@ -10,7 +10,7 @@ use serde_with::skip_serializing_none;
     Vec => #[builder(default)],
 )]
 #[skip_serializing_none]
-#[derive(Serialize, Builder, Clone)]
+#[derive(Serialize, Builder, Clone, PartialEq, Debug)]
 #[builder(build_fn(private, name = "fallible_build"), setter(into, strip_option))]
 #[serde(rename = "channel", rename_all = "camelCase")]
 pub struct Channel {

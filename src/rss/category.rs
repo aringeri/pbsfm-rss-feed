@@ -1,7 +1,7 @@
 use derive_builder::Builder;
 use serde::Serialize;
 
-#[derive(Serialize, Builder, Clone)]
+#[derive(Serialize, Builder, Clone, PartialEq, Debug)]
 #[serde(rename = "category")]
 #[builder(build_fn(private, name = "fallible_build"), setter(into, strip_option))]
 pub struct Category {
