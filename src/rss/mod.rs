@@ -4,6 +4,8 @@ use serde::{Serialize, Serializer};
 mod item_guid;
 mod category;
 mod enclosure;
+mod item_source;
+mod item;
 
 #[derive(Serialize)]
 #[serde(rename = "rss")]
