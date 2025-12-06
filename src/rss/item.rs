@@ -55,7 +55,7 @@ mod tests {
     }
 
     #[test]
-    fn no_required_fields_added_to_item() {
+    fn no_required_fields_added_to_constructor() {
         mk_item_with_title();
         mk_item_with_description();
     }

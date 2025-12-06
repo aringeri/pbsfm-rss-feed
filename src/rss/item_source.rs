@@ -29,7 +29,7 @@ mod tests {
     use quick_xml::se::to_string;
 
     #[test]
-    fn no_required_fields_added_to_item_source() {
+    fn no_required_fields_added_to_constructor() {
         ItemSourceBuilder::new("url").build();
     }
 

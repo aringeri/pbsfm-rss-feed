@@ -45,7 +45,7 @@ mod tests {
     use quick_xml::se::to_string;
 
     #[test]
-    fn no_required_fields_added_to_category() {
+    fn no_required_fields_added_to_constructor() {
         ImageBuilder::new("url", "title", "link").build();
     }
 
