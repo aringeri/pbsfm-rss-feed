@@ -3,6 +3,7 @@ use serde::{Serialize, Serializer};
 
 mod item_guid;
 mod category;
+mod enclosure;
 
 #[derive(Serialize)]
 #[serde(rename = "rss")]
