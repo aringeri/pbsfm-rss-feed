@@ -29,6 +29,7 @@ fn test_fetch_and_convert() -> Result<(), Box<dyn std::error::Error>> {
     let rss_feed = pbsfm_rss_feed::generate_rss_feed(
         &server.base_url(),
         "black-wax",
+        pbsfm_rss_feed::convert_to_rss
     )?;
 
     let program = mock_airnet::expected::single_program();
