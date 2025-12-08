@@ -13,14 +13,6 @@
       <link>https://www.pbsfm.org.au/program/black-wax</link>
     </image>
     <item>
-      <title>Untitled - 2025-09-22</title>
-      <link>https://www.pbsfm.org.au/program/black-wax/2025-09-22/11-00-00</link>
-      <author>Adam Rudegeair</author>
-      <guid>https://www.pbsfm.org.au/program/black-wax/2025-09-22/11-00-00</guid>
-      <pubDate>2025-09-22</pubDate>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/black-wax/2025-09-22+11:00:00/aac_mid.m4a" type="audio/mp4"/>
-    </item>
-    <item>
       <title>Noria Letts Live performance and celebrating 90 years of Porgy and Bess</title>
       <link>https://www.pbsfm.org.au/program/black-wax/2025-09-29/11-00-00</link>
       <author>Adam Rudegeair</author>
@@ -109,6 +101,14 @@
       <guid>https://www.pbsfm.org.au/program/black-wax/2025-12-01/11-00-00</guid>
       <pubDate>2025-12-01</pubDate>
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/black-wax/2025-12-01+11:00:00/aac_mid.m4a" type="audio/mp4"/>
+    </item>
+    <item>
+      <title>Interview with Lauren Kate Henderson</title>
+      <link>https://www.pbsfm.org.au/program/black-wax/2025-12-08/11-00-00</link>
+      <author>Adam Rudegeair</author>
+      <guid>https://www.pbsfm.org.au/program/black-wax/2025-12-08/11-00-00</guid>
+      <pubDate>2025-12-08</pubDate>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/black-wax/2025-12-08+11:00:00/aac_mid.m4a" type="audio/mp4"/>
     </item>
   </channel>
 </rss>
