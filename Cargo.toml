@@ -8,7 +8,7 @@ argfile = "0.2.1"
 chrono = { version = "0.4.41" , features = ["serde"]}
 clap = { version = "4.5.47", features = ["derive"] }
 derive_builder = "0.20.2"
-quick-xml = { version = "0.38.3", features = ["serialize"] }
+quick-xml = { version = "0.38.4", features = ["serialize"] }
 regex = "1.11.2"
 reqwest = { version = "0.12.23", features = ["blocking", "json"] }
 rss-gen = "0.0.3"
@@ -16,5 +16,5 @@ serde = "1.0.219"
 serde_with = "3.16.1"
 
 [dev-dependencies]
-httpmock = "0.7.0-rc.1"
+httpmock = "0.8.2"
 tempdir = "0.3.7"

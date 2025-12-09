@@ -40,16 +40,16 @@ pub fn run_app(args: Args) -> Result<(), Box<dyn std::error::Error>> {
         std::fs::create_dir_all(&station_dir)?;
 
         let out_file = File::create(station_dir.join("rss.xml"))?;
-        let mut writer = Writer::new_with_indent(BufWriter::new(out_file), b' ', 2);
 
         if args.use_custom_rss_serialization {
             let rss_feed = generate_rss_feed(&args.airnet_url, &*program, convert_to_rss_v2)?;
+            let mut writer = Writer::new_with_indent(BufWriter::new(out_file), b' ', 2);
 
             writer.write_event(Event::Decl(BytesDecl::new("1.0", Some("utf-8"), None)))?;
             writer.write_serializable("rss", &rss_feed)?;
         } else {
             let rss_feed = generate_rss_feed(&args.airnet_url, &*program, convert_to_rss)?;
-
+            let writer = Writer::new_with_indent(BufWriter::new(out_file), b' ', 2);
             let r: Result<_, std::io::Error> =
                 macro_generate_rss_custom!(writer, rss_feed).map(|_writer| ());
             r?;
