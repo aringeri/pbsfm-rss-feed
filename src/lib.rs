@@ -74,7 +74,7 @@ pub fn generate_rss_feed<RSS>(
 pub fn convert_to_rss_v2(
     program: ProgramDetails,
     episodes: Vec<Episode>,
-) -> Result<rss::Rss, Box<dyn std::error::Error>> {
+) -> Result<Rss, Box<dyn std::error::Error>> {
     let program_link = format!("https://www.pbsfm.org.au/program/{}", program.slug);
 
     let empty_str = "".to_string();
@@ -120,14 +120,11 @@ fn convert_to_items_v2(
             episode.start.format("%H-%M-%S")
         );
 
-        let empty_str = "".to_string();
-        let description = episode.description.as_ref().unwrap_or(&empty_str);
-
-        ItemBuilder::with_title(title)
+        let mut item_builder = ItemBuilder::with_title(title);
+        let mut item_builder = item_builder
             .link(&episode_link)
             .guid(ItemGuidBuilder::new(&episode_link).build())
             .author(&program.broadcasters)
-            .description(description)
             .enclosure(
                 Enclosure::new(
                     format!(
@@ -135,12 +132,17 @@ fn convert_to_items_v2(
                         program.slug,
                         episode.start.format("%Y-%m-%d+%H:%M:%S")
                     ),
-                    999, //TODO accessible?
+                    None,
                     "audio/mp4"
                 )
             )
-            .pub_date(episode.start.date().to_string())
-            .build()
+            .pub_date(episode.start.date().to_string());
+
+        if episode.description.is_some() {
+            item_builder = item_builder.description(episode.description.as_ref().unwrap());
+        }
+
+        item_builder.build()
     }).collect()
 }
 

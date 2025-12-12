@@ -204,10 +204,9 @@ pub mod expected {
                 .link("https://www.pbsfm.org.au/program/black-wax/2025-06-16/11-00-00")
                 .guid(ItemGuidBuilder::new("https://www.pbsfm.org.au/program/black-wax/2025-06-16/11-00-00").build())
                 .author(&program.broadcasters)
-                .description("")
                 .enclosure(Enclosure::new(
                     "https://airnet.org.au/omnystudio/3pbs/black-wax/2025-06-16+11:00:00/aac_mid.m4a",
-                    999,
+                    None,
                     "audio/mp4"
                 ))
                 .pub_date("2025-06-16")
@@ -219,7 +218,7 @@ pub mod expected {
                 .description("some description")
                 .enclosure(Enclosure::new(
                     "https://airnet.org.au/omnystudio/3pbs/black-wax/2025-08-25+11:00:00/aac_mid.m4a",
-                    999,
+                    None,
                     "audio/mp4"
                 ))
                 .pub_date("2025-08-25")

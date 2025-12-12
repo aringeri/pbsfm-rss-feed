@@ -5,14 +5,14 @@ use serde::Serialize;
 pub struct Enclosure {
     #[serde(rename = "@url")]
     url: String,
-    #[serde(rename = "@length")]
-    length: u64,
+    #[serde(rename = "@length", skip_serializing_if = "Option::is_none")]
+    length: Option<u64>,
     #[serde(rename = "@type")]
     media_type: String,
 }
 
 impl Enclosure {
-    pub fn new<U: Into<String>, M: Into<String>>(url: U, length: u64, media_type: M) -> Self {
+    pub fn new<U: Into<String>, M: Into<String>>(url: U, length: Option<u64>, media_type: M) -> Self {
         Enclosure {
             url: url.into(),
             length,
@@ -30,12 +30,25 @@ mod tests {
     fn test_serialize() {
         let enclosure = Enclosure::new(
             "url",
-            182,
+            Some(182),
             "media-type"
         );
         assert_eq!(
             to_string(&enclosure).unwrap(),
             "<enclosure url=\"url\" length=\"182\" type=\"media-type\"/>"
+        );
+    }
+
+    #[test]
+    fn test_serialize_without_length() {
+        let enclosure = Enclosure::new(
+            "url",
+            None,
+            "media-type"
+        );
+        assert_eq!(
+            to_string(&enclosure).unwrap(),
+            "<enclosure url=\"url\" type=\"media-type\"/>"
         );
     }
 }

@@ -121,7 +121,7 @@ mod tests {
                 .comments("https://some.com/link-to-comments")
                 .enclosure(Enclosure::new(
                     "https://enclosure/url.mp3",
-                    1234,
+                    Some(1234),
                     "audio/mpeg",
                 ))
                 .guid(
