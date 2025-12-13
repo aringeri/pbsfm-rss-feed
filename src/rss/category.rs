@@ -1,12 +1,14 @@
 use derive_builder::Builder;
 use serde::Serialize;
 
+#[serde_with::apply(
+    Option => #[builder(default)] #[serde(skip_serializing_if = "Option::is_none")],
+)]
 #[derive(Serialize, Builder, Clone, PartialEq, Debug)]
 #[serde(rename = "category")]
-#[builder(build_fn(private, name = "fallible_build"), setter(into, strip_option))]
+#[builder(build_fn(private, name = "fallible_build"), setter(into))]
 pub struct Category {
-    #[serde(rename = "@domain", skip_serializing_if = "Option::is_none")]
-    #[builder(default)]
+    #[serde(rename = "@domain")]
     domain: Option<String>,
 
     #[serde(rename = "$text")]
@@ -44,7 +46,7 @@ mod tests {
 
     #[test]
     fn test_serialize_with_domain() {
-        let category = CategoryBuilder::new("my category").domain("some domain").build();
+        let category = CategoryBuilder::new("my category").domain("some domain".to_owned()).build();
         assert_eq!(
             to_string(&category).unwrap(),
             "<category domain=\"some domain\">my category</category>"

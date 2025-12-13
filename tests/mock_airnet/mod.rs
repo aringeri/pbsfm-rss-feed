@@ -168,7 +168,7 @@ pub mod expected {
                     ImageBuilder::new("https://profile-img.jpg", &program.name, program_link)
                         .build(),
                 )
-                .language("en")
+                .language("en".to_owned())
                 .item(rss_items_v2(&program))
                 .build(),
         );
@@ -201,27 +201,27 @@ pub mod expected {
     pub fn rss_items_v2(program: &ProgramDetails) -> Vec<Item> {
         vec!(
             ItemBuilder::with_title("Interview with Vince Jones and Jacob Collier!")
-                .link("https://www.pbsfm.org.au/program/black-wax/2025-06-16/11-00-00")
+                .link("https://www.pbsfm.org.au/program/black-wax/2025-06-16/11-00-00".to_owned())
                 .guid(ItemGuidBuilder::new("https://www.pbsfm.org.au/program/black-wax/2025-06-16/11-00-00").build())
-                .author(&program.broadcasters)
+                .author(program.broadcasters.clone())
                 .enclosure(Enclosure::new(
                     "https://airnet.org.au/omnystudio/3pbs/black-wax/2025-06-16+11:00:00/aac_mid.m4a",
                     None,
                     "audio/mp4"
                 ))
-                .pub_date("2025-06-16")
+                .pub_date("2025-06-16".to_owned())
                 .build(),
             ItemBuilder::with_title("Untitled - 2025-08-25")
-                .link("https://www.pbsfm.org.au/program/black-wax/2025-08-25/11-00-00")
+                .link("https://www.pbsfm.org.au/program/black-wax/2025-08-25/11-00-00".to_owned())
                 .guid(ItemGuidBuilder::new("https://www.pbsfm.org.au/program/black-wax/2025-08-25/11-00-00").build())
-                .author(&program.broadcasters)
-                .description("some description")
+                .author(program.broadcasters.clone())
+                .description("some description".to_string())
                 .enclosure(Enclosure::new(
                     "https://airnet.org.au/omnystudio/3pbs/black-wax/2025-08-25+11:00:00/aac_mid.m4a",
                     None,
                     "audio/mp4"
                 ))
-                .pub_date("2025-08-25")
+                .pub_date("2025-08-25".to_owned())
                 .build()
         )
     }

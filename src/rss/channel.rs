@@ -3,15 +3,13 @@ use crate::rss::image::Image;
 use crate::rss::item::Item;
 use derive_builder::Builder;
 use serde::Serialize;
-use serde_with::skip_serializing_none;
 
 #[serde_with::apply(
-    Option => #[builder(default)],
+    Option => #[builder(default)] #[serde(skip_serializing_if = "Option::is_none")],
     Vec => #[builder(default)],
 )]
-#[skip_serializing_none]
 #[derive(Serialize, Builder, Clone, PartialEq, Debug)]
-#[builder(build_fn(private, name = "fallible_build"), setter(into, strip_option))]
+#[builder(build_fn(private, name = "fallible_build"), setter(into))]
 #[serde(rename = "channel", rename_all = "camelCase")]
 pub struct Channel {
     title: String,
@@ -90,7 +88,7 @@ mod tests {
             "https://www.google.com",
             "A description: such & such.",
         )
-        .language("en")
+        .language("en".to_owned())
         // copyright: None,
         // managing_editor: None,
         // web_master: None,
@@ -110,15 +108,15 @@ mod tests {
         )
         .item(vec![
             ItemBuilder::with_title("Item")
-                .link("https://www.google.com")
-                .description("An item description")
+                .link("https://www.google.com".to_owned())
+                .description("An item description".to_owned())
                 .author("The Author".to_string())
                 .category(
                     CategoryBuilder::new("category")
-                        .domain("https://category.domain")
+                        .domain("https://category.domain".to_owned())
                         .build(),
                 )
-                .comments("https://some.com/link-to-comments")
+                .comments("https://some.com/link-to-comments".to_owned())
                 .enclosure(Enclosure::new(
                     "https://enclosure/url.mp3",
                     Some(1234),
@@ -129,10 +127,10 @@ mod tests {
                         .is_permalink(true)
                         .build(),
                 )
-                .pub_date("2015-01-01T00:00:00Z")
+                .pub_date("2015-01-01T00:00:00Z".to_owned())
                 .source(
                     ItemSourceBuilder::new("https://inessential.com/123")
-                        .text("The Source")
+                        .text("The Source".to_owned())
                         .build(),
                 )
                 .build(),

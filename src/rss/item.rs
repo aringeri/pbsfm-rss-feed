@@ -1,14 +1,16 @@
 use derive_builder::Builder;
 use serde::Serialize;
-use serde_with::skip_serializing_none;
 use crate::rss::category::Category;
 use crate::rss::enclosure::Enclosure;
 use crate::rss::item_guid::ItemGuid;
 use crate::rss::item_source::ItemSource;
 
-#[skip_serializing_none]
+#[serde_with::apply(
+    Option => #[builder(default)] #[serde(skip_serializing_if = "Option::is_none")],
+    Vec => #[builder(default)],
+)]
 #[derive(Serialize, Builder, Clone, Default, PartialEq, Debug)]
-#[builder(build_fn(private, name = "fallible_build"), setter(into, strip_option), default)]
+#[builder(build_fn(private, name = "fallible_build"), setter(into), default)]
 #[serde(rename = "item", rename_all = "camelCase")]
 pub struct Item {
     title: Option<String>,
@@ -25,11 +27,11 @@ pub struct Item {
 
 impl ItemBuilder {
     pub fn with_title<T: Into<String>>(title: T) -> Self {
-        ItemBuilder::default().title(title).to_owned()
+        ItemBuilder::default().title(title.into()).to_owned()
     }
 
     pub fn with_description<T: Into<String>>(description: T) -> Self {
-        ItemBuilder::default().description(description).to_owned()
+        ItemBuilder::default().description(description.into()).to_owned()
     }
 
     pub fn build(&mut self) -> Item {
@@ -84,15 +86,15 @@ mod tests {
 
     fn mk_item_with_all_fields() -> Item {
         ItemBuilder::with_title("Item")
-            .link("https://www.google.com")
-            .description("An item description")
+            .link("https://www.google.com".to_owned())
+            .description("An item description".to_owned())
             .author("The Author".to_string())
             .category(
                 CategoryBuilder::new("category")
-                    .domain("https://category.domain")
+                    .domain("https://category.domain".to_owned())
                     .build(),
             )
-            .comments("https://some.com/link-to-comments")
+            .comments("https://some.com/link-to-comments".to_owned())
             .enclosure(Enclosure::new(
                 "https://enclosure/url.mp3",
                 Some(1234),
@@ -103,10 +105,10 @@ mod tests {
                     .is_permalink(true)
                     .build(),
             )
-            .pub_date("2015-01-01T00:00:00Z")
+            .pub_date("2015-01-01T00:00:00Z".to_owned())
             .source(
                 ItemSourceBuilder::new("https://inessential.com/123")
-                    .text("The Source")
+                    .text("The Source".to_owned())
                     .build(),
             )
             .build()

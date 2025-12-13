@@ -77,7 +77,6 @@ pub fn convert_to_rss_v2(
 ) -> Result<Rss, Box<dyn std::error::Error>> {
     let program_link = format!("https://www.pbsfm.org.au/program/{}", program.slug);
 
-    let empty_str = "".to_string();
     let rss_data = Rss::new(
         ChannelBuilder::new(
             &program.name,
@@ -85,7 +84,7 @@ pub fn convert_to_rss_v2(
             &program.description
         )
             .category(CategoryBuilder::new(
-                program.grid_description.as_ref().unwrap_or(&empty_str)
+                program.grid_description.as_ref().unwrap_or(&"".to_owned())
             ).build())
             .image(
                 ImageBuilder::new(
@@ -94,7 +93,7 @@ pub fn convert_to_rss_v2(
                     &program_link,
                 ).build()
             )
-            .language("en")
+            .language("en".to_owned())
             .item(convert_to_items_v2(&program, episodes))
             .build()
     );
@@ -120,11 +119,11 @@ fn convert_to_items_v2(
             episode.start.format("%H-%M-%S")
         );
 
-        let mut item_builder = ItemBuilder::with_title(title);
-        let mut item_builder = item_builder
-            .link(&episode_link)
+        ItemBuilder::with_title(title)
             .guid(ItemGuidBuilder::new(&episode_link).build())
-            .author(&program.broadcasters)
+            .link(episode_link)
+            .description(episode.description.clone())
+            .author(program.broadcasters.clone())
             .enclosure(
                 Enclosure::new(
                     format!(
@@ -136,13 +135,8 @@ fn convert_to_items_v2(
                     "audio/mp4"
                 )
             )
-            .pub_date(episode.start.date().to_string());
-
-        if episode.description.is_some() {
-            item_builder = item_builder.description(episode.description.as_ref().unwrap());
-        }
-
-        item_builder.build()
+            .pub_date(episode.start.date().to_string())
+            .build()
     }).collect()
 }
 

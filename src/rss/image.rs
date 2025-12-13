@@ -1,23 +1,18 @@
 use derive_builder::Builder;
 use serde::Serialize;
-use serde_with::skip_serializing_none;
 
-#[skip_serializing_none]
+#[serde_with::apply(
+    Option => #[builder(default)] #[serde(skip_serializing_if = "Option::is_none")],
+)]
 #[derive(Serialize, Builder, Clone, PartialEq, Debug)]
-#[builder(build_fn(private, name = "fallible_build"), setter(into, strip_option))]
+#[builder(build_fn(private, name = "fallible_build"), setter(into))]
 #[serde(rename = "image")]
 pub struct Image {
     url: String,
     title: String,
     link: String,
-
-    #[builder(default)]
     width: Option<u32>,
-
-    #[builder(default)]
     height: Option<u32>,
-
-    #[builder(default)]
     description: Option<String>,
 }
 
@@ -67,7 +62,7 @@ mod tests {
         let image = ImageBuilder::new("url", "title", "link")
             .width(1u32)
             .height(2u32)
-            .description("description")
+            .description("description".to_owned())
             .build();
         assert_eq!(
             to_string(&image).unwrap(),

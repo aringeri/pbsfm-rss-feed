@@ -1,15 +1,17 @@
 use derive_builder::Builder;
 use serde::Serialize;
 
+#[serde_with::apply(
+    Option => #[builder(default)] #[serde(skip_serializing_if = "Option::is_none")],
+)]
 #[derive(Serialize, Builder, Clone, PartialEq, Debug)]
-#[builder(build_fn(private, name = "fallible_build"), setter(into, strip_option))]
+#[builder(build_fn(private, name = "fallible_build"), setter(into))]
 #[serde(rename = "source")]
 pub struct ItemSource {
     #[serde(rename = "@url")]
     pub url: String,
 
     #[serde(rename = "$text")]
-    #[builder(default)]
     pub text: Option<String>,
 }
 
@@ -44,7 +46,7 @@ mod tests {
 
     #[test]
     fn test_serialize_with_text() {
-        let source = ItemSourceBuilder::new("url").text("some text").build();
+        let source = ItemSourceBuilder::new("url").text("some text".to_owned()).build();
         assert_eq!(
             to_string(&source).unwrap(),
             "<source url=\"url\">some text</source>"

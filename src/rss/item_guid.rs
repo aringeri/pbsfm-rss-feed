@@ -1,12 +1,14 @@
 use derive_builder::Builder;
 use serde::{Serialize};
 
+#[serde_with::apply(
+    Option => #[builder(default)] #[serde(skip_serializing_if = "Option::is_none")],
+)]
 #[derive(Serialize, Builder, Clone, PartialEq, Debug)]
+#[builder(build_fn(private, name = "fallible_build"), setter(into))]
 #[serde(rename = "guid")]
-#[builder(build_fn(private, name = "fallible_build"), setter(into, strip_option))]
 pub struct ItemGuid {
-    #[serde(rename = "@isPermalink", skip_serializing_if = "Option::is_none")]
-    #[builder(default)]
+    #[serde(rename = "@isPermalink")]
     is_permalink: Option<bool>,
 
     #[serde(rename = "$text")]
