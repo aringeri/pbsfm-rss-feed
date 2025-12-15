@@ -15,14 +15,6 @@
       <link>https://www.pbsfm.org.au/program/flight-1067-to-africa</link>
     </image>
     <item>
-      <title>Untitled - 2025-10-05</title>
-      <link>https://www.pbsfm.org.au/program/flight-1067-to-africa/2025-10-05/15-00-00</link>
-      <author>Stani Goma</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/flight-1067-to-africa/2025-10-05+15:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/flight-1067-to-africa/2025-10-05/15-00-00</guid>
-      <pubDate>2025-10-05</pubDate>
-    </item>
-    <item>
       <title>Untitled - 2025-10-12</title>
       <link>https://www.pbsfm.org.au/program/flight-1067-to-africa/2025-10-12/15-00-00</link>
       <author>Stani Goma</author>
@@ -101,6 +93,14 @@
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/flight-1067-to-africa/2025-12-14+15:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/flight-1067-to-africa/2025-12-14/15-00-00</guid>
       <pubDate>2025-12-14</pubDate>
+    </item>
+    <item>
+      <title>Flight 1067 to Africa presented by Lucy French</title>
+      <link>https://www.pbsfm.org.au/program/flight-1067-to-africa/2025-12-28/15-00-00</link>
+      <author>Stani Goma</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/flight-1067-to-africa/2025-12-28+15:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/flight-1067-to-africa/2025-12-28/15-00-00</guid>
+      <pubDate>2025-12-28</pubDate>
     </item>
   </channel>
 </rss>
