@@ -13,16 +13,6 @@
       <link>https://www.pbsfm.org.au/program/babylon-burning</link>
     </image>
     <item>
-      <title>lion heart</title>
-      <link>https://www.pbsfm.org.au/program/babylon-burning/2025-10-04/17-00-00</link>
-      <description>&lt;p&gt;&lt;span style="color:rgb(0, 0, 0); font-family:aptos,aptos_embeddedfont,aptos_msfontservice,calibri,helvetica,sans-serif; font-size:12pt"&gt;Revisiting Penthouse's classic General riddim, with new cuts from Romain Virgo, RC and Exco Levi; new herb tunes from Mesh Marina, Akae Beka &amp;amp; Ras Attitude; new dancehall from Busy Signal and Major Lazer; the Marshall riddim from Hits 38 &amp;amp; Jammys; and the usual roots and rocksteady classics.&lt;/span&gt;&lt;/p&gt;
-</description>
-      <author>Jesse I</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2025-10-04+17:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/babylon-burning/2025-10-04/17-00-00</guid>
-      <pubDate>2025-10-04</pubDate>
-    </item>
-    <item>
       <title>Babylon Burning with Declan James</title>
       <link>https://www.pbsfm.org.au/program/babylon-burning/2025-10-11/17-00-00</link>
       <author>Jesse I</author>
@@ -115,6 +105,14 @@
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2025-12-13+17:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/babylon-burning/2025-12-13/17-00-00</guid>
       <pubDate>2025-12-13</pubDate>
+    </item>
+    <item>
+      <title>silver tongue show</title>
+      <link>https://www.pbsfm.org.au/program/babylon-burning/2025-12-20/17-00-00</link>
+      <author>Jesse I</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2025-12-20+17:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/babylon-burning/2025-12-20/17-00-00</guid>
+      <pubDate>2025-12-20</pubDate>
     </item>
   </channel>
 </rss>
