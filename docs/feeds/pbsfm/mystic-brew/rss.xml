@@ -19,16 +19,6 @@
       <link>https://www.pbsfm.org.au/program/mystic-brew</link>
     </image>
     <item>
-      <title>Mystic Brew #538: Tamil Rogeon</title>
-      <link>https://www.pbsfm.org.au/program/mystic-brew/2025-10-07/09-00-00</link>
-      <description>&lt;p&gt;Tamil Rogeon drops by for a Mystic Brew ahead of his Tamil Rogeon Orchesta show for the Melbourne International Jazz Festival on Saturday October 18 at the Night Cat&lt;/p&gt;
-</description>
-      <author>Mike Gurrieri</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/mystic-brew/2025-10-07+09:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/mystic-brew/2025-10-07/09-00-00</guid>
-      <pubDate>2025-10-07</pubDate>
-    </item>
-    <item>
       <title>Mystic Brew #539: Melbourne International Jazz Festival Preview Part 1</title>
       <link>https://www.pbsfm.org.au/program/mystic-brew/2025-10-14/09-00-00</link>
       <author>Mike Gurrieri</author>
@@ -109,6 +99,16 @@
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/mystic-brew/2025-12-16+09:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/mystic-brew/2025-12-16/09-00-00</guid>
       <pubDate>2025-12-16</pubDate>
+    </item>
+    <item>
+      <title>Mystic Brew #546</title>
+      <link>https://www.pbsfm.org.au/program/mystic-brew/2025-12-23/09-00-00</link>
+      <description>&lt;p&gt;More new releases &amp;amp; fresh reiusses before next week's 2025 finale.&lt;/p&gt;
+</description>
+      <author>Mike Gurrieri</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/mystic-brew/2025-12-23+09:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/mystic-brew/2025-12-23/09-00-00</guid>
+      <pubDate>2025-12-23</pubDate>
     </item>
   </channel>
 </rss>
