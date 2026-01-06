@@ -19,14 +19,6 @@
       <link>https://www.pbsfm.org.au/program/mystic-brew</link>
     </image>
     <item>
-      <title>Mystic Brew #540: Gary Bartz &amp; Barney McAll</title>
-      <link>https://www.pbsfm.org.au/program/mystic-brew/2025-10-21/09-00-00</link>
-      <author>Mike Gurrieri</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/mystic-brew/2025-10-21+09:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/mystic-brew/2025-10-21/09-00-00</guid>
-      <pubDate>2025-10-21</pubDate>
-    </item>
-    <item>
       <title>Mystic Brew with Zepherin Saint</title>
       <link>https://www.pbsfm.org.au/program/mystic-brew/2025-10-28/09-00-00</link>
       <author>Mike Gurrieri</author>
@@ -109,6 +101,16 @@
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/mystic-brew/2025-12-30+09:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/mystic-brew/2025-12-30/09-00-00</guid>
       <pubDate>2025-12-30</pubDate>
+    </item>
+    <item>
+      <title>Mystic Brew #548: Summer Soundtrack</title>
+      <link>https://www.pbsfm.org.au/program/mystic-brew/2026-01-06/09-00-00</link>
+      <description>&lt;p&gt;Mike takes you through some tracks that have been featured in his DJ sets over the last month around town, a mixture of new &amp;amp; old, sounds for the summertime.&lt;/p&gt;
+</description>
+      <author>Mike Gurrieri</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/mystic-brew/2026-01-06+09:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/mystic-brew/2026-01-06/09-00-00</guid>
+      <pubDate>2026-01-06</pubDate>
     </item>
   </channel>
 </rss>
