@@ -30,14 +30,6 @@ It can all be found right here on PBS every Friday 3-5PM with DJ Manchild.&lt;/p
       <link>https://www.pbsfm.org.au/program/the-breakdown</link>
     </image>
     <item>
-      <title>Vale Black Messiah</title>
-      <link>https://www.pbsfm.org.au/program/the-breakdown/2025-10-17/15-00-00</link>
-      <author>DJ Manchild</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakdown/2025-10-17+15:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/the-breakdown/2025-10-17/15-00-00</guid>
-      <pubDate>2025-10-17</pubDate>
-    </item>
-    <item>
       <title>Don't Hold Back with guest Cazeau OSLO</title>
       <link>https://www.pbsfm.org.au/program/the-breakdown/2025-10-24/15-00-00</link>
       <author>DJ Manchild</author>
@@ -116,6 +108,14 @@ It can all be found right here on PBS every Friday 3-5PM with DJ Manchild.&lt;/p
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakdown/2026-01-02+15:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/the-breakdown/2026-01-02/15-00-00</guid>
       <pubDate>2026-01-02</pubDate>
+    </item>
+    <item>
+      <title>Sweetie Zamora Presents The Breakdown</title>
+      <link>https://www.pbsfm.org.au/program/the-breakdown/2026-01-09/15-00-00</link>
+      <author>DJ Manchild</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakdown/2026-01-09+15:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/the-breakdown/2026-01-09/15-00-00</guid>
+      <pubDate>2026-01-09</pubDate>
     </item>
   </channel>
 </rss>
