@@ -13,16 +13,6 @@
       <link>https://www.pbsfm.org.au/program/babylon-burning</link>
     </image>
     <item>
-      <title>keep on rising</title>
-      <link>https://www.pbsfm.org.au/program/babylon-burning/2025-10-25/17-00-00</link>
-      <description>&lt;p&gt;&lt;span style="color:rgb(0, 0, 0); font-family:aptos,aptos_embeddedfont,aptos_msfontservice,calibri,helvetica,sans-serif; font-size:12pt"&gt;Featuring more from the new Chronixx album &lt;em&gt;Exile&lt;/em&gt;; new tunes from Alborosie, Micah Shemaiah, and Medisun; the &lt;em&gt;Golden Hour &lt;/em&gt;riddim from Bambino Musik; and revisiting the &lt;em&gt;Nylon&lt;/em&gt; riddim from Juke Boxx productions by special request.&lt;/span&gt;&lt;/p&gt;
-</description>
-      <author>Jesse I</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2025-10-25+17:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/babylon-burning/2025-10-25/17-00-00</guid>
-      <pubDate>2025-10-25</pubDate>
-    </item>
-    <item>
       <title>weather the storm</title>
       <link>https://www.pbsfm.org.au/program/babylon-burning/2025-11-01/17-00-00</link>
       <description>&lt;p&gt;&lt;span style="color:rgb(0, 0, 0); font-family:aptos,aptos_embeddedfont,aptos_msfontservice,calibri,helvetica,sans-serif; font-size:12pt"&gt;Paying respects to the late singer Vivian Jones (1957-2025), and legendary Jamaican broadcaster Barry G (1955-2025). Also featuring a heap of Echo Minott ahead of his Melbourne show,  and new music from the likes of Skygrass, Busy Signal, Buju Banton, Bounty Killer, Naomi Cowan, Ka$e, Hector Roots Lewis, Ras Teo, Iotosh, Inna Vision &amp;amp; Ini Kamoze.&lt;/span&gt;&lt;/p&gt;
@@ -465,6 +455,14 @@
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2026-01-03+17:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/babylon-burning/2026-01-03/17-00-00</guid>
       <pubDate>2026-01-03</pubDate>
+    </item>
+    <item>
+      <title>never stoop down</title>
+      <link>https://www.pbsfm.org.au/program/babylon-burning/2026-01-10/17-00-00</link>
+      <author>Jesse I</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2026-01-10+17:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/babylon-burning/2026-01-10/17-00-00</guid>
+      <pubDate>2026-01-10</pubDate>
     </item>
   </channel>
 </rss>
