@@ -20,14 +20,6 @@
     </image>
     <item>
       <title>Mystic Brew with Zepherin Saint</title>
-      <link>https://www.pbsfm.org.au/program/mystic-brew/2025-10-28/09-00-00</link>
-      <author>Mike Gurrieri</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/mystic-brew/2025-10-28+09:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/mystic-brew/2025-10-28/09-00-00</guid>
-      <pubDate>2025-10-28</pubDate>
-    </item>
-    <item>
-      <title>Mystic Brew with Zepherin Saint</title>
       <link>https://www.pbsfm.org.au/program/mystic-brew/2025-11-04/09-00-00</link>
       <author>Mike Gurrieri</author>
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/mystic-brew/2025-11-04+09:00:00/aac_mid.m4a" type="audio/mp4"/>
@@ -111,6 +103,14 @@
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/mystic-brew/2026-01-06+09:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/mystic-brew/2026-01-06/09-00-00</guid>
       <pubDate>2026-01-06</pubDate>
+    </item>
+    <item>
+      <title>Mystic Brew #549: Back on the new releases</title>
+      <link>https://www.pbsfm.org.au/program/mystic-brew/2026-01-13/09-00-00</link>
+      <author>Mike Gurrieri</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/mystic-brew/2026-01-13+09:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/mystic-brew/2026-01-13/09-00-00</guid>
+      <pubDate>2026-01-13</pubDate>
     </item>
   </channel>
 </rss>
