@@ -13,14 +13,6 @@
       <link>https://www.pbsfm.org.au/program/black-wax</link>
     </image>
     <item>
-      <title>Untitled - 2025-11-03</title>
-      <link>https://www.pbsfm.org.au/program/black-wax/2025-11-03/11-00-00</link>
-      <author>Adam Rudegeair</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/black-wax/2025-11-03+11:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/black-wax/2025-11-03/11-00-00</guid>
-      <pubDate>2025-11-03</pubDate>
-    </item>
-    <item>
       <title>Justin Ashworth presents Black Wax</title>
       <link>https://www.pbsfm.org.au/program/black-wax/2025-11-10/11-00-00</link>
       <author>Adam Rudegeair</author>
@@ -109,6 +101,20 @@
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/black-wax/2026-01-12+11:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/black-wax/2026-01-12/11-00-00</guid>
       <pubDate>2026-01-12</pubDate>
+    </item>
+    <item>
+      <title>Half Wax Today - Crossing to Share the Spirit at 12pm</title>
+      <link>https://www.pbsfm.org.au/program/black-wax/2026-01-26/11-00-00</link>
+      <description>&lt;p&gt;Just an hour of Black Wax today as we cross at 12pm for a special live broadcast of the 2026 Share the Spirit Festival in Treasury Gardens.&lt;/p&gt;
+
+&lt;p&gt;Share the Spirit is an annual celebration of Aboriginal and Torres Strait Islander music and culture. Presented by Songlines, this year's concert takes place at Treasury Gardens and PBS is delighted to partner with 3KND to broadcast this important event live-to-air across both of our radio stations.&lt;/p&gt;
+
+&lt;p&gt;Suzi Hutchings and Brooke Kymberley from PBS are joined for the broadcast by KND announcers Aden Hitchins and Josh Nagus.&lt;/p&gt;
+</description>
+      <author>Adam Rudegeair</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/black-wax/2026-01-26+11:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/black-wax/2026-01-26/11-00-00</guid>
+      <pubDate>2026-01-26</pubDate>
     </item>
   </channel>
 </rss>
