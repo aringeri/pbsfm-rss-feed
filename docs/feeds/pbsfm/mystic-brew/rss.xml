@@ -19,14 +19,6 @@
       <link>https://www.pbsfm.org.au/program/mystic-brew</link>
     </image>
     <item>
-      <title>Mystic Brew #542: RIP Ornella Vanoni &amp; Jimmy Cliff</title>
-      <link>https://www.pbsfm.org.au/program/mystic-brew/2025-11-25/09-00-00</link>
-      <author>Mike Gurrieri</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/mystic-brew/2025-11-25+09:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/mystic-brew/2025-11-25/09-00-00</guid>
-      <pubDate>2025-11-25</pubDate>
-    </item>
-    <item>
       <title>Mystic Brew #543: Diggers Diary - Records from Italy</title>
       <link>https://www.pbsfm.org.au/program/mystic-brew/2025-12-02/09-00-00</link>
       <description>&lt;p&gt;Mike shares two hours of records picked up on his recent travels in Italy.&lt;/p&gt;
@@ -111,6 +103,14 @@
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/mystic-brew/2026-02-03+09:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/mystic-brew/2026-02-03/09-00-00</guid>
       <pubDate>2026-02-03</pubDate>
+    </item>
+    <item>
+      <title>Mystic Brew #553</title>
+      <link>https://www.pbsfm.org.au/program/mystic-brew/2026-02-10/09-00-00</link>
+      <author>Mike Gurrieri</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/mystic-brew/2026-02-10+09:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/mystic-brew/2026-02-10/09-00-00</guid>
+      <pubDate>2026-02-10</pubDate>
     </item>
   </channel>
 </rss>
