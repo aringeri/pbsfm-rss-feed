@@ -20,7 +20,7 @@ jobs:
         run: |
           gh release download $CLI_RELEASE_TAG --dir ./target/release
         env:
-          CLI_RELEASE_TAG: f2cfb49
+          CLI_RELEASE_TAG: fe4efcc
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: untar executable
         run: tar -xvf ./target/release/pbsfm-rss-feed.tar
