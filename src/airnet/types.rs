@@ -23,9 +23,9 @@ pub struct ProgramDetails {
     pub grid_description: Option<String>,
     pub slug: String,
     #[serde(rename="bannerImageUrl")]
-    pub banner_image_url: String,
+    pub banner_image_url: Option<String>,
     #[serde(rename="bannerImageSmall")]
-    pub banner_image_small: String,
+    pub banner_image_small: Option<String>,
     #[serde(rename="profileImageUrl")]
     pub profile_image_url: String,
     #[serde(rename="profileImageSmall")]

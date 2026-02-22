@@ -72,8 +72,8 @@ pub mod expected {
             description: String::from("Jazz and funk with jazz influence"),
             grid_description: Some(String::from("Groovin' jazz")),
             slug: String::from("black-wax"),
-            banner_image_url: String::from("https://banner.jpg?cacbeb=80406601"),
-            banner_image_small: String::from("https://banner-small.jpg?cacbeb=80406601"),
+            banner_image_url: Some(String::from("https://banner.jpg?cacbeb=80406601")),
+            banner_image_small: Some(String::from("https://banner-small.jpg?cacbeb=80406601")),
             profile_image_url: String::from("https://profile-img.jpg?cacbeb=80406601"),
             profile_image_small: String::from("https://profile-img-small.jpg?cacbeb=80406601"),
             episodes_rest_url: String::from(
