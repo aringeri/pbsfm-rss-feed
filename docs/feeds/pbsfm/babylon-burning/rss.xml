@@ -13,16 +13,6 @@
       <link>https://www.pbsfm.org.au/program/babylon-burning</link>
     </image>
     <item>
-      <title>weapon of choice</title>
-      <link>https://www.pbsfm.org.au/program/babylon-burning/2025-12-13/17-00-00</link>
-      <description>&lt;p&gt;&lt;span style="color:rgb(0, 0, 0); font-family:aptos,aptos_embeddedfont,aptos_msfontservice,calibri,helvetica,sans-serif; font-size:12pt"&gt;Featuring some serious new tunes from YT; new vintage-sounding music from Joe Yorke, Marina P &amp;amp; The Co-operators, Roberto Sanchez &amp;amp; Lone Ark, and Ines Pardo; a new album from Nick Sefakis; some classics on the Entertainment riddim; and some oldies from Stranger Cole ahead of his Melbourne show.&lt;/span&gt;&lt;/p&gt;
-</description>
-      <author>Jesse I</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2025-12-13+17:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/babylon-burning/2025-12-13/17-00-00</guid>
-      <pubDate>2025-12-13</pubDate>
-    </item>
-    <item>
       <title>silver tongue show</title>
       <link>https://www.pbsfm.org.au/program/babylon-burning/2025-12-20/17-00-00</link>
       <description>&lt;p&gt;Featuring new music from Yeza, Akae Beka, Marcus I, I Man Cruz, Roberto Sanchez and Lone Ark; revisiting the Rootsman riddim by special request; and some serious roots classics.&lt;/p&gt;
@@ -469,6 +459,14 @@
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2026-02-21+17:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/babylon-burning/2026-02-21/17-00-00</guid>
       <pubDate>2026-02-21</pubDate>
+    </item>
+    <item>
+      <title>Featuring guest presenter Lady Love Potion</title>
+      <link>https://www.pbsfm.org.au/program/babylon-burning/2026-02-28/17-00-00</link>
+      <author>Jesse I</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2026-02-28+17:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/babylon-burning/2026-02-28/17-00-00</guid>
+      <pubDate>2026-02-28</pubDate>
     </item>
   </channel>
 </rss>
