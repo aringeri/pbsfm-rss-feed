@@ -13,16 +13,6 @@
       <link>https://www.pbsfm.org.au/program/babylon-burning</link>
     </image>
     <item>
-      <title>silver tongue show</title>
-      <link>https://www.pbsfm.org.au/program/babylon-burning/2025-12-20/17-00-00</link>
-      <description>&lt;p&gt;Featuring new music from Yeza, Akae Beka, Marcus I, I Man Cruz, Roberto Sanchez and Lone Ark; revisiting the Rootsman riddim by special request; and some serious roots classics.&lt;/p&gt;
-</description>
-      <author>Jesse I</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2025-12-20+17:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/babylon-burning/2025-12-20/17-00-00</guid>
-      <pubDate>2025-12-20</pubDate>
-    </item>
-    <item>
       <title>the best reggae of 2025</title>
       <link>https://www.pbsfm.org.au/program/babylon-burning/2025-12-27/17-00-00</link>
       <description>&lt;div style='direction: ltr; line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; font-family: Aptos, "Aptos_EmbeddedFont", "Aptos_MSFontService", Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);'&gt;2025 was a strong year for reggae music, with many excellent album releases. My pick for album of the year is Chronixx’s “Exile”, which comes as a bit of a surprise - partly because he has been notably absent in recent years, but also because I found the album a bit underwhelming on first listen. Somehow I came to enjoy it more and more on repeated listens, until it became a favourite. It’s not exactly the album I was hoping for, as it’s a different Chronixx sound compared to that of 10-12 years ago, but I love how it harkens back to older eras of reggae music - some songs sound like they could have been produced by Joe Gibbs in the mid 70s, while others sound like they could have come from an Island-era Wailers session or even an early 80s Roots Radics-backed rub-a-dub session. I found his 2017 album “Chronology” a bit overproduced, but “Exile” goes the other direction, and I think the more raw approach works here - it’s a great album and a welcome return from one of modern reggae’s greatest.&lt;/div&gt;
@@ -467,6 +457,14 @@
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2026-02-28+17:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/babylon-burning/2026-02-28/17-00-00</guid>
       <pubDate>2026-02-28</pubDate>
+    </item>
+    <item>
+      <title>fruits ripe</title>
+      <link>https://www.pbsfm.org.au/program/babylon-burning/2026-03-07/17-00-00</link>
+      <author>Jesse I</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2026-03-07+17:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/babylon-burning/2026-03-07/17-00-00</guid>
+      <pubDate>2026-03-07</pubDate>
     </item>
   </channel>
 </rss>
