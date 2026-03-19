@@ -17,18 +17,6 @@
       <link>https://www.pbsfm.org.au/program/down-by-the-river</link>
     </image>
     <item>
-      <title>Roger Holdsworth presents Down By The River</title>
-      <link>https://www.pbsfm.org.au/program/down-by-the-river/2026-01-01/09-00-00</link>
-      <description>&lt;p&gt;Happy New Year – &lt;strong&gt;Roger Holdsworth&lt;/strong&gt;, sitting in for &lt;strong&gt;Lauren Plant&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Today I’ve put together another program of songs and tunes and stories I’ve had organised for some time, so I look forward to taking you on a wander down by the river, through folk music from various parts of Australia and the wider world.  Not too noisy (thankfully), but still fascinating sounds to keep you awake and interested, and into 2026&lt;/p&gt;
-</description>
-      <author>Lauren Plant</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/down-by-the-river/2026-01-01+09:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/down-by-the-river/2026-01-01/09-00-00</guid>
-      <pubDate>2026-01-01</pubDate>
-    </item>
-    <item>
       <title>#47 Down By The River</title>
       <link>https://www.pbsfm.org.au/program/down-by-the-river/2026-01-08/09-00-00</link>
       <author>Lauren Plant</author>
@@ -107,6 +95,14 @@
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/down-by-the-river/2026-03-12+09:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/down-by-the-river/2026-03-12/09-00-00</guid>
       <pubDate>2026-03-12</pubDate>
+    </item>
+    <item>
+      <title>#57 Down By The River ft. Feelds</title>
+      <link>https://www.pbsfm.org.au/program/down-by-the-river/2026-03-19/09-00-00</link>
+      <author>Lauren Plant</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/down-by-the-river/2026-03-19+09:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/down-by-the-river/2026-03-19/09-00-00</guid>
+      <pubDate>2026-03-19</pubDate>
     </item>
   </channel>
 </rss>
