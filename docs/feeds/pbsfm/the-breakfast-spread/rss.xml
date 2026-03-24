@@ -36,14 +36,6 @@ Opening Theme: Boards Of Canada - Olson&lt;/p&gt;
       <link>https://www.pbsfm.org.au/program/the-breakfast-spread</link>
     </image>
     <item>
-      <title>The Breakfast Spread Monday presented by Zed</title>
-      <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-03-09/06-00-00</link>
-      <author>Claire Dickson and Milo Eastwood</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakfast-spread/2026-03-09+06:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-03-09/06-00-00</guid>
-      <pubDate>2026-03-09</pubDate>
-    </item>
-    <item>
       <title>Vincent from The Underground Lovers joins Claire on the show &lt;3</title>
       <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-03-10/06-00-00</link>
       <description>&lt;p&gt;Find tickets to The Underground Lovers' live score performance of "Man With A Movie Camera" here:&lt;/p&gt;
@@ -130,6 +122,18 @@ Opening Theme: Boards Of Canada - Olson&lt;/p&gt;
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakfast-spread/2026-03-23+06:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-03-23/06-00-00</guid>
       <pubDate>2026-03-23</pubDate>
+    </item>
+    <item>
+      <title>Dan from The Bluetile Lounge pops in for a chat!</title>
+      <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-03-24/06-00-00</link>
+      <description>&lt;p&gt;So so excited The Bluetile Lounge are performing again after 25 years!! Grab ticcies to their show here:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.moshtix.com.au/v2/event/bluetile-lounge-reunion-show-garage-sale/188215" target="_blank"&gt;https://www.moshtix.com.au/v2/event/bluetile-lounge-reunion-show-garage-sale/188215&lt;/a&gt;&lt;/p&gt;
+</description>
+      <author>Claire Dickson and Milo Eastwood</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakfast-spread/2026-03-24+06:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-03-24/06-00-00</guid>
+      <pubDate>2026-03-24</pubDate>
     </item>
   </channel>
 </rss>
