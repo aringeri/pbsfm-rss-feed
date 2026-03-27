@@ -30,22 +30,6 @@ It can all be found right here on PBS every Friday 3-5PM with DJ Manchild.&lt;/p
       <link>https://www.pbsfm.org.au/program/the-breakdown</link>
     </image>
     <item>
-      <title>Golden Hen</title>
-      <link>https://www.pbsfm.org.au/program/the-breakdown/2026-01-02/15-00-00</link>
-      <author>DJ Manchild</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakdown/2026-01-02+15:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/the-breakdown/2026-01-02/15-00-00</guid>
-      <pubDate>2026-01-02</pubDate>
-    </item>
-    <item>
-      <title>Sweetie Zamora Presents The Breakdown</title>
-      <link>https://www.pbsfm.org.au/program/the-breakdown/2026-01-09/15-00-00</link>
-      <author>DJ Manchild</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakdown/2026-01-09+15:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/the-breakdown/2026-01-09/15-00-00</guid>
-      <pubDate>2026-01-09</pubDate>
-    </item>
-    <item>
       <title>Untitled - 2026-01-16</title>
       <link>https://www.pbsfm.org.au/program/the-breakdown/2026-01-16/15-00-00</link>
       <author>DJ Manchild</author>
@@ -116,6 +100,24 @@ It can all be found right here on PBS every Friday 3-5PM with DJ Manchild.&lt;/p
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakdown/2026-03-13+15:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/the-breakdown/2026-03-13/15-00-00</guid>
       <pubDate>2026-03-13</pubDate>
+    </item>
+    <item>
+      <title>Count Your Blessings</title>
+      <link>https://www.pbsfm.org.au/program/the-breakdown/2026-03-20/15-00-00</link>
+      <description>&lt;p&gt;This week on The Breakdown we hear a special Studio 5 Live performance from Temporary Blessings. PBS Studio 5 Live is proudly supported by Carlton Audio Visual and Creative Australia.&lt;/p&gt;
+</description>
+      <author>DJ Manchild</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakdown/2026-03-20+15:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/the-breakdown/2026-03-20/15-00-00</guid>
+      <pubDate>2026-03-20</pubDate>
+    </item>
+    <item>
+      <title>3 Strikes</title>
+      <link>https://www.pbsfm.org.au/program/the-breakdown/2026-03-27/15-00-00</link>
+      <author>DJ Manchild</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakdown/2026-03-27+15:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/the-breakdown/2026-03-27/15-00-00</guid>
+      <pubDate>2026-03-27</pubDate>
     </item>
   </channel>
 </rss>
