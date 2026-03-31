@@ -19,14 +19,6 @@
       <link>https://www.pbsfm.org.au/program/mystic-brew</link>
     </image>
     <item>
-      <title>Mystic Brew #549: Back on the new releases</title>
-      <link>https://www.pbsfm.org.au/program/mystic-brew/2026-01-13/09-00-00</link>
-      <author>Mike Gurrieri</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/mystic-brew/2026-01-13+09:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/mystic-brew/2026-01-13/09-00-00</guid>
-      <pubDate>2026-01-13</pubDate>
-    </item>
-    <item>
       <title>Mystic Brew #550</title>
       <link>https://www.pbsfm.org.au/program/mystic-brew/2026-01-20/09-00-00</link>
       <author>Mike Gurrieri</author>
@@ -105,6 +97,14 @@
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/mystic-brew/2026-03-24+09:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/mystic-brew/2026-03-24/09-00-00</guid>
       <pubDate>2026-03-24</pubDate>
+    </item>
+    <item>
+      <title>Mystic Brew #560: Hi-Tek Jazz</title>
+      <link>https://www.pbsfm.org.au/program/mystic-brew/2026-03-31/09-00-00</link>
+      <author>Mike Gurrieri</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/mystic-brew/2026-03-31+09:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/mystic-brew/2026-03-31/09-00-00</guid>
+      <pubDate>2026-03-31</pubDate>
     </item>
   </channel>
 </rss>
