@@ -17,14 +17,6 @@
       <link>https://www.pbsfm.org.au/program/down-by-the-river</link>
     </image>
     <item>
-      <title>#49 Down By The River</title>
-      <link>https://www.pbsfm.org.au/program/down-by-the-river/2026-01-22/09-00-00</link>
-      <author>Lauren Plant</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/down-by-the-river/2026-01-22+09:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/down-by-the-river/2026-01-22/09-00-00</guid>
-      <pubDate>2026-01-22</pubDate>
-    </item>
-    <item>
       <title>Untitled - 2026-01-29</title>
       <link>https://www.pbsfm.org.au/program/down-by-the-river/2026-01-29/09-00-00</link>
       <author>Lauren Plant</author>
@@ -103,6 +95,20 @@
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/down-by-the-river/2026-04-02+09:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/down-by-the-river/2026-04-02/09-00-00</guid>
       <pubDate>2026-04-02</pubDate>
+    </item>
+    <item>
+      <title>Special Delayed Broadcast - Down By The River at The Folkie</title>
+      <link>https://www.pbsfm.org.au/program/down-by-the-river/2026-04-09/09-00-00</link>
+      <description>&lt;p&gt;This week we present a very special broadcast of Down By The River, live in concert at the 2026 Port Fairy Folk Festival. Joining Lauren on stage were live sets from Svavar Knutur, Irish Mythen and Charley Castle and the Boys in the Well. In front of a full-house at the festival, this live concert finished with a surprise all-in jam. Rounding out this morning's broadcast we re-visit a live-in-studio performance and interview with Inn Echo who dropped into PBS ahead of their Port Fairy performance.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;Thanks to PBS techs and engineers Tas Manolopoulos, Moritz Heine, Alicia Saye and Paul Maybury, and the entire team at The Folkie for making this happen.&lt;/p&gt;
+</description>
+      <author>Lauren Plant</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/down-by-the-river/2026-04-09+09:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/down-by-the-river/2026-04-09/09-00-00</guid>
+      <pubDate>2026-04-09</pubDate>
     </item>
   </channel>
 </rss>
