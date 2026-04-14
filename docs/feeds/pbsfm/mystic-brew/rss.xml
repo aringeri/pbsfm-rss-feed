@@ -19,14 +19,6 @@
       <link>https://www.pbsfm.org.au/program/mystic-brew</link>
     </image>
     <item>
-      <title>Mystic Brew #551: Horatio Luna </title>
-      <link>https://www.pbsfm.org.au/program/mystic-brew/2026-01-27/09-00-00</link>
-      <author>Mike Gurrieri</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/mystic-brew/2026-01-27+09:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/mystic-brew/2026-01-27/09-00-00</guid>
-      <pubDate>2026-01-27</pubDate>
-    </item>
-    <item>
       <title>Mystic Brew #552</title>
       <link>https://www.pbsfm.org.au/program/mystic-brew/2026-02-03/09-00-00</link>
       <author>Mike Gurrieri</author>
@@ -105,6 +97,16 @@
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/mystic-brew/2026-04-07+09:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/mystic-brew/2026-04-07/09-00-00</guid>
       <pubDate>2026-04-07</pubDate>
+    </item>
+    <item>
+      <title>Mystic Brew #562: Living by the blade with Blademasters</title>
+      <link>https://www.pbsfm.org.au/program/mystic-brew/2026-04-14/09-00-00</link>
+      <description>&lt;p&gt;Pat Ryan (Cantrips / Dune Castle Records) &amp;amp; Lachlan Stuckey (Surprise Chef / College Of Knowledge Records) come together as Blademasters a new fantasy funk outfit launching their debut seven inch with a b2b DJ set at Hgh Note on Thursday April 23 6-10pm and join Mike for a chat this week on Mystic Brew&lt;/p&gt;
+</description>
+      <author>Mike Gurrieri</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/mystic-brew/2026-04-14+09:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/mystic-brew/2026-04-14/09-00-00</guid>
+      <pubDate>2026-04-14</pubDate>
     </item>
   </channel>
 </rss>
