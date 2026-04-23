@@ -36,14 +36,6 @@ Opening Theme: Boards Of Canada - Olson&lt;/p&gt;
       <link>https://www.pbsfm.org.au/program/the-breakfast-spread</link>
     </image>
     <item>
-      <title>Untitled - 2026-04-08</title>
-      <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-04-08/06-00-00</link>
-      <author>Claire Dickson and Milo Eastwood</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakfast-spread/2026-04-08+06:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-04-08/06-00-00</guid>
-      <pubDate>2026-04-08</pubDate>
-    </item>
-    <item>
       <title>Untitled - 2026-04-09</title>
       <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-04-09/06-00-00</link>
       <description>&lt;p&gt;Catch Fade Evare support Telenova at The Forum on Saturday, May 2nd - Tickets and info &lt;a href="https://forummelbourne.com.au/shows/telenova" target="_blank"&gt;HERE&lt;/a&gt;&lt;/p&gt;
@@ -145,6 +137,16 @@ Opening Theme: Boards Of Canada - Olson&lt;/p&gt;
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakfast-spread/2026-04-22+06:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-04-22/06-00-00</guid>
       <pubDate>2026-04-22</pubDate>
+    </item>
+    <item>
+      <title>Chewin The Fat</title>
+      <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-04-23/06-00-00</link>
+      <description>&lt;p&gt;7 Years of Chewin' The Fat goes down Saturday @ Fairfield Ampitheatre - &lt;a href="https://events.humanitix.com/7-years-of-chewin-the-fat" target="_blank"&gt;FINAL TICKETS HERE&lt;/a&gt;&lt;/p&gt;
+</description>
+      <author>Claire Dickson and Milo Eastwood</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakfast-spread/2026-04-23+06:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-04-23/06-00-00</guid>
+      <pubDate>2026-04-23</pubDate>
     </item>
   </channel>
 </rss>
