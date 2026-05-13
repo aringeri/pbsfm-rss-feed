@@ -25,14 +25,6 @@
       <link>https://www.pbsfm.org.au/program/soul-time</link>
     </image>
     <item>
-      <title>DJ Lady Soul takes Soultime for a spin</title>
-      <link>https://www.pbsfm.org.au/program/soul-time/2026-02-25/15-00-00</link>
-      <author>Vince Peach</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/soul-time/2026-02-25+15:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/soul-time/2026-02-25/15-00-00</guid>
-      <pubDate>2026-02-25</pubDate>
-    </item>
-    <item>
       <title>Roscoe Robinson -</title>
       <link>https://www.pbsfm.org.au/program/soul-time/2026-03-04/15-00-00</link>
       <author>Vince Peach</author>
@@ -111,6 +103,14 @@
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/soul-time/2026-05-06+15:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/soul-time/2026-05-06/15-00-00</guid>
       <pubDate>2026-05-06</pubDate>
+    </item>
+    <item>
+      <title>Get E Up</title>
+      <link>https://www.pbsfm.org.au/program/soul-time/2026-05-13/15-00-00</link>
+      <author>Vince Peach</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/soul-time/2026-05-13+15:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/soul-time/2026-05-13/15-00-00</guid>
+      <pubDate>2026-05-13</pubDate>
     </item>
   </channel>
 </rss>
