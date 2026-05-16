@@ -13,14 +13,6 @@
       <link>https://www.pbsfm.org.au/program/babylon-burning</link>
     </image>
     <item>
-      <title>Featuring guest presenter Lady Love Potion</title>
-      <link>https://www.pbsfm.org.au/program/babylon-burning/2026-02-28/17-00-00</link>
-      <author>Jesse I</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2026-02-28+17:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/babylon-burning/2026-02-28/17-00-00</guid>
-      <pubDate>2026-02-28</pubDate>
-    </item>
-    <item>
       <title>fruits ripe</title>
       <link>https://www.pbsfm.org.au/program/babylon-burning/2026-03-07/17-00-00</link>
       <description>&lt;p&gt;Paying respects to the late Jamaican producer and singer Phil Pratt (born George Phillips) who passed away on February 25, with a full hour of his music... plus the beautiful new &lt;em&gt;Fruits Ripe&lt;/em&gt; riddim from Zion I Kings, message music from the Virgin Islands, and contemporary roots reggae from Max Romeo's kids Xana and Azizzi.&lt;/p&gt;
@@ -125,6 +117,16 @@
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2026-05-09+17:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/babylon-burning/2026-05-09/17-00-00</guid>
       <pubDate>2026-05-09</pubDate>
+    </item>
+    <item>
+      <title>wake up and see</title>
+      <link>https://www.pbsfm.org.au/program/babylon-burning/2026-05-16/17-00-00</link>
+      <description>&lt;p&gt;&lt;span style="color:rgb(0, 0, 0); font-family:aptos,aptos_embeddedfont,aptos_msfontservice,calibri,helvetica,sans-serif; font-size:12pt"&gt;Paying respects to the late Jamaican singer Roland Burrell (1951-2026)... featuring new music from the likes of Hezron, Stephen Marley, Rik Jam, Chezidek, T.Natty, The Flying Vipers, Kamrum &amp;amp; Jesse Royal... revisiting the Break Away riddim from Chimney Records after 10 years... and the usual vintage classics from the late 60s to the early 80s.&lt;/span&gt;&lt;/p&gt;
+</description>
+      <author>Jesse I</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2026-05-16+17:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/babylon-burning/2026-05-16/17-00-00</guid>
+      <pubDate>2026-05-16</pubDate>
     </item>
   </channel>
 </rss>
