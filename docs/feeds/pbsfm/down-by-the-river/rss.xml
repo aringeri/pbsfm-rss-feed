@@ -17,14 +17,6 @@
       <link>https://www.pbsfm.org.au/program/down-by-the-river</link>
     </image>
     <item>
-      <title>#55 Down By The River ft. Annahstasia and Inn Echo</title>
-      <link>https://www.pbsfm.org.au/program/down-by-the-river/2026-03-05/09-00-00</link>
-      <author>Lauren Plant</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/down-by-the-river/2026-03-05+09:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/down-by-the-river/2026-03-05/09-00-00</guid>
-      <pubDate>2026-03-05</pubDate>
-    </item>
-    <item>
       <title>#56 Down By The River ft. Sarah Jarosz - I'm With Her</title>
       <link>https://www.pbsfm.org.au/program/down-by-the-river/2026-03-12/09-00-00</link>
       <author>Lauren Plant</author>
@@ -109,6 +101,14 @@
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/down-by-the-river/2026-05-14+09:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/down-by-the-river/2026-05-14/09-00-00</guid>
       <pubDate>2026-05-14</pubDate>
+    </item>
+    <item>
+      <title>#66 Down By The River</title>
+      <link>https://www.pbsfm.org.au/program/down-by-the-river/2026-05-21/09-00-00</link>
+      <author>Lauren Plant</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/down-by-the-river/2026-05-21+09:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/down-by-the-river/2026-05-21/09-00-00</guid>
+      <pubDate>2026-05-21</pubDate>
     </item>
   </channel>
 </rss>
