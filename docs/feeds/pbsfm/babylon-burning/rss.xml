@@ -13,16 +13,6 @@
       <link>https://www.pbsfm.org.au/program/babylon-burning</link>
     </image>
     <item>
-      <title>fruits ripe</title>
-      <link>https://www.pbsfm.org.au/program/babylon-burning/2026-03-07/17-00-00</link>
-      <description>&lt;p&gt;Paying respects to the late Jamaican producer and singer Phil Pratt (born George Phillips) who passed away on February 25, with a full hour of his music... plus the beautiful new &lt;em&gt;Fruits Ripe&lt;/em&gt; riddim from Zion I Kings, message music from the Virgin Islands, and contemporary roots reggae from Max Romeo's kids Xana and Azizzi.&lt;/p&gt;
-</description>
-      <author>Jesse I</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2026-03-07+17:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/babylon-burning/2026-03-07/17-00-00</guid>
-      <pubDate>2026-03-07</pubDate>
-    </item>
-    <item>
       <title>why war</title>
       <link>https://www.pbsfm.org.au/program/babylon-burning/2026-03-14/17-00-00</link>
       <description>&lt;p&gt;&lt;span style="color:rgb(0, 0, 0); font-family:aptos,aptos_embeddedfont,aptos_msfontservice,calibri,helvetica,sans-serif; font-size:12pt"&gt;Featuring new music from Perfect Giddimani, Chezidek, Etana, Mista Savona &amp;amp; Mia Bloom, Joe Yorke, Marcus I, Dexta Daps, Micah Shemaiah, Vanzo, Queen Omega and nuff more... riddim juggling on the biggest riddim in dancehall right now, the WYFL riddim from DJ Mac &amp;amp; CrashDummy, as well as the Recovery riddim from Head Concussion... and some classic early 80s anti-war tunes.&lt;/span&gt;&lt;/p&gt;
@@ -127,6 +117,16 @@
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2026-05-16+17:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/babylon-burning/2026-05-16/17-00-00</guid>
       <pubDate>2026-05-16</pubDate>
+    </item>
+    <item>
+      <title>Fuel The Frequency with Bellyas, Itations, Troublemekka &amp; Sista Sara</title>
+      <link>https://www.pbsfm.org.au/program/babylon-burning/2026-05-23/17-00-00</link>
+      <description>&lt;p&gt;A special PBS Radio Festival edition of Babylon Burning, featuring guest presenters Bellyas, Itations, Troublemekka and Sista Sara filling in for Jesse I. Fuel the frequency and become a member today!&lt;/p&gt;
+</description>
+      <author>Jesse I</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2026-05-23+17:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/babylon-burning/2026-05-23/17-00-00</guid>
+      <pubDate>2026-05-23</pubDate>
     </item>
   </channel>
 </rss>
