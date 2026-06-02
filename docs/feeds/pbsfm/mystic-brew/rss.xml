@@ -19,14 +19,6 @@
       <link>https://www.pbsfm.org.au/program/mystic-brew</link>
     </image>
     <item>
-      <title>Mystic Brew #558</title>
-      <link>https://www.pbsfm.org.au/program/mystic-brew/2026-03-17/09-00-00</link>
-      <author>Mike Gurrieri</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/mystic-brew/2026-03-17+09:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/mystic-brew/2026-03-17/09-00-00</guid>
-      <pubDate>2026-03-17</pubDate>
-    </item>
-    <item>
       <title>Mystic Brew #559: All vinyl selections</title>
       <link>https://www.pbsfm.org.au/program/mystic-brew/2026-03-24/09-00-00</link>
       <author>Mike Gurrieri</author>
@@ -109,6 +101,16 @@
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/mystic-brew/2026-05-26+09:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/mystic-brew/2026-05-26/09-00-00</guid>
       <pubDate>2026-05-26</pubDate>
+    </item>
+    <item>
+      <title>Mystic Brew #569</title>
+      <link>https://www.pbsfm.org.au/program/mystic-brew/2026-06-02/09-00-00</link>
+      <description>&lt;p&gt;Coming in hot after the Radio Festival episodes with a bunch of fresh new releases from home &amp;amp; abroad plus a feature on artists performing in town this week including Kahil El'Zabar, Adrian Sherwood, The Seven Ups, Seun Kuti &amp;amp; Egypt 80, Saul Williams, &amp;amp; Kai Alce.&lt;/p&gt;
+</description>
+      <author>Mike Gurrieri</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/mystic-brew/2026-06-02+09:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/mystic-brew/2026-06-02/09-00-00</guid>
+      <pubDate>2026-06-02</pubDate>
     </item>
   </channel>
 </rss>
