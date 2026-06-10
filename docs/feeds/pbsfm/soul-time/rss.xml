@@ -25,14 +25,6 @@
       <link>https://www.pbsfm.org.au/program/soul-time</link>
     </image>
     <item>
-      <title>The Queen is on her knees</title>
-      <link>https://www.pbsfm.org.au/program/soul-time/2026-03-25/15-00-00</link>
-      <author>Vince Peach</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/soul-time/2026-03-25+15:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/soul-time/2026-03-25/15-00-00</guid>
-      <pubDate>2026-03-25</pubDate>
-    </item>
-    <item>
       <title>Rainbow road</title>
       <link>https://www.pbsfm.org.au/program/soul-time/2026-04-01/15-00-00</link>
       <author>Vince Peach</author>
@@ -111,6 +103,14 @@
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/soul-time/2026-06-03+15:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/soul-time/2026-06-03/15-00-00</guid>
       <pubDate>2026-06-03</pubDate>
+    </item>
+    <item>
+      <title>DJ Lady Soul Guest Presenter</title>
+      <link>https://www.pbsfm.org.au/program/soul-time/2026-06-10/15-00-00</link>
+      <author>Vince Peach</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/soul-time/2026-06-10+15:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/soul-time/2026-06-10/15-00-00</guid>
+      <pubDate>2026-06-10</pubDate>
     </item>
   </channel>
 </rss>
