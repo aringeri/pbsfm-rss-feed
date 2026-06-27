@@ -13,18 +13,6 @@
       <link>https://www.pbsfm.org.au/program/babylon-burning</link>
     </image>
     <item>
-      <title>tribute to Rupie Edwards</title>
-      <link>https://www.pbsfm.org.au/program/babylon-burning/2026-04-11/17-00-00</link>
-      <description>&lt;div style='font-family: Aptos, "Aptos_EmbeddedFont", "Aptos_MSFontService", Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);'&gt; &lt;/div&gt;
-
-&lt;div style='font-family: Aptos, "Aptos_EmbeddedFont", "Aptos_MSFontService", Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);'&gt;Paying respects to the late Jamaican singer and producer Rupie Edwards (1945-2026) with an hour of his music... plus new tunes from Hempress Sativa, Double Tiger, and Australia's own Jah Tung... and a killer new combination from Protoje &amp;amp; Masicka, placed with some similarly sounding productions from the late 80s and early 90s.&lt;/div&gt;
-</description>
-      <author>Jesse I</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2026-04-11+17:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/babylon-burning/2026-04-11/17-00-00</guid>
-      <pubDate>2026-04-11</pubDate>
-    </item>
-    <item>
       <title>forward on to zion</title>
       <link>https://www.pbsfm.org.au/program/babylon-burning/2026-04-18/17-00-00</link>
       <description>&lt;p&gt;&lt;span style="color:rgb(0, 0, 0); font-family:aptos,aptos_embeddedfont,aptos_msfontservice,calibri,helvetica,sans-serif; font-size:12pt"&gt;Showcasing the new Protoje album "The Art of Acceptance"... some pointed lyrics from Robbie Ark on his new song "Forward On To Zion" from Spanish producer Roberto Sanchez... new tunes from Marcus Gad, Medisun, Angelica Mava and Dalwayne... some early 90s classics from the Penthouse label... and a tribute to the late Jamaican singer Ernie Smith.&lt;/span&gt;&lt;/p&gt;
@@ -125,6 +113,16 @@
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2026-06-20+17:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/babylon-burning/2026-06-20/17-00-00</guid>
       <pubDate>2026-06-20</pubDate>
+    </item>
+    <item>
+      <title>babylon a wicked</title>
+      <link>https://www.pbsfm.org.au/program/babylon-burning/2026-06-27/17-00-00</link>
+      <description>&lt;p&gt;&lt;span style="color:rgb(0, 0, 0); font-family:aptos,aptos_embeddedfont,aptos_msfontservice,calibri,helvetica,sans-serif; font-size:12pt"&gt;Featuring new riddims Victory from Conquering Lion Records and Double Trouble from Silly Walks... Capleton's new album "Heights of Fire"... new tunes from Marcus Gad, Christopher Ellis, Quan Nelson, Matthew Malcom, Koffee, and Kxng Izem... a beautiful local release from Naarm's own Kasinda... and throwback sounds from 60s rocksteady to 70s roots to 80s dancehall.&lt;/span&gt;&lt;/p&gt;
+</description>
+      <author>Jesse I</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2026-06-27+17:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/babylon-burning/2026-06-27/17-00-00</guid>
+      <pubDate>2026-06-27</pubDate>
     </item>
   </channel>
 </rss>
