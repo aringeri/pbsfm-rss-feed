@@ -36,14 +36,6 @@ Opening Theme: Boards Of Canada - Olson&lt;/p&gt;
       <link>https://www.pbsfm.org.au/program/the-breakfast-spread</link>
     </image>
     <item>
-      <title>Untitled - 2026-06-24</title>
-      <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-06-24/06-00-00</link>
-      <author>Claire Dickson and Milo Eastwood</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakfast-spread/2026-06-24+06:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-06-24/06-00-00</guid>
-      <pubDate>2026-06-24</pubDate>
-    </item>
-    <item>
       <title>Untitled - 2026-06-25</title>
       <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-06-25/06-00-00</link>
       <author>Claire Dickson and Milo Eastwood</author>
@@ -149,11 +141,21 @@ Follow Chapter Epilogue on Instagram &lt;a href="https://www.instagram.com/chapt
 &lt;p&gt; &lt;/p&gt;
 
 &lt;p&gt;&lt;span style="color:rgb(0, 0, 0); font-family:segoe ui; font-size:14px"&gt;Hear Milo Eastwood present &lt;/span&gt;&lt;em&gt;&lt;a href="https://www.pbsfm.org.au/program/stone-love/2026-07-10/17-00-00/11038414" target="_blank"&gt;Stone Love&lt;/a&gt; &lt;/em&gt;this Friday from 5pm-7pm, feat. Miles Nautu performing in Studio 5 Live.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
 </description>
       <author>Claire Dickson and Milo Eastwood</author>
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakfast-spread/2026-07-08+06:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-07-08/06-00-00</guid>
       <pubDate>2026-07-08</pubDate>
+    </item>
+    <item>
+      <title>Untitled - 2026-07-09</title>
+      <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-07-09/06-00-00</link>
+      <author>Claire Dickson and Milo Eastwood</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakfast-spread/2026-07-09+06:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-07-09/06-00-00</guid>
+      <pubDate>2026-07-09</pubDate>
     </item>
   </channel>
 </rss>
