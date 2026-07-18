@@ -13,16 +13,6 @@
       <link>https://www.pbsfm.org.au/program/babylon-burning</link>
     </image>
     <item>
-      <title>hill and gully ride</title>
-      <link>https://www.pbsfm.org.au/program/babylon-burning/2026-05-02/17-00-00</link>
-      <description>&lt;p&gt;&lt;span style="color:rgb(0, 0, 0); font-family:aptos,aptos_embeddedfont,aptos_msfontservice,calibri,helvetica,sans-serif; font-size:12pt"&gt;Featuring the biggest new riddim in dancehall, "Hill and Gully Ride" from producer Di Genius, plus the original mento inspiration and Busy Signal's tune from 2014... new music from Runkus, Chronic Law, Jaz Elise, Capleton, Perfect Giddimani, Medisun, Imeru Tafari, Jah Izrehl, Ziggi Recado, Protoje &amp;amp; Pressure... revisiting the Promised Land riddim on Barry U Records from 1998... the original Junjo Lawes run on the Worries In The Dance riddim... and vintage classics from the late 60s to the early 80s.&lt;/span&gt;&lt;/p&gt;
-</description>
-      <author>Jesse I</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2026-05-02+17:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/babylon-burning/2026-05-02/17-00-00</guid>
-      <pubDate>2026-05-02</pubDate>
-    </item>
-    <item>
       <title>in your hands</title>
       <link>https://www.pbsfm.org.au/program/babylon-burning/2026-05-09/17-00-00</link>
       <description>&lt;div style='font-family: Aptos, "Aptos_EmbeddedFont", "Aptos_MSFontService", Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);'&gt; &lt;/div&gt;
@@ -121,6 +111,16 @@
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2026-07-11+17:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/babylon-burning/2026-07-11/17-00-00</guid>
       <pubDate>2026-07-11</pubDate>
+    </item>
+    <item>
+      <title>tribute to Fantan Mojah</title>
+      <link>https://www.pbsfm.org.au/program/babylon-burning/2026-07-18/17-00-00</link>
+      <description>&lt;p&gt;&lt;span style="color:rgb(0, 0, 0); font-family:aptos,aptos_embeddedfont,aptos_msfontservice,calibri,helvetica,sans-serif; font-size:12pt"&gt;Paying respect to the late reggae artist Fantan Mojah with more than an hour of his music, plus some sweet Studio One and 70s roots reggae classics.&lt;/span&gt;&lt;/p&gt;
+</description>
+      <author>Jesse I</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2026-07-18+17:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/babylon-burning/2026-07-18/17-00-00</guid>
+      <pubDate>2026-07-18</pubDate>
     </item>
   </channel>
 </rss>
