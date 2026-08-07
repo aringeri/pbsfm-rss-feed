@@ -13,14 +13,6 @@
       <link>https://www.pbsfm.org.au/program/riddim-yard</link>
     </image>
     <item>
-      <title>Radio festival week 1</title>
-      <link>https://www.pbsfm.org.au/program/riddim-yard/2026-05-22/11-00-00</link>
-      <author>Rick Howe</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/riddim-yard/2026-05-22+11:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/riddim-yard/2026-05-22/11-00-00</guid>
-      <pubDate>2026-05-22</pubDate>
-    </item>
-    <item>
       <title>Radio Festival week 2</title>
       <link>https://www.pbsfm.org.au/program/riddim-yard/2026-05-29/11-00-00</link>
       <author>Rick Howe</author>
@@ -127,6 +119,20 @@
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/riddim-yard/2026-07-31+11:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/riddim-yard/2026-07-31/11-00-00</guid>
       <pubDate>2026-07-31</pubDate>
+    </item>
+    <item>
+      <title>Kasinda - This Life in DUB</title>
+      <link>https://www.pbsfm.org.au/program/riddim-yard/2026-08-07/11-00-00</link>
+      <description>&lt;p&gt;This week on Riddim Yard: The world premiere of the dub version of Naarm/Melbourne multi-instrumentalist &lt;strong&gt;Kasinda'&lt;/strong&gt;s debut single, 'This Life'. Written in Accra, Ghana and co-produced with Ghanaian producer Slim Drumz, the track pays tribute to African icons Kwame Nkrumah, Patrice Lumumba, Miriam Makeba and Yaa Asantewaa, while reflecting on the world we leave for future generations.&lt;/p&gt;
+
+&lt;p&gt;One of grime's most respected producers, Silencer, returns with his biggest project yet. 'Through Ball' unites an all-star lineup featuring Chip, Kruz Leone, Hitman Hyper, Bruza, Frisco, JME, P Money and D Double E over a club-ready instrumental blending classic grime with UK garage. The viral beat became one of the year's most anticipated grime releases before it was even recorded.&lt;/p&gt;
+
+&lt;p&gt;Plus, nuff roots reggae rarities, including an exclusive dubplate of The Meditations' 'Nah Give Up', mixed by Roberto Sánchez at Lone Ark Studio in Spain.&lt;/p&gt;
+</description>
+      <author>Rick Howe</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/riddim-yard/2026-08-07+11:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/riddim-yard/2026-08-07/11-00-00</guid>
+      <pubDate>2026-08-07</pubDate>
     </item>
   </channel>
 </rss>
