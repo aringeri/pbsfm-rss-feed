@@ -36,16 +36,6 @@ Opening Theme: Boards Of Canada - Olson&lt;/p&gt;
       <link>https://www.pbsfm.org.au/program/the-breakfast-spread</link>
     </image>
     <item>
-      <title>Untitled - 2026-08-05</title>
-      <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-08-05/06-00-00</link>
-      <description>&lt;p&gt;See Cavs and his original live score of Memento this weekend at Hamer Hall - Tickets &lt;a href="https://www.hearmyeyes.com.au" target="_blank"&gt;HERE&lt;/a&gt;&lt;/p&gt;
-</description>
-      <author>Claire Dickson and Milo Eastwood</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakfast-spread/2026-08-05+06:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-08-05/06-00-00</guid>
-      <pubDate>2026-08-05</pubDate>
-    </item>
-    <item>
       <title>Untitled - 2026-08-06</title>
       <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-08-06/06-00-00</link>
       <author>Claire Dickson and Milo Eastwood</author>
@@ -134,6 +124,17 @@ Opening Theme: Boards Of Canada - Olson&lt;/p&gt;
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakfast-spread/2026-08-19+06:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-08-19/06-00-00</guid>
       <pubDate>2026-08-19</pubDate>
+    </item>
+    <item>
+      <title>Rona</title>
+      <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-08-20/06-00-00</link>
+      <description>&lt;p&gt;Rona's new EP is out NOW! - &lt;a href="https://ronangamperle.bandcamp.com/album/to-the-ground-ep" target="_blank"&gt;Check it out here&lt;/a&gt;&lt;br&gt;
+Also check out the film she executive-produced at MIFF - &lt;a href="https://miff.com.au/program/film/facing-the-numbers" target="_blank"&gt;Facing The Numbers&lt;/a&gt;&lt;/p&gt;
+</description>
+      <author>Claire Dickson and Milo Eastwood</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakfast-spread/2026-08-20+06:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-08-20/06-00-00</guid>
+      <pubDate>2026-08-20</pubDate>
     </item>
   </channel>
 </rss>
