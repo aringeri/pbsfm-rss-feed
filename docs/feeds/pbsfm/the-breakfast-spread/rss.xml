@@ -36,14 +36,6 @@ Opening Theme: Boards Of Canada - Olson&lt;/p&gt;
       <link>https://www.pbsfm.org.au/program/the-breakfast-spread</link>
     </image>
     <item>
-      <title>Untitled - 2026-08-10</title>
-      <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-08-10/06-00-00</link>
-      <author>Claire Dickson and Milo Eastwood</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakfast-spread/2026-08-10+06:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-08-10/06-00-00</guid>
-      <pubDate>2026-08-10</pubDate>
-    </item>
-    <item>
       <title>Untitled - 2026-08-11</title>
       <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-08-11/06-00-00</link>
       <author>Claire Dickson and Milo Eastwood</author>
@@ -137,6 +129,14 @@ Also check out the film she executive-produced at MIFF - &lt;a href="https://mif
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakfast-spread/2026-08-24+06:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-08-24/06-00-00</guid>
       <pubDate>2026-08-24</pubDate>
+    </item>
+    <item>
+      <title>Untitled - 2026-08-25</title>
+      <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-08-25/06-00-00</link>
+      <author>Claire Dickson and Milo Eastwood</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakfast-spread/2026-08-25+06:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-08-25/06-00-00</guid>
+      <pubDate>2026-08-25</pubDate>
     </item>
   </channel>
 </rss>
