@@ -13,16 +13,6 @@
       <link>https://www.pbsfm.org.au/program/babylon-burning</link>
     </image>
     <item>
-      <title>Tribute to Stranger Cole</title>
-      <link>https://www.pbsfm.org.au/program/babylon-burning/2026-06-13/17-00-00</link>
-      <description>&lt;p&gt;&lt;span style="color:rgb(0, 0, 0); font-family:aptos,aptos_embeddedfont,aptos_msfontservice,calibri,helvetica,sans-serif; font-size:12pt"&gt;Paying respects to the late Stranger Cole (1942-2026), a legend of Jamaican music and a Melbourne favourite. Plus new music from Imeru Tafari, I Wayne, Yohan Marley, Ka$e, Samory I, Agent Sasco, Aza Lineage, Jesse Royal, Marcus Gad, Tanzie, Vybz Kartel... local releases from Fitzroy Lee and  Isaac Chambers &amp;amp; Dub Princess... some foundation dancehall classics by special request... and nuff more.&lt;/span&gt;&lt;/p&gt;
-</description>
-      <author>Jesse I</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2026-06-13+17:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/babylon-burning/2026-06-13/17-00-00</guid>
-      <pubDate>2026-06-13</pubDate>
-    </item>
-    <item>
       <title>RIP Conrad Crystal</title>
       <link>https://www.pbsfm.org.au/program/babylon-burning/2026-06-20/17-00-00</link>
       <description>&lt;p&gt;Paying respects to the Jamaican singer Conrad Crystal (1966-2026). Plus new albums from Aza Lineage and Marcus Gad, the usual vintage classics from the 60s, 70s and 80s, and nuff more.&lt;/p&gt;
@@ -119,6 +109,16 @@
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2026-08-22+17:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/babylon-burning/2026-08-22/17-00-00</guid>
       <pubDate>2026-08-22</pubDate>
+    </item>
+    <item>
+      <title>rebel music</title>
+      <link>https://www.pbsfm.org.au/program/babylon-burning/2026-08-29/17-00-00</link>
+      <description>&lt;p&gt;&lt;span style="color:rgb(0, 0, 0); font-family:aptos,aptos_embeddedfont,aptos_msfontservice,calibri,helvetica,sans-serif; font-size:12pt"&gt;Featuring Kabaka Pyramid's killer new album "Rebel Music - The Lyrics Tape", new albums from Gentleman and Ky-Mani Marley, more from the new Queen Ifrica and Dezarie albums, and a new tune from Koffee, plus the usual foundation classics and more.&lt;/span&gt;&lt;/p&gt;
+</description>
+      <author>Jesse I</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2026-08-29+17:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/babylon-burning/2026-08-29/17-00-00</guid>
+      <pubDate>2026-08-29</pubDate>
     </item>
   </channel>
 </rss>
