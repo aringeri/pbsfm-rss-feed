@@ -13,16 +13,6 @@
       <link>https://www.pbsfm.org.au/program/babylon-burning</link>
     </image>
     <item>
-      <title>RIP Conrad Crystal</title>
-      <link>https://www.pbsfm.org.au/program/babylon-burning/2026-06-20/17-00-00</link>
-      <description>&lt;p&gt;Paying respects to the Jamaican singer Conrad Crystal (1966-2026). Plus new albums from Aza Lineage and Marcus Gad, the usual vintage classics from the 60s, 70s and 80s, and nuff more.&lt;/p&gt;
-</description>
-      <author>Jesse I</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2026-06-20+17:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/babylon-burning/2026-06-20/17-00-00</guid>
-      <pubDate>2026-06-20</pubDate>
-    </item>
-    <item>
       <title>babylon a wicked</title>
       <link>https://www.pbsfm.org.au/program/babylon-burning/2026-06-27/17-00-00</link>
       <description>&lt;p&gt;&lt;span style="color:rgb(0, 0, 0); font-family:aptos,aptos_embeddedfont,aptos_msfontservice,calibri,helvetica,sans-serif; font-size:12pt"&gt;Featuring new riddims Victory from Conquering Lion Records and Double Trouble from Silly Walks... Capleton's new album "Heights of Fire"... new tunes from Marcus Gad, Christopher Ellis, Quan Nelson, Matthew Malcom, Koffee, and Kxng Izem... a beautiful local release from Naarm's own Kasinda... and throwback sounds from 60s rocksteady to 70s roots to 80s dancehall.&lt;/span&gt;&lt;/p&gt;
@@ -119,6 +109,14 @@
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2026-08-29+17:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/babylon-burning/2026-08-29/17-00-00</guid>
       <pubDate>2026-08-29</pubDate>
+    </item>
+    <item>
+      <title>Bomboclaat Babylon </title>
+      <link>https://www.pbsfm.org.au/program/babylon-burning/2026-09-05/17-00-00</link>
+      <author>Jesse I</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2026-09-05+17:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/babylon-burning/2026-09-05/17-00-00</guid>
+      <pubDate>2026-09-05</pubDate>
     </item>
   </channel>
 </rss>
