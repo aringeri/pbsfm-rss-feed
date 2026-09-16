@@ -36,14 +36,6 @@ Opening Theme: Boards Of Canada - Olson&lt;/p&gt;
       <link>https://www.pbsfm.org.au/program/the-breakfast-spread</link>
     </image>
     <item>
-      <title>Untitled - 2026-09-01</title>
-      <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-09-01/06-00-00</link>
-      <author>Claire Dickson and Milo Eastwood</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakfast-spread/2026-09-01+06:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-09-01/06-00-00</guid>
-      <pubDate>2026-09-01</pubDate>
-    </item>
-    <item>
       <title>Annika Priest on The Breakfast Spread</title>
       <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-09-02/06-00-00</link>
       <author>Claire Dickson and Milo Eastwood</author>
@@ -122,6 +114,14 @@ Opening Theme: Boards Of Canada - Olson&lt;/p&gt;
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakfast-spread/2026-09-15+06:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-09-15/06-00-00</guid>
       <pubDate>2026-09-15</pubDate>
+    </item>
+    <item>
+      <title>Milo is a little under the weather so Sweetie takes care of brekkie and welcomes Simona Castricum for Musical Chairs</title>
+      <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-09-17/06-00-00</link>
+      <author>Claire Dickson and Milo Eastwood</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakfast-spread/2026-09-17+06:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-09-17/06-00-00</guid>
+      <pubDate>2026-09-17</pubDate>
     </item>
   </channel>
 </rss>
