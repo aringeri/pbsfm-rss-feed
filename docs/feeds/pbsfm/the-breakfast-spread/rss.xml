@@ -36,14 +36,6 @@ Opening Theme: Boards Of Canada - Olson&lt;/p&gt;
       <link>https://www.pbsfm.org.au/program/the-breakfast-spread</link>
     </image>
     <item>
-      <title>Untitled - 2026-09-08</title>
-      <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-09-08/06-00-00</link>
-      <author>Claire Dickson and Milo Eastwood</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakfast-spread/2026-09-08+06:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-09-08/06-00-00</guid>
-      <pubDate>2026-09-08</pubDate>
-    </item>
-    <item>
       <title>R.I.P Slippy Mane</title>
       <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-09-09/06-00-00</link>
       <author>Claire Dickson and Milo Eastwood</author>
@@ -122,6 +114,16 @@ Opening Theme: Boards Of Canada - Olson&lt;/p&gt;
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakfast-spread/2026-09-23+06:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-09-23/06-00-00</guid>
       <pubDate>2026-09-23</pubDate>
+    </item>
+    <item>
+      <title>Untitled - 2026-09-24</title>
+      <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-09-24/06-00-00</link>
+      <description>&lt;p&gt;Topia Festival Info &amp;amp; Tickets - &lt;a href="https://topia-festival.com" target="_blank"&gt;www.topia-festival.com&lt;/a&gt;&lt;/p&gt;
+</description>
+      <author>Claire Dickson and Milo Eastwood</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakfast-spread/2026-09-24+06:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-09-24/06-00-00</guid>
+      <pubDate>2026-09-24</pubDate>
     </item>
   </channel>
 </rss>
