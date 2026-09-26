@@ -13,16 +13,6 @@
       <link>https://www.pbsfm.org.au/program/babylon-burning</link>
     </image>
     <item>
-      <title>long time</title>
-      <link>https://www.pbsfm.org.au/program/babylon-burning/2026-07-11/17-00-00</link>
-      <description>&lt;p&gt;&lt;span style="color:rgb(0, 0, 0); font-family:aptos,aptos_embeddedfont,aptos_msfontservice,calibri,helvetica,sans-serif; font-size:12pt"&gt;Starting with big bracket of First Nations reggae music as part of NAIDOC week celebrations, before moving into some local rocksteady from Dean Hilson &amp;amp; The Ska Vendors, and then taking it back to Jamaica for some classic late 70s and early 80s sounds. The second half featured new music from the likes of Ziggi Recado, Perfect Giddimani, Lutan Fyah, Eesah, Ka$e, Prince Alla, and nuff more.&lt;/span&gt;&lt;/p&gt;
-</description>
-      <author>Jesse I</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2026-07-11+17:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/babylon-burning/2026-07-11/17-00-00</guid>
-      <pubDate>2026-07-11</pubDate>
-    </item>
-    <item>
       <title>tribute to Fantan Mojah</title>
       <link>https://www.pbsfm.org.au/program/babylon-burning/2026-07-18/17-00-00</link>
       <description>&lt;p&gt;&lt;span style="color:rgb(0, 0, 0); font-family:aptos,aptos_embeddedfont,aptos_msfontservice,calibri,helvetica,sans-serif; font-size:12pt"&gt;Paying respect to the late reggae artist Fantan Mojah with more than an hour of his music, plus some sweet Studio One and 70s roots reggae classics.&lt;/span&gt;&lt;/p&gt;
@@ -117,6 +107,14 @@
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2026-09-19+17:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/babylon-burning/2026-09-19/17-00-00</guid>
       <pubDate>2026-09-19</pubDate>
+    </item>
+    <item>
+      <title>Untitled - 2026-09-26</title>
+      <link>https://www.pbsfm.org.au/program/babylon-burning/2026-09-26/17-00-00</link>
+      <author>Jesse I</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2026-09-26+17:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/babylon-burning/2026-09-26/17-00-00</guid>
+      <pubDate>2026-09-26</pubDate>
     </item>
   </channel>
 </rss>
