@@ -19,14 +19,6 @@
       <link>https://www.pbsfm.org.au/program/mystic-brew</link>
     </image>
     <item>
-      <title>Mystic Brew hosted by Tom Williams</title>
-      <link>https://www.pbsfm.org.au/program/mystic-brew/2026-07-14/09-00-00</link>
-      <author>Mike Gurrieri</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/mystic-brew/2026-07-14+09:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/mystic-brew/2026-07-14/09-00-00</guid>
-      <pubDate>2026-07-14</pubDate>
-    </item>
-    <item>
       <title>Mystic Brew #575: Rat Child + a time travel back to 2006</title>
       <link>https://www.pbsfm.org.au/program/mystic-brew/2026-07-21/09-00-00</link>
       <author>Mike Gurrieri</author>
@@ -111,6 +103,16 @@
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/mystic-brew/2026-09-22+09:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/mystic-brew/2026-09-22/09-00-00</guid>
       <pubDate>2026-09-22</pubDate>
+    </item>
+    <item>
+      <title>Mystic Brew #585: Festival Season</title>
+      <link>https://www.pbsfm.org.au/program/mystic-brew/2026-09-29/09-00-00</link>
+      <description>&lt;p&gt;Festival season is upon as so this week Mike takes us through a wave of artists performing before the end of the year around the festival circuit as well as some stone cold festival favourites sprinkled amongst it&lt;/p&gt;
+</description>
+      <author>Mike Gurrieri</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/mystic-brew/2026-09-29+09:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/mystic-brew/2026-09-29/09-00-00</guid>
+      <pubDate>2026-09-29</pubDate>
     </item>
   </channel>
 </rss>
