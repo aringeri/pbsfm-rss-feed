@@ -25,14 +25,6 @@
       <link>https://www.pbsfm.org.au/program/soul-time</link>
     </image>
     <item>
-      <title>Back Where I Belong with Richard Ewart</title>
-      <link>https://www.pbsfm.org.au/program/soul-time/2026-07-15/15-00-00</link>
-      <author>Vince Peach</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/soul-time/2026-07-15+15:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/soul-time/2026-07-15/15-00-00</guid>
-      <pubDate>2026-07-15</pubDate>
-    </item>
-    <item>
       <title>Speed Up with Richard Ewart</title>
       <link>https://www.pbsfm.org.au/program/soul-time/2026-07-22/15-00-00</link>
       <author>Vince Peach</author>
@@ -111,6 +103,14 @@
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/soul-time/2026-09-23+15:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/soul-time/2026-09-23/15-00-00</guid>
       <pubDate>2026-09-23</pubDate>
+    </item>
+    <item>
+      <title>Untitled - 2026-09-30</title>
+      <link>https://www.pbsfm.org.au/program/soul-time/2026-09-30/15-00-00</link>
+      <author>Vince Peach</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/soul-time/2026-09-30+15:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/soul-time/2026-09-30/15-00-00</guid>
+      <pubDate>2026-09-30</pubDate>
     </item>
   </channel>
 </rss>
