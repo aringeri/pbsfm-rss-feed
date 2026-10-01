@@ -8,6 +8,10 @@
 &lt;p&gt;From the deep roots of traditional folk to the evolving sounds of today, this show brings together a wide array of cultural influences, exploring folk music as a dynamic and evolving art form. &lt;em&gt;Down by the River&lt;/em&gt; offers listeners a rich tapestry of sounds that span continents and generations. Across the two hours you’ll hear music that reflects the ever-changing spirit of folk, all the while honoring its timeless art of storytelling through song.&lt;/p&gt;
 
 &lt;p&gt;Email: &lt;span style="color:rgb(0, 0, 0); font-family:arial,sans-serif; font-size:12px"&gt;downbytheriver.pbs@gmail.com&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;font color="#000000" face="arial, sans-serif"&gt;&lt;span style="font-size:12px"&gt;Instagram: &lt;/span&gt;&lt;/font&gt;www.instagram.com/downbytheriverpbs/&lt;/p&gt;
+
+&lt;p&gt;Opening track: Adam Lester : 'River' off 1997 album 'Home'&lt;/p&gt;
 </description>
     <language>en</language>
     <category>Folk &amp; global</category>
@@ -16,14 +20,6 @@
       <title>Down By The River</title>
       <link>https://www.pbsfm.org.au/program/down-by-the-river</link>
     </image>
-    <item>
-      <title>#74 Down By The River</title>
-      <link>https://www.pbsfm.org.au/program/down-by-the-river/2026-07-16/09-00-00</link>
-      <author>Lauren Plant</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/down-by-the-river/2026-07-16+09:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/down-by-the-river/2026-07-16/09-00-00</guid>
-      <pubDate>2026-07-16</pubDate>
-    </item>
     <item>
       <title>#75 Down By The River ft Agnes Obel </title>
       <link>https://www.pbsfm.org.au/program/down-by-the-river/2026-07-23/09-00-00</link>
@@ -103,6 +99,14 @@
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/down-by-the-river/2026-09-24+09:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/down-by-the-river/2026-09-24/09-00-00</guid>
       <pubDate>2026-09-24</pubDate>
+    </item>
+    <item>
+      <title>#85 Down By The River</title>
+      <link>https://www.pbsfm.org.au/program/down-by-the-river/2026-10-01/09-00-00</link>
+      <author>Lauren Plant</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/down-by-the-river/2026-10-01+09:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/down-by-the-river/2026-10-01/09-00-00</guid>
+      <pubDate>2026-10-01</pubDate>
     </item>
   </channel>
 </rss>

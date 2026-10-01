@@ -36,14 +36,6 @@ Opening Theme: Boards Of Canada - Olson&lt;/p&gt;
       <link>https://www.pbsfm.org.au/program/the-breakfast-spread</link>
     </image>
     <item>
-      <title>Milo is a little under the weather so Sweetie takes care of brekkie and welcomes Simona Castricum for Musical Chairs</title>
-      <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-09-17/06-00-00</link>
-      <author>Claire Dickson and Milo Eastwood</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakfast-spread/2026-09-17+06:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-09-17/06-00-00</guid>
-      <pubDate>2026-09-17</pubDate>
-    </item>
-    <item>
       <title>Larry Quicksticks Jumps in to Spread Breakfast</title>
       <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-09-18/06-00-00</link>
       <author>Claire Dickson and Milo Eastwood</author>
@@ -136,6 +128,16 @@ Opening Theme: Boards Of Canada - Olson&lt;/p&gt;
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakfast-spread/2026-10-01+06:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-10-01/06-00-00</guid>
       <pubDate>2026-10-01</pubDate>
+    </item>
+    <item>
+      <title>Jerry Poon from Let Them Eat Cake</title>
+      <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-10-02/06-00-00</link>
+      <description>&lt;p&gt;Let Them Eat Cake NYD - Tickets &lt;a href="https://ltecnyd.com" target="_blank"&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
+      <author>Claire Dickson and Milo Eastwood</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakfast-spread/2026-10-02+06:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-10-02/06-00-00</guid>
+      <pubDate>2026-10-02</pubDate>
     </item>
   </channel>
 </rss>
