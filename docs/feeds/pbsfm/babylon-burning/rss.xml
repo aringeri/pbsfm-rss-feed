@@ -13,16 +13,6 @@
       <link>https://www.pbsfm.org.au/program/babylon-burning</link>
     </image>
     <item>
-      <title>tribute to Fantan Mojah</title>
-      <link>https://www.pbsfm.org.au/program/babylon-burning/2026-07-18/17-00-00</link>
-      <description>&lt;p&gt;&lt;span style="color:rgb(0, 0, 0); font-family:aptos,aptos_embeddedfont,aptos_msfontservice,calibri,helvetica,sans-serif; font-size:12pt"&gt;Paying respect to the late reggae artist Fantan Mojah with more than an hour of his music, plus some sweet Studio One and 70s roots reggae classics.&lt;/span&gt;&lt;/p&gt;
-</description>
-      <author>Jesse I</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2026-07-18+17:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/babylon-burning/2026-07-18/17-00-00</guid>
-      <pubDate>2026-07-18</pubDate>
-    </item>
-    <item>
       <title>we nuh play</title>
       <link>https://www.pbsfm.org.au/program/babylon-burning/2026-07-25/17-00-00</link>
       <description>&lt;p&gt;&lt;span style="color:rgb(0, 0, 0); font-family:aptos,aptos_embeddedfont,aptos_msfontservice,calibri,helvetica,sans-serif; font-size:12pt"&gt;Featuring the new Buju Banton album "Too Too Bad", riddim juggling on the &lt;em&gt;Feel It&lt;/em&gt; riddim (including a new tune from Lila Iké) and new tunes from Lone Ark, YG Marley and more... plus throwback sounds from the 70s, 80s and 90s.&lt;/span&gt;&lt;/p&gt;
@@ -117,6 +107,16 @@
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2026-09-26+17:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/babylon-burning/2026-09-26/17-00-00</guid>
       <pubDate>2026-09-26</pubDate>
+    </item>
+    <item>
+      <title>bun it down</title>
+      <link>https://www.pbsfm.org.au/program/babylon-burning/2026-10-03/17-00-00</link>
+      <description>&lt;p&gt;&lt;span style="color:rgb(0, 0, 0); font-family:aptos,aptos_embeddedfont,aptos_msfontservice,calibri,helvetica,sans-serif; font-size:12pt"&gt;&lt;strong&gt;Paying respect to the late dancehall legend Lt Stitchie  (1965-2026) and the king of calypso, Mighty Sparrow (1935-2026). Plus some dubs and vocals from Vibronics ahead of their Melbourne show, a throwback to Xterminator's version of the Get In The Groove riddim from 1998, some classic 70s roots, and even a touch of reggae hiphop for good measure.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+</description>
+      <author>Jesse I</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2026-10-03+17:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/babylon-burning/2026-10-03/17-00-00</guid>
+      <pubDate>2026-10-03</pubDate>
     </item>
   </channel>
 </rss>
