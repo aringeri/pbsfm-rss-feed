@@ -36,24 +36,6 @@ Opening Theme: Boards Of Canada - Olson&lt;/p&gt;
       <link>https://www.pbsfm.org.au/program/the-breakfast-spread</link>
     </image>
     <item>
-      <title>Allysha Joy</title>
-      <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-09-30/06-00-00</link>
-      <author>Claire Dickson and Milo Eastwood</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakfast-spread/2026-09-30+06:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-09-30/06-00-00</guid>
-      <pubDate>2026-09-30</pubDate>
-    </item>
-    <item>
-      <title>Delivery</title>
-      <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-10-01/06-00-00</link>
-      <description>&lt;p&gt;Catch Delivery next saturday at The Lomond Hotel in Brunswick East - Grab a ticket &lt;a href="https://www.eventbrite.com.au/e/lowie-live-presents-delivery-with-woollen-kits-tickets-2000040395663?aff=oddtdtcreator" target="_blank"&gt;HERE&lt;/a&gt;&lt;/p&gt;
-</description>
-      <author>Claire Dickson and Milo Eastwood</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakfast-spread/2026-10-01+06:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-10-01/06-00-00</guid>
-      <pubDate>2026-10-01</pubDate>
-    </item>
-    <item>
       <title>Jerry Poon from Let Them Eat Cake</title>
       <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-10-02/06-00-00</link>
       <description>&lt;p&gt;Let Them Eat Cake NYD - Tickets &lt;a href="https://ltecnyd.com" target="_blank"&gt;here&lt;/a&gt;&lt;/p&gt;
@@ -132,10 +114,30 @@ Opening Theme: Boards Of Canada - Olson&lt;/p&gt;
     <item>
       <title>Blue Communications</title>
       <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-10-14/06-00-00</link>
+      <description>&lt;p&gt;Catch Blue Communications at When Pigs Fly on NYE - Tickets &lt;a href="https://whenpigsfly.com.au" target="_blank"&gt;HERE&lt;/a&gt;&lt;/p&gt;
+</description>
       <author>Claire Dickson and Milo Eastwood</author>
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakfast-spread/2026-10-14+06:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-10-14/06-00-00</guid>
       <pubDate>2026-10-14</pubDate>
+    </item>
+    <item>
+      <title>The Grand Magoozi</title>
+      <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-10-15/06-00-00</link>
+      <author>Claire Dickson and Milo Eastwood</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakfast-spread/2026-10-15+06:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-10-15/06-00-00</guid>
+      <pubDate>2026-10-15</pubDate>
+    </item>
+    <item>
+      <title>Royal Male</title>
+      <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-10-16/06-00-00</link>
+      <description>&lt;p&gt;Catch Royal Male all night long at Collingwood Basement Tomorrow (saturday 17th octover) - Tickets and info &lt;a href="https://events.humanitix.com/royal-male-do-you-radio-uk" target="_blank"&gt;HERE&lt;/a&gt;&lt;/p&gt;
+</description>
+      <author>Claire Dickson and Milo Eastwood</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakfast-spread/2026-10-16+06:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-10-16/06-00-00</guid>
+      <pubDate>2026-10-16</pubDate>
     </item>
   </channel>
 </rss>
