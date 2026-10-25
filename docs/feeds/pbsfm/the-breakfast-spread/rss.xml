@@ -36,14 +36,6 @@ Opening Theme: Boards Of Canada - Olson&lt;/p&gt;
       <link>https://www.pbsfm.org.au/program/the-breakfast-spread</link>
     </image>
     <item>
-      <title>Untitled - 2026-10-09</title>
-      <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-10-09/06-00-00</link>
-      <author>Claire Dickson and Milo Eastwood</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakfast-spread/2026-10-09+06:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-10-09/06-00-00</guid>
-      <pubDate>2026-10-09</pubDate>
-    </item>
-    <item>
       <title>Surprise Chef in the studio!</title>
       <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-10-12/06-00-00</link>
       <author>Claire Dickson and Milo Eastwood</author>
@@ -140,6 +132,26 @@ Opening Theme: Boards Of Canada - Olson&lt;/p&gt;
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakfast-spread/2026-10-23+06:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-10-23/06-00-00</guid>
       <pubDate>2026-10-23</pubDate>
+    </item>
+    <item>
+      <title>Spice World on Brekkie!</title>
+      <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-10-26/06-00-00</link>
+      <description>&lt;p&gt;Listen to their new album here:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://roughskiesrecords.bandcamp.com/album/purple-patch" target="_blank"&gt;https://roughskiesrecords.bandcamp.com/album/purple-patch&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Plus the Boorloo/Perth bands mentioned in our chat were:&lt;/p&gt;
+
+&lt;p&gt;-Symmetrical Dogs&lt;/p&gt;
+
+&lt;p&gt;- Nika Mo&lt;/p&gt;
+
+&lt;p&gt;- Didion's Bible&lt;/p&gt;
+</description>
+      <author>Claire Dickson and Milo Eastwood</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakfast-spread/2026-10-26+06:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-10-26/06-00-00</guid>
+      <pubDate>2026-10-26</pubDate>
     </item>
   </channel>
 </rss>
