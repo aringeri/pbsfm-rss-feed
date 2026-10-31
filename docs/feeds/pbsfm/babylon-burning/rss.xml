@@ -13,14 +13,6 @@
       <link>https://www.pbsfm.org.au/program/babylon-burning</link>
     </image>
     <item>
-      <title>Sista Sara presents Babylon Burning</title>
-      <link>https://www.pbsfm.org.au/program/babylon-burning/2026-08-15/17-00-00</link>
-      <author>Jesse I</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2026-08-15+17:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/babylon-burning/2026-08-15/17-00-00</guid>
-      <pubDate>2026-08-15</pubDate>
-    </item>
-    <item>
       <title>Untitled - 2026-08-22</title>
       <link>https://www.pbsfm.org.au/program/babylon-burning/2026-08-22/17-00-00</link>
       <description>&lt;p&gt;&lt;span style="color:rgb(0, 0, 0); font-family:aptos,aptos_embeddedfont,aptos_msfontservice,calibri,helvetica,sans-serif; font-size:12pt"&gt;Paying respect to the late St Croix chanter Jah Rubal, and featuring new releases from Queen Ifrica, Kabaka Pyramid, Pressure, Dezarie, Jah Izrehl, I-Taweh, Iharaira Starr, Masicka and more, plus the usual foundation classics from the 70s and 80s.&lt;/span&gt;&lt;/p&gt;
@@ -119,6 +111,16 @@
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2026-10-24+17:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/babylon-burning/2026-10-24/17-00-00</guid>
       <pubDate>2026-10-24</pubDate>
+    </item>
+    <item>
+      <title>run revolution a come</title>
+      <link>https://www.pbsfm.org.au/program/babylon-burning/2026-10-31/17-00-00</link>
+      <description>&lt;p&gt;Paying respect to the late Jamaican singer and producer Derrick Harriot, with a selection of his vocals and productions in the first hour. Then, in the second hour, an interview with Mark Iration of Iration Steppas, plus new music from Prezident Brown and Yaadcore.&lt;/p&gt;
+</description>
+      <author>Jesse I</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/babylon-burning/2026-10-31+17:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/babylon-burning/2026-10-31/17-00-00</guid>
+      <pubDate>2026-10-31</pubDate>
     </item>
   </channel>
 </rss>
