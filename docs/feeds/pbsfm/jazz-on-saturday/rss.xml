@@ -31,14 +31,6 @@
       <link>https://www.pbsfm.org.au/program/jazz-on-saturday</link>
     </image>
     <item>
-      <title>Untitled - 2026-08-29</title>
-      <link>https://www.pbsfm.org.au/program/jazz-on-saturday/2026-08-29/09-00-00</link>
-      <author>Andrew Young</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/jazz-on-saturday/2026-08-29+09:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/jazz-on-saturday/2026-08-29/09-00-00</guid>
-      <pubDate>2026-08-29</pubDate>
-    </item>
-    <item>
       <title>Untitled - 2026-09-05</title>
       <link>https://www.pbsfm.org.au/program/jazz-on-saturday/2026-09-05/09-00-00</link>
       <author>Andrew Young</author>
@@ -199,6 +191,40 @@
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/jazz-on-saturday/2026-11-07+09:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/jazz-on-saturday/2026-11-07/09-00-00</guid>
       <pubDate>2026-11-07</pubDate>
+    </item>
+    <item>
+      <title>Untitled - 2026-11-14</title>
+      <link>https://www.pbsfm.org.au/program/jazz-on-saturday/2026-11-14/09-00-00</link>
+      <description>&lt;p&gt;See below for links to music played on today's show&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="background-color:transparent; color:#000000; font-family:cambria,serif; font-size:11pt"&gt;John Scurry’s Reverse Swing&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;https://johnscurry.bandcamp.com/album/early-risers&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="background-color:transparent; color:#000000; font-family:cambria,serif; font-size:11pt"&gt;James Sherlock &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;https://jamessherlock.bandcamp.com/album/the-verb-not-the-noun&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="background-color:transparent; color:#000000; font-family:cambria,serif; font-size:11pt"&gt;Elissa Goodrich Quartet &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;https://elissagoodrich.bandcamp.com/album/waves-and-bubbles-2&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="background-color:transparent; color:#000000; font-family:cambria,serif; font-size:11pt"&gt;Shayan &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;https://shayan1.bandcamp.com/album/the-heart-is-a-candle&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="background-color:transparent; color:#000000; font-family:cambria,serif; font-size:11pt"&gt;Samara Joy &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;https://www.udiscovermusic.com/news/samara-joy-live-at-the-blue-note-la-ep/&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="background-color:transparent; color:#000000; font-family:cambria,serif; font-size:11pt"&gt;Plain Black T-Shirts&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;https://theplainblacktshirts.bandcamp.com/album/intentionally-left-blank&lt;/p&gt;
+</description>
+      <author>Andrew Young</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/jazz-on-saturday/2026-11-14+09:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/jazz-on-saturday/2026-11-14/09-00-00</guid>
+      <pubDate>2026-11-14</pubDate>
     </item>
   </channel>
 </rss>

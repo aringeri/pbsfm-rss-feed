@@ -15,22 +15,6 @@
       <link>https://www.pbsfm.org.au/program/fiesta-jazz</link>
     </image>
     <item>
-      <title>Episode No. 1342 presented &amp; produced by Saúl Zavarce </title>
-      <link>https://www.pbsfm.org.au/program/fiesta-jazz/2026-08-22/11-00-00</link>
-      <author>Saúl Zavarce</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/fiesta-jazz/2026-08-22+11:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/fiesta-jazz/2026-08-22/11-00-00</guid>
-      <pubDate>2026-08-22</pubDate>
-    </item>
-    <item>
-      <title>Episode No. 1343 presented &amp; produced by Saúl Zavarce  </title>
-      <link>https://www.pbsfm.org.au/program/fiesta-jazz/2026-08-29/11-00-00</link>
-      <author>Saúl Zavarce</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/fiesta-jazz/2026-08-29+11:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/fiesta-jazz/2026-08-29/11-00-00</guid>
-      <pubDate>2026-08-29</pubDate>
-    </item>
-    <item>
       <title>Episode No. 1344 presented &amp; produced by Juan Colombo</title>
       <link>https://www.pbsfm.org.au/program/fiesta-jazz/2026-09-05/11-00-00</link>
       <author>Saúl Zavarce</author>
@@ -101,6 +85,22 @@
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/fiesta-jazz/2026-10-31+11:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/fiesta-jazz/2026-10-31/11-00-00</guid>
       <pubDate>2026-10-31</pubDate>
+    </item>
+    <item>
+      <title>Episode No. 1353 presented &amp; produced by Saúl Zavarce</title>
+      <link>https://www.pbsfm.org.au/program/fiesta-jazz/2026-11-07/11-00-00</link>
+      <author>Saúl Zavarce</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/fiesta-jazz/2026-11-07+11:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/fiesta-jazz/2026-11-07/11-00-00</guid>
+      <pubDate>2026-11-07</pubDate>
+    </item>
+    <item>
+      <title>Episode No. 1354 presented &amp; produced by Saúl Zavarce </title>
+      <link>https://www.pbsfm.org.au/program/fiesta-jazz/2026-11-14/11-00-00</link>
+      <author>Saúl Zavarce</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/fiesta-jazz/2026-11-14+11:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/fiesta-jazz/2026-11-14/11-00-00</guid>
+      <pubDate>2026-11-14</pubDate>
     </item>
   </channel>
 </rss>
