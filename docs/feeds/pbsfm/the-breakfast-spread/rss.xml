@@ -36,22 +36,6 @@ Opening Theme: Boards Of Canada - Olson&lt;/p&gt;
       <link>https://www.pbsfm.org.au/program/the-breakfast-spread</link>
     </image>
     <item>
-      <title>Untitled - 2026-11-06</title>
-      <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-11-06/06-00-00</link>
-      <author>Claire Dickson and Milo Eastwood</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakfast-spread/2026-11-06+06:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-11-06/06-00-00</guid>
-      <pubDate>2026-11-06</pubDate>
-    </item>
-    <item>
-      <title>The Breakfast Spread. Guest presenter: Lilly Mars</title>
-      <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-11-09/06-00-00</link>
-      <author>Claire Dickson and Milo Eastwood</author>
-      <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakfast-spread/2026-11-09+06:00:00/aac_mid.m4a" type="audio/mp4"/>
-      <guid>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-11-09/06-00-00</guid>
-      <pubDate>2026-11-09</pubDate>
-    </item>
-    <item>
       <title>The Breakfast Spread. Guest presenter: Anita Michalski</title>
       <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-11-10/06-00-00</link>
       <author>Claire Dickson and Milo Eastwood</author>
@@ -116,12 +100,28 @@ Opening Theme: Boards Of Canada - Olson&lt;/p&gt;
       <pubDate>2026-11-19</pubDate>
     </item>
     <item>
+      <title>Untitled - 2026-11-20</title>
+      <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-11-20/06-00-00</link>
+      <author>Claire Dickson and Milo Eastwood</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakfast-spread/2026-11-20+06:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-11-20/06-00-00</guid>
+      <pubDate>2026-11-20</pubDate>
+    </item>
+    <item>
       <title>Untitled - 2026-11-23</title>
       <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-11-23/06-00-00</link>
       <author>Claire Dickson and Milo Eastwood</author>
       <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakfast-spread/2026-11-23+06:00:00/aac_mid.m4a" type="audio/mp4"/>
       <guid>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-11-23/06-00-00</guid>
       <pubDate>2026-11-23</pubDate>
+    </item>
+    <item>
+      <title>Untitled - 2026-11-24</title>
+      <link>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-11-24/06-00-00</link>
+      <author>Claire Dickson and Milo Eastwood</author>
+      <enclosure url="https://airnet.org.au/omnystudio/3pbs/the-breakfast-spread/2026-11-24+06:00:00/aac_mid.m4a" type="audio/mp4"/>
+      <guid>https://www.pbsfm.org.au/program/the-breakfast-spread/2026-11-24/06-00-00</guid>
+      <pubDate>2026-11-24</pubDate>
     </item>
   </channel>
 </rss>
